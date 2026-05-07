@@ -1,6 +1,6 @@
 {
   "id": "cargo-9ac20c07",
-  "schemaVersion": "0.0.4",
+  "schemaVersion": "0.0.5",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -42,38 +42,6 @@
       "--locked",
       "--offline"
     ],
-    "environmentFingerprint": {
-      "digest": "sha256:238aeacc2ead9b9e9d604013145265add4842ebe3455429764c35aed5aba427d",
-      "files": [
-        {
-          "path": "/manifest/packages.txt",
-          "sha256": "a157b27f8c2894e4917d94fe5d86b64c9edeba604620ead31852975214a7f6a3",
-          "bytes": 22866
-        },
-        {
-          "path": "/manifest/rustc.txt",
-          "sha256": "295f0fd820b69f1d4ce268ab1a14e62afba4dfea8ccac9869531df913ad060b3",
-          "bytes": 197
-        },
-        {
-          "path": "/manifest/cargo.txt",
-          "sha256": "99a3191b9db5d821c41a10d9c0eacfe7051b7cdf6cb3f1abe4429c5e0c36e0db",
-          "bytes": 329
-        },
-        {
-          "path": "/manifest/os-release",
-          "sha256": "59a77b5f2666d9c85c489bd1911a6eebbd91ef22fe48b90a3b75f1b21f3844d4",
-          "bytes": 267
-        },
-        {
-          "path": "/manifest/sources.list",
-          "sha256": "5a7a2581649e2c294e2f5d4750bee1855f2018b3070f40d4c5c31b7797acb4bd",
-          "bytes": 326
-        }
-      ],
-      "rustcVersion": "rustc 1.92.0 (ded5c06cf 2025-12-08)",
-      "packageCount": 717
-    },
     "thinImages": null,
     "verifiedOn": [
       {
@@ -83,6 +51,41 @@
         "fingerprintMatch": true,
         "fatImageDigestMatch": null,
         "outcomeMatch": true
+      }
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/arm64",
+        "digest": "sha256:238aeacc2ead9b9e9d604013145265add4842ebe3455429764c35aed5aba427d",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "a157b27f8c2894e4917d94fe5d86b64c9edeba604620ead31852975214a7f6a3",
+            "bytes": 22866
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "295f0fd820b69f1d4ce268ab1a14e62afba4dfea8ccac9869531df913ad060b3",
+            "bytes": 197
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "99a3191b9db5d821c41a10d9c0eacfe7051b7cdf6cb3f1abe4429c5e0c36e0db",
+            "bytes": 329
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "59a77b5f2666d9c85c489bd1911a6eebbd91ef22fe48b90a3b75f1b21f3844d4",
+            "bytes": 267
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "5a7a2581649e2c294e2f5d4750bee1855f2018b3070f40d4c5c31b7797acb4bd",
+            "bytes": 326
+          }
+        ],
+        "rustcVersion": "rustc 1.92.0 (ded5c06cf 2025-12-08)",
+        "packageCount": 717
       }
     ]
   },
