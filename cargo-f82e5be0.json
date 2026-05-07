@@ -20,8 +20,10 @@
   "commits": {
     "pre": "c2e7ec6197e5e3f2665340abd92583b3584c5b85",
     "post": "f82e5be0c58177e8190c5a03647fffcc728b7d81",
+    "fix": null,
     "preAuthorType": null,
-    "postAuthorType": null
+    "postAuthorType": null,
+    "fixAuthorType": null
   },
   "update": {
     "dependencyName": "im",
@@ -32,9 +34,9 @@
   },
   "reproduction": {
     "fatImage": {
-      "rustVersion": "1.56.0",
-      "sourceDateEpoch": 1634860800,
-      "aptSnapshot": "20211022T000000Z",
+      "rustVersion": "1.49.0",
+      "sourceDateEpoch": 1612828800,
+      "aptSnapshot": "20210209T000000Z",
       "debianRelease": "buster",
       "expectedDigest": null
     },
@@ -43,21 +45,21 @@
       "--offline"
     ],
     "environmentFingerprint": {
-      "digest": "sha256:41bee9de457559640639b1c20c02ee818cb83f905a28fdd7d72d6f5b4cc531d2",
+      "digest": "sha256:5d8e3568e7a630e2371a3654408c78a8161c785330b5006dd594d994a3e2ff38",
       "files": [
         {
           "path": "/manifest/packages.txt",
-          "sha256": "a44e172f1526a8ee491f0fc84e3e9d1cad0dd0f49f883dddc948205a045f6807",
-          "bytes": 14281
+          "sha256": "9939161333a848692a7a029b7e4ee8afd3f75f992b5384f340a97d3f2e349d6a",
+          "bytes": 14128
         },
         {
           "path": "/manifest/rustc.txt",
-          "sha256": "11ce785eb504bd4339398ea79ecd9e0561b51e8263862242faf216ff9b22393c",
-          "bytes": 197
+          "sha256": "64d06693feefdf98ec9df30eb434ab6fc06fff9912658311f6c3e2852fa413e6",
+          "bytes": 176
         },
         {
           "path": "/manifest/cargo.txt",
-          "sha256": "f1b6dc095e7a2e0bfdcf23ac4a87a82cbba0939003dd7602b515baa90d2c7385",
+          "sha256": "735861bb8366088bcd0a799c254928001483a2142c278e8405d3217fbb9215c8",
           "bytes": 130
         },
         {
@@ -67,11 +69,11 @@
         },
         {
           "path": "/manifest/sources.list",
-          "sha256": "6276d04f06a6c89845ee90da74573982b84c69158662f20f1c0968ffbc44c661",
+          "sha256": "8e5d3a9036f173e8f7fcd9fcb86ea3a688b19b77d594168692744494de95bb83",
           "bytes": 319
         }
       ],
-      "rustcVersion": "rustc 1.56.0 (09c42c458 2021-10-18)",
+      "rustcVersion": "rustc 1.49.0 (e1884a8e3 2020-12-29)",
       "packageCount": 456
     },
     "thinImages": null,
@@ -86,6 +88,9 @@
       "E0277"
     ]
   },
-  "ecosystemMetadata": {},
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  },
   "unreproducibilityReason": null
 }
