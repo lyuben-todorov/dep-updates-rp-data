@@ -1,16 +1,16 @@
 {
-  "id": "cargo-f82e5be0",
+  "id": "cargo-25aaf818",
   "schemaVersion": "0.0.5",
   "ecosystem": "cargo",
-  "category": "breaking",
+  "category": "non-breaking",
   "project": {
-    "url": "https://github.com/passy/revmenu",
-    "organisation": "passy",
-    "name": "revmenu"
+    "url": "https://github.com/AnderEnder/s3find-rs",
+    "organisation": "AnderEnder",
+    "name": "s3find-rs"
   },
   "pr": {
-    "url": "https://github.com/passy/revmenu/pull/21",
-    "number": 21,
+    "url": "https://github.com/AnderEnder/s3find-rs/pull/264",
+    "number": 264,
     "author": "dependabot-preview[bot]",
     "authorType": "bot",
     "botType": "dependabot",
@@ -18,25 +18,25 @@
     "mergedAt": null
   },
   "commits": {
-    "pre": "c2e7ec6197e5e3f2665340abd92583b3584c5b85",
-    "post": "f82e5be0c58177e8190c5a03647fffcc728b7d81",
+    "pre": "059d583f8461f82dcb16532e033c28383c915107",
+    "post": "25aaf8181b182e3bf634b46df60225712f21464b",
     "fix": null,
     "preAuthorType": null,
     "postAuthorType": null,
     "fixAuthorType": null
   },
   "update": {
-    "dependencyName": "im",
-    "previousVersion": "10.2.0",
-    "newVersion": "12.3.1",
-    "versionUpdateType": "major",
+    "dependencyName": "remove_dir_all",
+    "previousVersion": "0.5.3",
+    "newVersion": "0.6.1",
+    "versionUpdateType": "minor",
     "scope": "runtime"
   },
   "reproduction": {
     "fatImage": {
       "rustVersion": "1.49.0",
-      "sourceDateEpoch": 1612828800,
-      "aptSnapshot": "20210209T000000Z",
+      "sourceDateEpoch": 1640908800,
+      "aptSnapshot": "20211231T000000Z",
       "debianRelease": "buster",
       "expectedDigest": null
     },
@@ -47,12 +47,12 @@
     "environmentFingerprints": [
       {
         "platform": "linux/amd64",
-        "digest": "sha256:b423bf5f28e5ae1ca8a254261082e46e6bacc00c77f1c30a9db2a197b75fb9e4",
+        "digest": "sha256:e2ee863a029261e1b1862e68ed10e65ec95f368d922109d8b1b6d4577136040e",
         "files": [
           {
             "path": "/manifest/packages.txt",
-            "sha256": "2edbac42d72d19d14ce71851ed09d4b49e9e3ccb4b87f4b3f0f1b22c47f995fd",
-            "bytes": 14281
+            "sha256": "07e840f1414ae452788ec6458c268149420665cd72fd4661e1e9a5891c7c1623",
+            "bytes": 14353
           },
           {
             "path": "/manifest/rustc.txt",
@@ -71,7 +71,7 @@
           },
           {
             "path": "/manifest/sources.list",
-            "sha256": "8e5d3a9036f173e8f7fcd9fcb86ea3a688b19b77d594168692744494de95bb83",
+            "sha256": "816a23625d8f2de9d7223d673d668f3d253ae1d7036f383d7c0da6baab0c0625",
             "bytes": 319
           }
         ],
@@ -82,15 +82,7 @@
     "thinImages": null,
     "verifiedOn": []
   },
-  "failure": {
-    "topCategory": "COMPILATION_FAILURE",
-    "subCategory": "UNRESOLVED_IMPORT",
-    "errorCodes": [
-      "E0432",
-      "unused_imports",
-      "E0277"
-    ]
-  },
+  "failure": null,
   "ecosystemMetadata": {
     "rustMsrv": "1.31",
     "rustMsrvDetected": true

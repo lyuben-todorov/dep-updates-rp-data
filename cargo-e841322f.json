@@ -1,16 +1,16 @@
 {
-  "id": "cargo-f82e5be0",
+  "id": "cargo-e841322f",
   "schemaVersion": "0.0.5",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
-    "url": "https://github.com/passy/revmenu",
-    "organisation": "passy",
-    "name": "revmenu"
+    "url": "https://github.com/nervosnetwork/ckb",
+    "organisation": "nervosnetwork",
+    "name": "ckb"
   },
   "pr": {
-    "url": "https://github.com/passy/revmenu/pull/21",
-    "number": 21,
+    "url": "https://github.com/nervosnetwork/ckb/pull/2232",
+    "number": 2232,
     "author": "dependabot-preview[bot]",
     "authorType": "bot",
     "botType": "dependabot",
@@ -18,18 +18,18 @@
     "mergedAt": null
   },
   "commits": {
-    "pre": "c2e7ec6197e5e3f2665340abd92583b3584c5b85",
-    "post": "f82e5be0c58177e8190c5a03647fffcc728b7d81",
+    "pre": "01eb5b2ecadf7e421b117d6c013e182978746e2f",
+    "post": "e841322f62ca86b122693d96257eaedb6992e6a5",
     "fix": null,
     "preAuthorType": null,
     "postAuthorType": null,
     "fixAuthorType": null
   },
   "update": {
-    "dependencyName": "im",
-    "previousVersion": "10.2.0",
-    "newVersion": "12.3.1",
-    "versionUpdateType": "major",
+    "dependencyName": "crossbeam-channel",
+    "previousVersion": "0.3.9",
+    "newVersion": "0.4.3",
+    "versionUpdateType": "minor",
     "scope": "runtime"
   },
   "reproduction": {
@@ -83,16 +83,12 @@
     "verifiedOn": []
   },
   "failure": {
-    "topCategory": "COMPILATION_FAILURE",
-    "subCategory": "UNRESOLVED_IMPORT",
-    "errorCodes": [
-      "E0432",
-      "unused_imports",
-      "E0277"
-    ]
+    "topCategory": "DEPENDENCY_RESOLUTION_FAILURE",
+    "subCategory": "LOCK_FILE_STALE",
+    "errorCodes": []
   },
   "ecosystemMetadata": {
-    "rustMsrv": "1.31",
+    "rustMsrv": "1.45",
     "rustMsrvDetected": true
   },
   "unreproducibilityReason": null

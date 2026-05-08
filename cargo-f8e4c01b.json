@@ -1,16 +1,16 @@
 {
-  "id": "cargo-f82e5be0",
+  "id": "cargo-f8e4c01b",
   "schemaVersion": "0.0.5",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
-    "url": "https://github.com/passy/revmenu",
-    "organisation": "passy",
-    "name": "revmenu"
+    "url": "https://github.com/paritytech/smoldot",
+    "organisation": "paritytech",
+    "name": "smoldot"
   },
   "pr": {
-    "url": "https://github.com/passy/revmenu/pull/21",
-    "number": 21,
+    "url": "https://github.com/paritytech/smoldot/pull/36",
+    "number": 36,
     "author": "dependabot-preview[bot]",
     "authorType": "bot",
     "botType": "dependabot",
@@ -18,18 +18,18 @@
     "mergedAt": null
   },
   "commits": {
-    "pre": "c2e7ec6197e5e3f2665340abd92583b3584c5b85",
-    "post": "f82e5be0c58177e8190c5a03647fffcc728b7d81",
+    "pre": "929cacf3881bcd3737dd47f161a69c268bb71631",
+    "post": "f8e4c01b7c21ae1ab7c4ace9110049c129962d2d",
     "fix": null,
     "preAuthorType": null,
     "postAuthorType": null,
     "fixAuthorType": null
   },
   "update": {
-    "dependencyName": "im",
-    "previousVersion": "10.2.0",
-    "newVersion": "12.3.1",
-    "versionUpdateType": "major",
+    "dependencyName": "chrono",
+    "previousVersion": "0.4.13",
+    "newVersion": "0.4.18",
+    "versionUpdateType": "patch",
     "scope": "runtime"
   },
   "reproduction": {
@@ -84,11 +84,12 @@
   },
   "failure": {
     "topCategory": "COMPILATION_FAILURE",
-    "subCategory": "UNRESOLVED_IMPORT",
+    "subCategory": "OTHER_COMPILE_ERROR",
     "errorCodes": [
-      "E0432",
-      "unused_imports",
-      "E0277"
+      "unused_variables",
+      "unused_mut",
+      "dead_code",
+      "unused_must_use"
     ]
   },
   "ecosystemMetadata": {
