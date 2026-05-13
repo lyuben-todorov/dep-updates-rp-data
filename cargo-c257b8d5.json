@@ -1,0 +1,91 @@
+{
+  "id": "cargo-c257b8d5",
+  "schemaVersion": "0.0.5",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/jonasbb/ctftimebot",
+    "organisation": "jonasbb",
+    "name": "ctftimebot"
+  },
+  "pr": {
+    "url": "https://github.com/jonasbb/ctftimebot/pull/921",
+    "number": 921,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "382b83167803994eb74676828ec704c2de081668",
+    "post": "c257b8d536d9ce0c48f25183af8d301788b2bd98",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "futures-core",
+    "previousVersion": "0.3.11",
+    "newVersion": "0.3.12",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.49.0",
+      "sourceDateEpoch": 1640908800,
+      "aptSnapshot": "20211231T000000Z",
+      "debianRelease": "buster",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:e2ee863a029261e1b1862e68ed10e65ec95f368d922109d8b1b6d4577136040e",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "07e840f1414ae452788ec6458c268149420665cd72fd4661e1e9a5891c7c1623",
+            "bytes": 14353
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "0c9bce16c37e5802a24d25ae377fb81a2a1b700647ad0cedf67a1f718f4200b4",
+            "bytes": 175
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "735861bb8366088bcd0a799c254928001483a2142c278e8405d3217fbb9215c8",
+            "bytes": 130
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "c0c501c05a85ad53cbaf4028f75c078569dadda64ae8e793339096e05a3d98b0",
+            "bytes": 261
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "816a23625d8f2de9d7223d673d668f3d253ae1d7036f383d7c0da6baab0c0625",
+            "bytes": 319
+          }
+        ],
+        "rustcVersion": "rustc 1.49.0 (e1884a8e3 2020-12-29)",
+        "packageCount": 462
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": []
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  },
+  "unreproducibilityReason": null
+}

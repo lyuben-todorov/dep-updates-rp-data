@@ -1,0 +1,91 @@
+{
+  "id": "cargo-4ac9333f",
+  "schemaVersion": "0.0.5",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/ErichDonGubler/cargo-script",
+    "organisation": "ErichDonGubler",
+    "name": "cargo-script"
+  },
+  "pr": {
+    "url": "https://github.com/erichdongubler-contrib/cargo-script/pull/97",
+    "number": 97,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "2c0eeefdc3d49702270f2b8b79e3072ac5eff1d4",
+    "post": "4ac9333fd31a563a800ed0068fe5b63c5706c309",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.53",
+    "newVersion": "1.0.55",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.49.0",
+      "sourceDateEpoch": 1612828800,
+      "aptSnapshot": "20210209T000000Z",
+      "debianRelease": "buster",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:b423bf5f28e5ae1ca8a254261082e46e6bacc00c77f1c30a9db2a197b75fb9e4",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "2edbac42d72d19d14ce71851ed09d4b49e9e3ccb4b87f4b3f0f1b22c47f995fd",
+            "bytes": 14281
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "0c9bce16c37e5802a24d25ae377fb81a2a1b700647ad0cedf67a1f718f4200b4",
+            "bytes": 175
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "735861bb8366088bcd0a799c254928001483a2142c278e8405d3217fbb9215c8",
+            "bytes": 130
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "c0c501c05a85ad53cbaf4028f75c078569dadda64ae8e793339096e05a3d98b0",
+            "bytes": 261
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "8e5d3a9036f173e8f7fcd9fcb86ea3a688b19b77d594168692744494de95bb83",
+            "bytes": 319
+          }
+        ],
+        "rustcVersion": "rustc 1.49.0 (e1884a8e3 2020-12-29)",
+        "packageCount": 462
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": []
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  },
+  "unreproducibilityReason": null
+}
