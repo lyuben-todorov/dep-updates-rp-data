@@ -1,0 +1,91 @@
+{
+  "id": "cargo-52f30c65",
+  "schemaVersion": "0.0.5",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/lukaspustina/service-world",
+    "organisation": "lukaspustina",
+    "name": "service-world"
+  },
+  "pr": {
+    "url": "https://github.com/lukaspustina/service-world/pull/167",
+    "number": 167,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0b97bc8655790abbbe3bbf97cc37d479966f537c",
+    "post": "52f30c6588f031e57344d629537d151beeed05a0",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_derive",
+    "previousVersion": "1.0.111",
+    "newVersion": "1.0.112",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.56.0",
+      "sourceDateEpoch": 1634860800,
+      "aptSnapshot": "20211022T000000Z",
+      "debianRelease": "buster",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:a5faddce9b81199a2bb3627651a8c667779c5c1589d01ec2c0685fa6bbe19a7a",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "bfcd510e8cc2fe2a03efaffa6a875f6396d73ed5f634720ce4f4e229fe589403",
+            "bytes": 18776
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "21a9fa53eae712dc97138c857f3f44dddfcb696e7de548c508b2a47249585e28",
+            "bytes": 196
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "f1b6dc095e7a2e0bfdcf23ac4a87a82cbba0939003dd7602b515baa90d2c7385",
+            "bytes": 130
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "c0c501c05a85ad53cbaf4028f75c078569dadda64ae8e793339096e05a3d98b0",
+            "bytes": 261
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "6276d04f06a6c89845ee90da74573982b84c69158662f20f1c0968ffbc44c661",
+            "bytes": 319
+          }
+        ],
+        "rustcVersion": "rustc 1.56.0 (09c42c458 2021-10-18)",
+        "packageCount": 606
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": []
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "unreproducibilityReason": null
+}

@@ -1,0 +1,91 @@
+{
+  "id": "cargo-bde3ad57",
+  "schemaVersion": "0.0.5",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/alexpdp7/ragent",
+    "organisation": "alexpdp7",
+    "name": "ragent"
+  },
+  "pr": {
+    "url": "https://github.com/alexpdp7/ragent/pull/8",
+    "number": 8,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7b3756597db2ea61e1f0ed94d7df1d92cdbb3e8b",
+    "post": "bde3ad571a58337f36d3fb0d69fe418ff0f27e63",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_derive",
+    "previousVersion": "1.0.80",
+    "newVersion": "1.0.90",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.35.0",
+      "sourceDateEpoch": 1577750400,
+      "aptSnapshot": "20191231T000000Z",
+      "debianRelease": "stretch",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:29517ec1f3c8030b988559c73d5f5499d4bc2f2e1356aca6efd2514094f89063",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "acda46f9f8a8b711839747a881f54a663c89af1aafc2c277dfa0c87b943c939e",
+            "bytes": 17789
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "61e9805dcb6a3eec61402b2b8b2c706a5b76c26b38a989164930dc064db90c52",
+            "bytes": 193
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "7a556e29dad917f112a2a363d517f712374a899df53343965eade6099ba42930",
+            "bytes": 130
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "b4c8c0cfed0dc1f1b4f6f34fe29539d7177c343624de2ec59c86c762615597a6",
+            "bytes": 236
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "3e0aac8fbc519a43a823317b120fce50c928e3d8df75bd779c3e59b73ec1c37a",
+            "bytes": 322
+          }
+        ],
+        "rustcVersion": "rustc 1.35.0 (3c235d560 2019-05-20)",
+        "packageCount": 578
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": []
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  },
+  "unreproducibilityReason": null
+}

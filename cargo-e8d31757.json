@@ -1,0 +1,91 @@
+{
+  "id": "cargo-e8d31757",
+  "schemaVersion": "0.0.5",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/andreasots/eris",
+    "organisation": "andreasots",
+    "name": "eris"
+  },
+  "pr": {
+    "url": "https://github.com/andreasots/eris/pull/1296",
+    "number": 1296,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0387329624ce9d06be1ce07aaf43b520d5b93236",
+    "post": "e8d31757a4fd0830ea3a455eccc452e7005af121",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "futures-core",
+    "previousVersion": "0.3.8",
+    "newVersion": "0.3.12",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.56.0",
+      "sourceDateEpoch": 1640908800,
+      "aptSnapshot": "20211231T000000Z",
+      "debianRelease": "buster",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:308b3f9000c2f4a25fc435a9a584aed4bd0b3fdab37739b0eb6b9755edf70b97",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "5d0caa7fb40819222a8fc48f1396ef56b838bbc97b8e42c5bd7ec05b1b1d62b4",
+            "bytes": 18776
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "21a9fa53eae712dc97138c857f3f44dddfcb696e7de548c508b2a47249585e28",
+            "bytes": 196
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "f1b6dc095e7a2e0bfdcf23ac4a87a82cbba0939003dd7602b515baa90d2c7385",
+            "bytes": 130
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "c0c501c05a85ad53cbaf4028f75c078569dadda64ae8e793339096e05a3d98b0",
+            "bytes": 261
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "816a23625d8f2de9d7223d673d668f3d253ae1d7036f383d7c0da6baab0c0625",
+            "bytes": 319
+          }
+        ],
+        "rustcVersion": "rustc 1.56.0 (09c42c458 2021-10-18)",
+        "packageCount": 606
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": []
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "unreproducibilityReason": null
+}
