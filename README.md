@@ -9,10 +9,11 @@ schema-validated against `schema/entry.schema.json` in the main repo.
 ## Branches
 
 - **`main`** — two seed entries (smoke-test fixtures).
-- **`ds1-full-crack-r2`** — the full reproduced cohort: **1,407 entries**
+- **`ds1-full-crack-r2`** — the full reproduced cohort: **1,415 entries**
   from Rebatchi DS1 (Cargo Dependabot PRs, 2017–2021). This is the
   published artifact behind the headline reproducibility results
-  (53.9 %, merged Run B + OpenSSL-stretch sub-cohort).
+  (54.3 %, merged Run B + OpenSSL-stretch + native-dep recovery
+  sub-cohorts).
 
 ## Verifying these entries
 
