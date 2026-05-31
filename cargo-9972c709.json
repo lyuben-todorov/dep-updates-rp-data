@@ -34,10 +34,10 @@
   },
   "reproduction": {
     "fatImage": {
-      "rustVersion": "1.56.0",
-      "sourceDateEpoch": 1634860800,
-      "aptSnapshot": "20211022T000000Z",
-      "debianRelease": "buster",
+      "rustVersion": "1.39.0",
+      "sourceDateEpoch": 1577750400,
+      "aptSnapshot": "20191231T000000Z",
+      "debianRelease": "stretch",
       "expectedDigest": null
     },
     "buildFlags": [
@@ -47,53 +47,44 @@
     "environmentFingerprints": [
       {
         "platform": "linux/amd64",
-        "digest": "sha256:ae5b592adc8eea5c34459c350598e728b65b88cd3bc371bf4fb591bc7bc4bd86",
+        "digest": "sha256:eb56645c32d9e55672b6373d47d2e4e3d47c143a9f37c36c495e0450b62ec9b4",
         "files": [
           {
             "path": "/manifest/packages.txt",
-            "sha256": "62a92bb1757692953c6300eb8354f84ea0839ccfda6cbb85706e6fef35c8c36a",
-            "bytes": 14434
+            "sha256": "5b98106ddc02b26128149d22c571180754ff9ec33801dfd7e972c16ddf5c6842",
+            "bytes": 13857
           },
           {
             "path": "/manifest/rustc.txt",
-            "sha256": "21a9fa53eae712dc97138c857f3f44dddfcb696e7de548c508b2a47249585e28",
-            "bytes": 196
+            "sha256": "99e38ecbdb183f643052fbd77ff8741374da256feb80bc9ba1711201b1d8ee9a",
+            "bytes": 193
           },
           {
             "path": "/manifest/cargo.txt",
-            "sha256": "f1b6dc095e7a2e0bfdcf23ac4a87a82cbba0939003dd7602b515baa90d2c7385",
+            "sha256": "cec0f4a17fffc21c11d1b6338b47a5e98e5623c032c7faf9baf8888222cef62a",
             "bytes": 130
           },
           {
             "path": "/manifest/os-release",
-            "sha256": "c0c501c05a85ad53cbaf4028f75c078569dadda64ae8e793339096e05a3d98b0",
+            "sha256": "ff83f0c28edf5d329efd04b1f776bceef961380b1733d47469c4c54eab4b40b2",
             "bytes": 261
           },
           {
             "path": "/manifest/sources.list",
-            "sha256": "6276d04f06a6c89845ee90da74573982b84c69158662f20f1c0968ffbc44c661",
-            "bytes": 319
+            "sha256": "3e0aac8fbc519a43a823317b120fce50c928e3d8df75bd779c3e59b73ec1c37a",
+            "bytes": 322
           }
         ],
-        "rustcVersion": "rustc 1.56.0 (09c42c458 2021-10-18)",
-        "packageCount": 462
+        "rustcVersion": "rustc 1.39.0 (4560ea788 2019-11-04)",
+        "packageCount": 448
       }
     ],
     "thinImages": null,
-    "verifiedOn": [
-      {
-        "platform": "linux/amd64",
-        "host": "crack",
-        "verifiedAt": "2026-05-08T17:04:22.238238Z",
-        "fingerprintMatch": true,
-        "fatImageDigestMatch": null,
-        "outcomeMatch": true
-      }
-    ]
+    "verifiedOn": []
   },
   "failure": null,
   "ecosystemMetadata": {
-    "rustMsrv": "1.56",
+    "rustMsrv": "1.39",
     "rustMsrvDetected": false
   },
   "unreproducibilityReason": null

@@ -34,9 +34,9 @@
   },
   "reproduction": {
     "fatImage": {
-      "rustVersion": "1.56.0",
-      "sourceDateEpoch": 1634860800,
-      "aptSnapshot": "20211022T000000Z",
+      "rustVersion": "1.49.0",
+      "sourceDateEpoch": 1612828800,
+      "aptSnapshot": "20210209T000000Z",
       "debianRelease": "buster",
       "expectedDigest": null
     },
@@ -47,21 +47,21 @@
     "environmentFingerprints": [
       {
         "platform": "linux/amd64",
-        "digest": "sha256:ae5b592adc8eea5c34459c350598e728b65b88cd3bc371bf4fb591bc7bc4bd86",
+        "digest": "sha256:2c5104425fc8542a70f5b41def4cf31d483e903f096c538736405755efd02ce0",
         "files": [
           {
             "path": "/manifest/packages.txt",
-            "sha256": "62a92bb1757692953c6300eb8354f84ea0839ccfda6cbb85706e6fef35c8c36a",
-            "bytes": 14434
+            "sha256": "b977c6d70663a7e31bc6f80df5afb68a671e8b0d7ed6d839bd43e0b7d2fc7b23",
+            "bytes": 18615
           },
           {
             "path": "/manifest/rustc.txt",
-            "sha256": "21a9fa53eae712dc97138c857f3f44dddfcb696e7de548c508b2a47249585e28",
-            "bytes": 196
+            "sha256": "0c9bce16c37e5802a24d25ae377fb81a2a1b700647ad0cedf67a1f718f4200b4",
+            "bytes": 175
           },
           {
             "path": "/manifest/cargo.txt",
-            "sha256": "f1b6dc095e7a2e0bfdcf23ac4a87a82cbba0939003dd7602b515baa90d2c7385",
+            "sha256": "735861bb8366088bcd0a799c254928001483a2142c278e8405d3217fbb9215c8",
             "bytes": 130
           },
           {
@@ -71,12 +71,12 @@
           },
           {
             "path": "/manifest/sources.list",
-            "sha256": "6276d04f06a6c89845ee90da74573982b84c69158662f20f1c0968ffbc44c661",
+            "sha256": "8e5d3a9036f173e8f7fcd9fcb86ea3a688b19b77d594168692744494de95bb83",
             "bytes": 319
           }
         ],
-        "rustcVersion": "rustc 1.56.0 (09c42c458 2021-10-18)",
-        "packageCount": 462
+        "rustcVersion": "rustc 1.49.0 (e1884a8e3 2020-12-29)",
+        "packageCount": 606
       }
     ],
     "thinImages": null,
@@ -88,7 +88,6 @@
     "errorCodes": [
       "unused_imports",
       "dead_code",
-      "unused_must_use",
       "E0432",
       "E0407",
       "E0412",
@@ -96,7 +95,7 @@
     ]
   },
   "ecosystemMetadata": {
-    "rustMsrv": "1.56",
+    "rustMsrv": "1.39",
     "rustMsrvDetected": false
   },
   "unreproducibilityReason": null
