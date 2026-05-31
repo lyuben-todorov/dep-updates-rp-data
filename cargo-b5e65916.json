@@ -1,0 +1,91 @@
+{
+  "id": "cargo-b5e65916",
+  "schemaVersion": "0.0.5",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/rust-av/rav1e-by-gop",
+    "organisation": "rust-av",
+    "name": "rav1e-by-gop"
+  },
+  "pr": {
+    "url": "https://github.com/rust-av/rav1e-by-gop/pull/77",
+    "number": 77,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a3e52038e5a69d211cfb97decf05227ec0da8eb4",
+    "post": "b5e65916b856700a65a7d0f3c11689c062bbdae1",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde",
+    "previousVersion": "1.0.111",
+    "newVersion": "1.0.112",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.56.0",
+      "sourceDateEpoch": 1634860800,
+      "aptSnapshot": "20211022T000000Z",
+      "debianRelease": "buster",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:aacad6d52c052ef4aa8d4560287b5157154e9b49af9ddfd2824f5326d6dd7dc8",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "e631145961934b58bf7294c2c10ea40310cd275d8389c68c45640b9a371bf260",
+            "bytes": 19826
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "21a9fa53eae712dc97138c857f3f44dddfcb696e7de548c508b2a47249585e28",
+            "bytes": 196
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "f1b6dc095e7a2e0bfdcf23ac4a87a82cbba0939003dd7602b515baa90d2c7385",
+            "bytes": 130
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "c0c501c05a85ad53cbaf4028f75c078569dadda64ae8e793339096e05a3d98b0",
+            "bytes": 261
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "6276d04f06a6c89845ee90da74573982b84c69158662f20f1c0968ffbc44c661",
+            "bytes": 319
+          }
+        ],
+        "rustcVersion": "rustc 1.56.0 (09c42c458 2021-10-18)",
+        "packageCount": 638
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": []
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "unreproducibilityReason": null
+}
