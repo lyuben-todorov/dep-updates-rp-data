@@ -1,0 +1,96 @@
+{
+  "id": "cargo-27f972c4",
+  "schemaVersion": "0.0.6",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/unkcpz/rsdos",
+    "organisation": "unkcpz",
+    "name": "rsdos"
+  },
+  "pr": {
+    "url": "https://github.com/unkcpz/rsdos/pull/73",
+    "number": 73,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a8ae8166428fb31f580e5cb8d6c070a9722e5005",
+    "post": "27f972c4ce9b3ce03bbbc9efe8d8908c8375ca6a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.5.27",
+    "newVersion": "4.5.28",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.85.0",
+      "sourceDateEpoch": 1767139200,
+      "aptSnapshot": "20251231T000000Z",
+      "debianRelease": "bookworm",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:86e1d59dcbeb76c488226f04e9f7a32d9502a1d8b7f6c65b80fb909288f94e59",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "6409a31b57022fcf37ce4fd41435e44302b33432ebd11ecef6cdb3c74d8310d2",
+            "bytes": 26453
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "be9e105cd61ce407c0e06d80a25240f93cc48de72942117e1886f09aa08f9a2a",
+            "bytes": 196
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "d691c3e2036ad46c5117fd20cff12b23c90e7206836407e06be2b00f57c1ebe8",
+            "bytes": 329
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "59a77b5f2666d9c85c489bd1911a6eebbd91ef22fe48b90a3b75f1b21f3844d4",
+            "bytes": 267
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "8288aafdbc3afd2e2578806ba96584505675f5651a09c6e6e3e2d9c578a4aa4b",
+            "bytes": 326
+          }
+        ],
+        "rustcVersion": "rustc 1.85.0 (4d91de4e4 2025-02-17)",
+        "packageCount": 840
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": [],
+    "toolchainUsed": {
+      "version": "1.85.0",
+      "source": "image_default",
+      "channelDeclared": null
+    }
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.78",
+    "rustMsrvDetected": true
+  },
+  "unreproducibilityReason": null
+}
