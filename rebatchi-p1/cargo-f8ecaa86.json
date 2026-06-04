@@ -1,0 +1,96 @@
+{
+  "id": "cargo-f8ecaa86",
+  "schemaVersion": "0.0.6",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/ChristophWurst/krankerl",
+    "organisation": "ChristophWurst",
+    "name": "krankerl"
+  },
+  "pr": {
+    "url": "https://github.com/ChristophWurst/krankerl/pull/171",
+    "number": 171,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "648e7d2f5d3ff4d05cb99968e5d8375cf062c704",
+    "post": "f8ecaa861a41bce73afb8c50181638f0a058721c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "cfg-if",
+    "previousVersion": "0.1.2",
+    "newVersion": "0.1.5",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.39.0",
+      "sourceDateEpoch": 1574467200,
+      "aptSnapshot": "20191123T000000Z",
+      "debianRelease": "stretch",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:2d966fe75558d5b5d21b64d855a44e374c7350518c5d30cb5425bb7b0fa01140",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "598a1199c8963b6543b630a2ee3e9083b58ae3532a44aa383ef9c5a75fbf83dd",
+            "bytes": 19117
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "99e38ecbdb183f643052fbd77ff8741374da256feb80bc9ba1711201b1d8ee9a",
+            "bytes": 193
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "cec0f4a17fffc21c11d1b6338b47a5e98e5623c032c7faf9baf8888222cef62a",
+            "bytes": 130
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "ff83f0c28edf5d329efd04b1f776bceef961380b1733d47469c4c54eab4b40b2",
+            "bytes": 261
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "58fcab163451f59db0c453474a6369ed089f8a3899be98156c8fa719b5305b5d",
+            "bytes": 322
+          }
+        ],
+        "rustcVersion": "rustc 1.39.0 (4560ea788 2019-11-04)",
+        "packageCount": 615
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": [],
+    "toolchainUsed": {
+      "version": "1.39.0",
+      "source": "image_default",
+      "channelDeclared": null
+    }
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false
+  },
+  "unreproducibilityReason": null
+}

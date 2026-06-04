@@ -1,0 +1,96 @@
+{
+  "id": "cargo-26f6fbf3",
+  "schemaVersion": "0.0.6",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/yasuyuky/sectora",
+    "organisation": "yasuyuky",
+    "name": "sectora"
+  },
+  "pr": {
+    "url": "https://github.com/yasuyuky/sectora/pull/294",
+    "number": 294,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e329f90863d70cb6362c531ef2d2d4a98a7e71eb",
+    "post": "26f6fbf397927c1cf689ee438b79956cc88a00b1",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.54",
+    "newVersion": "1.0.55",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.49.0",
+      "sourceDateEpoch": 1612828800,
+      "aptSnapshot": "20210209T000000Z",
+      "debianRelease": "buster",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:18e8918537613098c4880973e96545b598fa9056546b9c7b8cfb0afa08895d26",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "40d966d59bea94395cc67c30b606dc60981c37a22d18be36c23defa51551b786",
+            "bytes": 19890
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "0c9bce16c37e5802a24d25ae377fb81a2a1b700647ad0cedf67a1f718f4200b4",
+            "bytes": 175
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "735861bb8366088bcd0a799c254928001483a2142c278e8405d3217fbb9215c8",
+            "bytes": 130
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "c0c501c05a85ad53cbaf4028f75c078569dadda64ae8e793339096e05a3d98b0",
+            "bytes": 261
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "8e5d3a9036f173e8f7fcd9fcb86ea3a688b19b77d594168692744494de95bb83",
+            "bytes": 319
+          }
+        ],
+        "rustcVersion": "rustc 1.49.0 (e1884a8e3 2020-12-29)",
+        "packageCount": 646
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": [],
+    "toolchainUsed": {
+      "version": "1.44.0",
+      "source": "project_pinned",
+      "channelDeclared": "1.44.0"
+    }
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.44",
+    "rustMsrvDetected": true
+  },
+  "unreproducibilityReason": null
+}

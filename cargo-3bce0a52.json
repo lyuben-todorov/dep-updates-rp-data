@@ -1,0 +1,95 @@
+{
+  "id": "cargo-3bce0a52",
+  "schemaVersion": "0.0.5",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/Sapphillon/Sapphillon-Core",
+    "organisation": "Sapphillon",
+    "name": "Sapphillon-Core"
+  },
+  "pr": {
+    "url": "https://github.com/Sapphillon/Sapphillon-Core/pull/82",
+    "number": 82,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "14e0859cd5a20fe3f659c8d25330348c575cc92a",
+    "post": "3bce0a529357f27a4fe7675ed23a4aab0b383b35",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "deno_core",
+    "previousVersion": "0.355.0",
+    "newVersion": "0.362.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.92.0",
+      "sourceDateEpoch": 1769040000,
+      "aptSnapshot": "20260122T000000Z",
+      "debianRelease": "trixie",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:f07a72b004328f56595858274c51614b5ded75b2907f1d7821effecfbf2ec06a",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "69de3b4119911c84d62afc8b03c5da99481fee0d3ae79361c9cf5faf4fdf2bc6",
+            "bytes": 25620
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "8f97c91e920ce0d02680e3d01eb87afa0c77290dcd5d19eb901ae194d4700d90",
+            "bytes": 196
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "cfc704222c0ae83b107d3af29686f67bf8c22842b5a12052b3c0485b3ba86d03",
+            "bytes": 328
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "8b8c2f53770c96bf2996f8e9feb3705d4fec1a4579251eea8c996cb458257731",
+            "bytes": 286
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "21781dc67a032288b7d5c9b75b9bf0a2ca13a5d9bd08db2d385d4fb1522164f9",
+            "bytes": 320
+          }
+        ],
+        "rustcVersion": "rustc 1.92.0 (ded5c06cf 2025-12-08)",
+        "packageCount": 823
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": []
+  },
+  "failure": {
+    "topCategory": "OTHER",
+    "subCategory": null,
+    "errorCodes": []
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "unreproducibilityReason": null
+}

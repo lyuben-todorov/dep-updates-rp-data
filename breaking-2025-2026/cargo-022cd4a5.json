@@ -1,0 +1,96 @@
+{
+  "id": "cargo-022cd4a5",
+  "schemaVersion": "0.0.6",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/escwxyz/init-data-rs",
+    "organisation": "escwxyz",
+    "name": "init-data-rs"
+  },
+  "pr": {
+    "url": "https://github.com/escwxyz/init-data-rs/pull/10",
+    "number": 10,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b826367f7879d0d45d2d84a8eae84f7c70fa8b0b",
+    "post": "022cd4a579e6405dcd5e07fcc5f1f06fe286c9b7",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ed25519-dalek",
+    "previousVersion": "2.1.1",
+    "newVersion": "2.2.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproduction": {
+    "fatImage": {
+      "rustVersion": "1.92.0",
+      "sourceDateEpoch": 1768262400,
+      "aptSnapshot": "20260113T000000Z",
+      "debianRelease": "bookworm",
+      "expectedDigest": null
+    },
+    "buildFlags": [
+      "--locked",
+      "--offline"
+    ],
+    "environmentFingerprints": [
+      {
+        "platform": "linux/amd64",
+        "digest": "sha256:2bf57c72c424d1095e2922d89bee8705faf8b9111f037701c1e97c53774bfad1",
+        "files": [
+          {
+            "path": "/manifest/packages.txt",
+            "sha256": "9a0e4137b7e5af6e1503f7c50075295c702b2c5817357d115f8fd6536818257c",
+            "bytes": 26688
+          },
+          {
+            "path": "/manifest/rustc.txt",
+            "sha256": "8f97c91e920ce0d02680e3d01eb87afa0c77290dcd5d19eb901ae194d4700d90",
+            "bytes": 196
+          },
+          {
+            "path": "/manifest/cargo.txt",
+            "sha256": "3a0fe814f8118b28c4aad596731744b3ebcd54c30477beecd6341879ccd5ddf9",
+            "bytes": 328
+          },
+          {
+            "path": "/manifest/os-release",
+            "sha256": "59a77b5f2666d9c85c489bd1911a6eebbd91ef22fe48b90a3b75f1b21f3844d4",
+            "bytes": 267
+          },
+          {
+            "path": "/manifest/sources.list",
+            "sha256": "fd1d8c534201c1a1d7548edd1c6246611e6d98b2d4973832b831f1c7e2437ad1",
+            "bytes": 326
+          }
+        ],
+        "rustcVersion": "rustc 1.92.0 (ded5c06cf 2025-12-08)",
+        "packageCount": 840
+      }
+    ],
+    "thinImages": null,
+    "verifiedOn": [],
+    "toolchainUsed": {
+      "version": "1.92.0",
+      "source": "image_default",
+      "channelDeclared": null
+    }
+  },
+  "failure": null,
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "unreproducibilityReason": null
+}
