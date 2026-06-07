@@ -1,6 +1,6 @@
 {
   "id": "cargo-f21fd2ca",
-  "schemaVersion": "0.0.6",
+  "schemaVersion": "1.0.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -37,49 +37,12 @@
       "rustVersion": "1.39.0",
       "sourceDateEpoch": 1574467200,
       "aptSnapshot": "20191123T000000Z",
-      "debianRelease": "stretch",
-      "expectedDigest": null
+      "debianRelease": "stretch"
     },
     "buildFlags": [
       "--locked",
       "--offline"
     ],
-    "environmentFingerprints": [
-      {
-        "platform": "linux/amd64",
-        "digest": "sha256:7864010933b21a448e2a8853ffb045d09a9f988d2eacddd4adcde295d31fd884",
-        "files": [
-          {
-            "path": "/manifest/packages.txt",
-            "sha256": "7fa1e7d6b30be31687dd623a6bc1c79f24da0a85db8966787b0e37d5266df8c9",
-            "bytes": 13857
-          },
-          {
-            "path": "/manifest/rustc.txt",
-            "sha256": "99e38ecbdb183f643052fbd77ff8741374da256feb80bc9ba1711201b1d8ee9a",
-            "bytes": 193
-          },
-          {
-            "path": "/manifest/cargo.txt",
-            "sha256": "cec0f4a17fffc21c11d1b6338b47a5e98e5623c032c7faf9baf8888222cef62a",
-            "bytes": 130
-          },
-          {
-            "path": "/manifest/os-release",
-            "sha256": "ff83f0c28edf5d329efd04b1f776bceef961380b1733d47469c4c54eab4b40b2",
-            "bytes": 261
-          },
-          {
-            "path": "/manifest/sources.list",
-            "sha256": "58fcab163451f59db0c453474a6369ed089f8a3899be98156c8fa719b5305b5d",
-            "bytes": 322
-          }
-        ],
-        "rustcVersion": "rustc 1.39.0 (4560ea788 2019-11-04)",
-        "packageCount": 448
-      }
-    ],
-    "thinImages": null,
     "verifiedOn": [],
     "toolchainUsed": {
       "version": "1.39.0",
@@ -88,16 +51,14 @@
     }
   },
   "failure": {
-    "topCategory": "COMPILATION_FAILURE",
-    "subCategory": "RUSTC_BITROT",
     "errorCodes": [
       "E0308",
       "E0599"
-    ]
+    ],
+    "failureCategory": "RUSTC_BITROT"
   },
   "ecosystemMetadata": {
     "rustMsrv": "1.39",
     "rustMsrvDetected": false
-  },
-  "unreproducibilityReason": null
+  }
 }

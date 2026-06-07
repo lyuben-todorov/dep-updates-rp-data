@@ -1,6 +1,6 @@
 {
   "id": "cargo-3a02be2c",
-  "schemaVersion": "0.0.6",
+  "schemaVersion": "1.0.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -37,49 +37,12 @@
       "rustVersion": "1.49.0",
       "sourceDateEpoch": 1612828800,
       "aptSnapshot": "20210209T000000Z",
-      "debianRelease": "buster",
-      "expectedDigest": null
+      "debianRelease": "buster"
     },
     "buildFlags": [
       "--locked",
       "--offline"
     ],
-    "environmentFingerprints": [
-      {
-        "platform": "linux/amd64",
-        "digest": "sha256:2c5104425fc8542a70f5b41def4cf31d483e903f096c538736405755efd02ce0",
-        "files": [
-          {
-            "path": "/manifest/packages.txt",
-            "sha256": "b977c6d70663a7e31bc6f80df5afb68a671e8b0d7ed6d839bd43e0b7d2fc7b23",
-            "bytes": 18615
-          },
-          {
-            "path": "/manifest/rustc.txt",
-            "sha256": "0c9bce16c37e5802a24d25ae377fb81a2a1b700647ad0cedf67a1f718f4200b4",
-            "bytes": 175
-          },
-          {
-            "path": "/manifest/cargo.txt",
-            "sha256": "735861bb8366088bcd0a799c254928001483a2142c278e8405d3217fbb9215c8",
-            "bytes": 130
-          },
-          {
-            "path": "/manifest/os-release",
-            "sha256": "c0c501c05a85ad53cbaf4028f75c078569dadda64ae8e793339096e05a3d98b0",
-            "bytes": 261
-          },
-          {
-            "path": "/manifest/sources.list",
-            "sha256": "8e5d3a9036f173e8f7fcd9fcb86ea3a688b19b77d594168692744494de95bb83",
-            "bytes": 319
-          }
-        ],
-        "rustcVersion": "rustc 1.49.0 (e1884a8e3 2020-12-29)",
-        "packageCount": 606
-      }
-    ],
-    "thinImages": null,
     "verifiedOn": [],
     "toolchainUsed": {
       "version": "1.49.0",
@@ -88,8 +51,6 @@
     }
   },
   "failure": {
-    "topCategory": "COMPILATION_FAILURE",
-    "subCategory": "RUSTC_BITROT",
     "errorCodes": [
       "E0308",
       "E0609",
@@ -97,11 +58,11 @@
       "E0621",
       "E0061",
       "E0277"
-    ]
+    ],
+    "failureCategory": "RUSTC_BITROT"
   },
   "ecosystemMetadata": {
     "rustMsrv": "1.31",
     "rustMsrvDetected": true
-  },
-  "unreproducibilityReason": null
+  }
 }
