@@ -1,6 +1,6 @@
 {
   "id": "cargo-f64c6a82",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,30 +32,35 @@
     "versionUpdateType": "minor",
     "scope": "runtime"
   },
-  "reproduction": {
-    "fatImage": {
-      "rustVersion": "1.92.0",
-      "sourceDateEpoch": 1798675200,
-      "aptSnapshot": "20261231T000000Z",
-      "debianRelease": "trixie"
-    },
-    "buildFlags": [
-      "--locked",
-      "--offline"
-    ],
-    "verifiedOn": [],
-    "toolchainUsed": {
-      "version": "1.81.0",
-      "source": "project_pinned",
-      "channelDeclared": "1.81.0"
-    }
-  },
-  "failure": {
-    "errorCodes": [],
-    "failureCategory": "OTHER"
-  },
   "ecosystemMetadata": {
     "rustMsrv": "1.81",
     "rustMsrvDetected": true
-  }
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.81.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.81.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [],
+        "failureCategory": "OTHER"
+      }
+    }
+  ]
 }

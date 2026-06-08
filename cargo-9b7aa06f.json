@@ -1,6 +1,6 @@
 {
   "id": "cargo-9b7aa06f",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,30 +32,35 @@
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
-  "reproduction": {
-    "fatImage": {
-      "rustVersion": "1.39.0",
-      "sourceDateEpoch": 1577750400,
-      "aptSnapshot": "20191231T000000Z",
-      "debianRelease": "stretch"
-    },
-    "buildFlags": [
-      "--locked",
-      "--offline"
-    ],
-    "verifiedOn": [],
-    "toolchainUsed": {
-      "version": "1.39.0",
-      "source": "image_default",
-      "channelDeclared": null
-    }
-  },
-  "failure": {
-    "errorCodes": [],
-    "failureCategory": "OPENSSL_MISMATCH"
-  },
   "ecosystemMetadata": {
     "rustMsrv": "1.56",
     "rustMsrvDetected": false
-  }
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.39.0-stretch-20191231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.39.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.39.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [],
+        "failureCategory": "OPENSSL_MISMATCH"
+      }
+    }
+  ]
 }

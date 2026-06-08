@@ -1,6 +1,6 @@
 {
   "id": "cargo-0ec99dc4",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,30 +32,35 @@
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
-  "reproduction": {
-    "fatImage": {
-      "rustVersion": "1.92.0",
-      "sourceDateEpoch": 1768262400,
-      "aptSnapshot": "20260113T000000Z",
-      "debianRelease": "bookworm"
-    },
-    "buildFlags": [
-      "--locked",
-      "--offline"
-    ],
-    "verifiedOn": [],
-    "toolchainUsed": {
-      "version": "1.92.0",
-      "source": "image_default",
-      "channelDeclared": null
-    }
-  },
-  "failure": {
-    "errorCodes": [],
-    "failureCategory": "TEST_FAILURE"
-  },
   "ecosystemMetadata": {
     "rustMsrv": "1.56",
     "rustMsrvDetected": false
-  }
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [],
+        "failureCategory": "TEST_FAILURE"
+      }
+    }
+  ]
 }
