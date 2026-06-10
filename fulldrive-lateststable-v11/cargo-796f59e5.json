@@ -1,0 +1,63 @@
+{
+  "id": "cargo-796f59e5",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mjr/reacherhq-backend",
+    "organisation": "mjr",
+    "name": "reacherhq-backend"
+  },
+  "pr": {
+    "url": "https://github.com/mjr/reacherhq-backend/pull/21",
+    "number": 21,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "30c9c0755c3b0cba4e3987633afa10aa3d56f3cc",
+    "post": "796f59e5749d0e613c0b898a4af465e9d2bbe87b",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.64",
+    "newVersion": "1.0.68",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.55.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.55.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.55.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

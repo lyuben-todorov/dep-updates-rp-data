@@ -1,0 +1,63 @@
+{
+  "id": "cargo-fb667ecc",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/oxidecomputer/dropshot",
+    "organisation": "oxidecomputer",
+    "name": "dropshot"
+  },
+  "pr": {
+    "url": "https://github.com/oxidecomputer/dropshot/pull/1155",
+    "number": 1155,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "115dd34e1cfecb69d65067c7da3b20e06f88f41e",
+    "post": "fb667eccaac2ec986db39ad1f87e26c83e488637",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "prettyplease",
+    "previousVersion": "0.2.24",
+    "newVersion": "0.2.25",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.81.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.81.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.81",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

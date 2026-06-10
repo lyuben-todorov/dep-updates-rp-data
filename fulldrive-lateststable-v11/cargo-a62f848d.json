@@ -1,0 +1,63 @@
+{
+  "id": "cargo-a62f848d",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/iCrawl/rustflake",
+    "organisation": "iCrawl",
+    "name": "rustflake"
+  },
+  "pr": {
+    "url": "https://github.com/iCrawl/rustflake/pull/19",
+    "number": 19,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "bb819724457793767ec8905890f260463a2ae8d1",
+    "post": "a62f848d59fe1eabff95172a7a9d046d6b80b46d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "parking_lot",
+    "previousVersion": "0.11.1",
+    "newVersion": "0.11.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.54.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.54.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.54.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

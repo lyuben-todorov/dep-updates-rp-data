@@ -1,0 +1,63 @@
+{
+  "id": "cargo-1d78b894",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/xmrio/linkerd2-proxy",
+    "organisation": "xmrio",
+    "name": "linkerd2-proxy"
+  },
+  "pr": {
+    "url": "https://github.com/xmrio/linkerd2-proxy/pull/190",
+    "number": 190,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "61eb780f6b1bcf7adfff71537884e770703088a3",
+    "post": "1d78b89409543948a0601de337cbb08b7784f80e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tracing",
+    "previousVersion": "0.1.30",
+    "newVersion": "0.1.31",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.58.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.58.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.56.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

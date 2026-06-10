@@ -1,0 +1,63 @@
+{
+  "id": "cargo-caf0fe7e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/girazoki/substrate",
+    "organisation": "girazoki",
+    "name": "substrate"
+  },
+  "pr": {
+    "url": "https://github.com/girazoki/substrate/pull/15",
+    "number": 15,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1c434cd3a20c03461cb17b1e94244e134fc1b27c",
+    "post": "caf0fe7e46f9af43f4a1ac0e3fe406a9f08c48e3",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "env_logger",
+    "previousVersion": "0.8.2",
+    "newVersion": "0.9.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.63.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.63.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.63.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

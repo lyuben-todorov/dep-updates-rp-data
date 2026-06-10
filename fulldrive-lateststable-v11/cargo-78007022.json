@@ -1,0 +1,63 @@
+{
+  "id": "cargo-78007022",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/knutwalker/jdkman",
+    "organisation": "knutwalker",
+    "name": "jdkman"
+  },
+  "pr": {
+    "url": "https://github.com/knutwalker/jdkman/pull/51",
+    "number": 51,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "50bb49272b3bd4fd6df1c73a1a3915f1df132591",
+    "post": "78007022dfb1d2566e331ef5de63a02a5b640abe",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "curl-sys",
+    "previousVersion": "0.4.52+curl-7.81.0",
+    "newVersion": "0.4.54+curl-7.83.0",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

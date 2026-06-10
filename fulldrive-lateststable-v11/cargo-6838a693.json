@@ -1,0 +1,68 @@
+{
+  "id": "cargo-6838a693",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/MMKubicki/Advent-of-Code-2021",
+    "organisation": "MMKubicki",
+    "name": "Advent-of-Code-2021"
+  },
+  "pr": {
+    "url": "https://github.com/MMKubicki/Advent-of-Code-2021/pull/8",
+    "number": 8,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d07a2d0f56e6b51d6832fe43387e6d8d17b928a5",
+    "post": "6838a693afc859cc4ca2181f4d538d60e48bbcee",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "3.0.0-beta.5",
+    "newVersion": "3.0.0-rc.11",
+    "versionUpdateType": "other",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.57.0-bullseye-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.57.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.57.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

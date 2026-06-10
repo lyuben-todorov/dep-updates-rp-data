@@ -1,0 +1,63 @@
+{
+  "id": "cargo-698b3f8d",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mirakc/mirakc",
+    "organisation": "mirakc",
+    "name": "mirakc"
+  },
+  "pr": {
+    "url": "https://github.com/mirakc/mirakc/pull/566",
+    "number": 566,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cfec585c221df0807cc654898a4414a4e7768ea3",
+    "post": "698b3f8d0acbbde9a4d5f4f3535edf2f000b12ce",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio-stream",
+    "previousVersion": "0.1.9",
+    "newVersion": "0.1.10",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.63.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.63.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.63.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

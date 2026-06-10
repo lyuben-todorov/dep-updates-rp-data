@@ -1,0 +1,63 @@
+{
+  "id": "cargo-cf6db8f4",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/nextcloud/notify_push",
+    "organisation": "nextcloud",
+    "name": "notify_push"
+  },
+  "pr": {
+    "url": "https://github.com/nextcloud/notify_push/pull/390",
+    "number": 390,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9dddca37f11b9e770f32a85ee5120c002eac2e9c",
+    "post": "cf6db8f42971971cf7dd19dc64aa0431f5864fd9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "parse-display",
+    "previousVersion": "0.8.2",
+    "newVersion": "0.9.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.75.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.75.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.75.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.70",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-be2e3604",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/probe-rs/cargo-embed",
+    "organisation": "probe-rs",
+    "name": "cargo-embed"
+  },
+  "pr": {
+    "url": "https://github.com/probe-rs/cargo-embed/pull/273",
+    "number": 273,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d8ff246855a32dc5a408a43b6b9eede2db8e9f3e",
+    "post": "be2e36040e9f80dc50c97e6d19bf383ece1e5a9d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "defmt-decoder",
+    "previousVersion": "0.2.2",
+    "newVersion": "0.3.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.56.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.56.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

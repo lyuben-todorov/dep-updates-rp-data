@@ -1,0 +1,63 @@
+{
+  "id": "cargo-af0faffa",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/andreasots/eris",
+    "organisation": "andreasots",
+    "name": "eris"
+  },
+  "pr": {
+    "url": "https://github.com/andreasots/eris/pull/2852",
+    "number": 2852,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "ecc45851c67353c9e327fa823eec04f468e77ab8",
+    "post": "af0faffaffa267fb1df5d021a4ed42c022ee3da2",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex",
+    "previousVersion": "1.9.3",
+    "newVersion": "1.9.5",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.72.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.72.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.72.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

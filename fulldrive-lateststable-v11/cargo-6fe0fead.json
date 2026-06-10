@@ -1,0 +1,63 @@
+{
+  "id": "cargo-6fe0fead",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/alpenlabs/bitcoin-bosd",
+    "organisation": "alpenlabs",
+    "name": "bitcoin-bosd"
+  },
+  "pr": {
+    "url": "https://github.com/alpenlabs/bitcoin-bosd/pull/70",
+    "number": 70,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a1ef22114ef975f8420ba9b55fae7ec0185da32c",
+    "post": "6fe0fead7399477c0aaa92e25bac0b7b9a14b638",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "secp256k1",
+    "previousVersion": "0.29.1",
+    "newVersion": "0.31.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.86.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.86.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.86.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

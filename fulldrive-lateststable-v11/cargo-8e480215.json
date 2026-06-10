@@ -1,0 +1,63 @@
+{
+  "id": "cargo-8e480215",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/cargo-bins/cargo-binstall",
+    "organisation": "cargo-bins",
+    "name": "cargo-binstall"
+  },
+  "pr": {
+    "url": "https://github.com/cargo-bins/cargo-binstall/pull/1001",
+    "number": 1001,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "bb68d67df1a92e781cac7b8ff3921eeb69c0fd2e",
+    "post": "8e48021546536054443b8fbc7b10903698e56784",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.27.0",
+    "newVersion": "1.28.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.69.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.69.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.69.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

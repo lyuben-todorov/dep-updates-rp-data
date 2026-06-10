@@ -1,0 +1,63 @@
+{
+  "id": "cargo-c9b1be46",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/exein-io/kepler",
+    "organisation": "exein-io",
+    "name": "kepler"
+  },
+  "pr": {
+    "url": "https://github.com/exein-io/kepler/pull/13",
+    "number": 13,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "02f842885c4b2f92e930ccb4b0cba6a853487057",
+    "post": "c9b1be46236fddd937a6d7d73b957261f74bad79",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "h2",
+    "previousVersion": "0.3.11",
+    "newVersion": "0.3.17",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.65.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.65.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.65",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

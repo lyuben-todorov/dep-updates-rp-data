@@ -1,0 +1,63 @@
+{
+  "id": "cargo-964eae7e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/alex/otp-cop",
+    "organisation": "alex",
+    "name": "otp-cop"
+  },
+  "pr": {
+    "url": "https://github.com/alex/otp-cop/pull/530",
+    "number": 530,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "46785d4ca4981fbee336eafec3605273fd96ce15",
+    "post": "964eae7ebdf81e650dbbe3061e24268bf728ae25",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ryu",
+    "previousVersion": "1.0.3",
+    "newVersion": "1.0.4",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.43.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.43.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.43.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

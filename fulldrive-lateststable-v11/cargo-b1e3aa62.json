@@ -1,0 +1,63 @@
+{
+  "id": "cargo-b1e3aa62",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/vityafx/cargo-cook",
+    "organisation": "vityafx",
+    "name": "cargo-cook"
+  },
+  "pr": {
+    "url": "https://github.com/iddm/cargo-cook/pull/86",
+    "number": 86,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f9f25a9cd637049f10da3935dc37529e71192821",
+    "post": "b1e3aa62b475a9d56eeaf27c3a8055a52c91ffe0",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde",
+    "previousVersion": "1.0.82",
+    "newVersion": "1.0.90",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.34.0-stretch-20191231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.34.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.34.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-b67f3ca9",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/ThinkSpiritLab/ojcmp",
+    "organisation": "ThinkSpiritLab",
+    "name": "ojcmp"
+  },
+  "pr": {
+    "url": "https://github.com/ThinkSpiritLab/ojcmp/pull/15",
+    "number": 15,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "266237ffae8d2a253922203aa60f838d72a1514d",
+    "post": "b67f3ca945537ca344514a17b85690590fc65be4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.77",
+    "newVersion": "0.2.81",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.48.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.48.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.48.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

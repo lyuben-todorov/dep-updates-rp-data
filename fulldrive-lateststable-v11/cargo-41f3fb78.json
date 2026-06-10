@@ -1,0 +1,68 @@
+{
+  "id": "cargo-41f3fb78",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/teovoinea/opv",
+    "organisation": "teovoinea",
+    "name": "opv"
+  },
+  "pr": {
+    "url": "https://github.com/teovoinea/opv/pull/57",
+    "number": 57,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "bb64ad499528e99fe3ad3276dc2214b6c9883510",
+    "post": "41f3fb7887fd467d8af33c343ce7e5344eb4baca",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde",
+    "previousVersion": "1.0.88",
+    "newVersion": "1.0.92",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.35.0-stretch-20191231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.35.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.35.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0107"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

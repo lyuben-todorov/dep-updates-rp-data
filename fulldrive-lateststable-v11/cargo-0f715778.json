@@ -1,0 +1,63 @@
+{
+  "id": "cargo-0f715778",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/yasuyuky/sectora",
+    "organisation": "yasuyuky",
+    "name": "sectora"
+  },
+  "pr": {
+    "url": "https://github.com/yasuyuky/sectora/pull/293",
+    "number": 293,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "64c84255e89be52f60b694f8bd8fb6e624f1944f",
+    "post": "0f7157785beef385cb182add1ff6432f7652d467",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.53",
+    "newVersion": "1.0.54",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.44.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.44.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.44.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.44",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

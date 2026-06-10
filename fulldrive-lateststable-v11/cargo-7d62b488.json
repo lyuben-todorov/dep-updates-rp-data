@@ -1,0 +1,69 @@
+{
+  "id": "cargo-7d62b488",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/lambdaxymox/tokei",
+    "organisation": "lambdaxymox",
+    "name": "tokei"
+  },
+  "pr": {
+    "url": "https://github.com/lambdaxymox/tokei/pull/68",
+    "number": 68,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cc363d5f25112a9449ad16c2fef25045fbfdb25a",
+    "post": "7d62b48868e034b02a349e29ebf8a70c76967dfc",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "2.33.3",
+    "newVersion": "3.1.10",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0432",
+          "E0107"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

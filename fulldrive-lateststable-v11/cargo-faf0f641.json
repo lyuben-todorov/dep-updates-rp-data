@@ -1,0 +1,63 @@
+{
+  "id": "cargo-faf0f641",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/cardano-foundation/jormungandr",
+    "organisation": "cardano-foundation",
+    "name": "jormungandr"
+  },
+  "pr": {
+    "url": "https://github.com/cardano-foundation/jormungandr/pull/3690",
+    "number": 3690,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "5bdc9319f9d5c72d03be1f2b4d93ac3eb0226238",
+    "post": "faf0f641370e300ee840eb4a0fe23e370701f820",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "console",
+    "previousVersion": "0.14.1",
+    "newVersion": "0.15.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.56.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.56.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

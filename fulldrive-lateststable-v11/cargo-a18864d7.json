@@ -1,0 +1,63 @@
+{
+  "id": "cargo-a18864d7",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/paritytech/ink-playground",
+    "organisation": "paritytech",
+    "name": "ink-playground"
+  },
+  "pr": {
+    "url": "https://github.com/use-ink/ink-playground/pull/763",
+    "number": 763,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cde28bbeda4bf7ca0f4794b58fb53daa54994da2",
+    "post": "a18864d756e3c379f49006391f18425ecc888804",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.97",
+    "newVersion": "1.0.100",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.70.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.70.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.70.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cargo-e9676c75",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/devongovett/dprint-node",
+    "organisation": "devongovett",
+    "name": "dprint-node"
+  },
+  "pr": {
+    "url": "https://github.com/devongovett/dprint-node/pull/71",
+    "number": 71,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "37fbf514ffe187ad634b73cde9a927508c3b3228",
+    "post": "e9676c75e8794f5b90081b40f10afd6c22baf01b",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "dprint-core",
+    "previousVersion": "0.46.4",
+    "newVersion": "0.49.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.57.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.57.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.57.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0308"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

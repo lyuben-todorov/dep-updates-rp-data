@@ -1,0 +1,63 @@
+{
+  "id": "cargo-014dc189",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/sunriseos/SunriseOS",
+    "organisation": "sunriseos",
+    "name": "SunriseOS"
+  },
+  "pr": {
+    "url": "https://github.com/sunriseos/SunriseOS/pull/331",
+    "number": 331,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8455b25bf2cb8c02e70406593ff03b0434f83d63",
+    "post": "014dc1891e4a35a2ec5743eeaf64a2bed270b780",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "xmas-elf",
+    "previousVersion": "0.6.2",
+    "newVersion": "0.7.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.35.0-stretch-20191231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.35.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.36.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2019-05-22"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

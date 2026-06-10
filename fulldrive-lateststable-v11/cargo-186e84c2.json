@@ -1,0 +1,63 @@
+{
+  "id": "cargo-186e84c2",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/ruffle-rs/ruffle",
+    "organisation": "ruffle-rs",
+    "name": "ruffle"
+  },
+  "pr": {
+    "url": "https://github.com/ruffle-rs/ruffle/pull/365",
+    "number": 365,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "2ff76775e0f9e086118d1c0cf0fac070586b0793",
+    "post": "186e84c213f0d133ef432c04c2d65b1ae16c0814",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "structopt",
+    "previousVersion": "0.3.8",
+    "newVersion": "0.3.9",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.41.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.41.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.41.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

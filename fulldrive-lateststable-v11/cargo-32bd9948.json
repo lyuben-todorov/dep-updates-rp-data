@@ -1,0 +1,63 @@
+{
+  "id": "cargo-32bd9948",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mxve/alterware-launcher",
+    "organisation": "mxve",
+    "name": "alterware-launcher"
+  },
+  "pr": {
+    "url": "https://github.com/mxve/alterware-launcher/pull/101",
+    "number": 101,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f0e77f162c019079730edcaf0f849ac98288dbfb",
+    "post": "32bd994858b5797e573c33ea17efb6bdf6252af7",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.116",
+    "newVersion": "1.0.117",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.78.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.78.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.78.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-156757cc",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/msmouse/diem",
+    "organisation": "msmouse",
+    "name": "diem"
+  },
+  "pr": {
+    "url": "https://github.com/msmouse/diem/pull/1",
+    "number": 1,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "daca637f1bb8c7cbd5b04750b8ddd153a47f0e5f",
+    "post": "156757ccd674b2962592554e96a0f9a1aa2f099a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.32",
+    "newVersion": "1.0.33",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.45.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.45.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.45.2",
+        "source": "project_pinned",
+        "channelDeclared": "1.45.2"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.45"
+  }
+}

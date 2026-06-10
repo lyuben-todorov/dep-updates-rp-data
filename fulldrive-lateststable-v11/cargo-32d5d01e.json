@@ -1,0 +1,63 @@
+{
+  "id": "cargo-32d5d01e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/lum-rs/lum_service",
+    "organisation": "lum-rs",
+    "name": "lum_service"
+  },
+  "pr": {
+    "url": "https://github.com/lum-rs/lum_service/pull/49",
+    "number": 49,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a7f29125e32aa16f635434709a6309cf1c312a8c",
+    "post": "32d5d01ea2048b7c7cd5f9991d6dd5dab06170ba",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "thiserror",
+    "previousVersion": "2.0.12",
+    "newVersion": "2.0.17",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.90.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.90.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.96.0",
+        "source": "floating_nondeterministic",
+        "channelDeclared": "stable"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

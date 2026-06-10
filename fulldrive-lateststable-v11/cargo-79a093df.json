@@ -1,0 +1,69 @@
+{
+  "id": "cargo-79a093df",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/spezam/eni-associations",
+    "organisation": "spezam",
+    "name": "eni-associations"
+  },
+  "pr": {
+    "url": "https://github.com/spezam/eni-associations/pull/30",
+    "number": 30,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "45d8e613235709041acf6dd93f4bbb28a14484c8",
+    "post": "79a093df4cc405c9d08f785a4cba9f1574b1b049",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "aws-sdk-lambda",
+    "previousVersion": "0.33.0",
+    "newVersion": "1.3.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.74.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0599",
+          "E0308"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

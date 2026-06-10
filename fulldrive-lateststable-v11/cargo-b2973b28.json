@@ -1,0 +1,63 @@
+{
+  "id": "cargo-b2973b28",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/hannobraun/fornjot",
+    "organisation": "hannobraun",
+    "name": "fornjot"
+  },
+  "pr": {
+    "url": "https://github.com/hannobraun/fornjot/pull/1855",
+    "number": 1855,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "25881a50a0d1119451b4d08307a5e634079e0f23",
+    "post": "b2973b28a40bc72b8e40ae134290711a7232dd40",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.3.0",
+    "newVersion": "4.3.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.70.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.70.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.69.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.69.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.69",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-5e134507",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/bazeltools/rules_minidock_tools",
+    "organisation": "bazeltools",
+    "name": "rules_minidock_tools"
+  },
+  "pr": {
+    "url": "https://github.com/bazeltools/rules_minidock_tools/pull/456",
+    "number": 456,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "dd68c6eac5951b9779a6169bba67dc145278600c",
+    "post": "5e134507687785837fc047781ab809281d56941a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anstream",
+    "previousVersion": "0.6.7",
+    "newVersion": "0.6.15",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.83.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.83.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.83.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

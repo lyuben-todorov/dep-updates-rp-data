@@ -1,0 +1,68 @@
+{
+  "id": "cargo-6c85522f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/TheDome/ReView",
+    "organisation": "TheDome",
+    "name": "ReView"
+  },
+  "pr": {
+    "url": "https://github.com/TheDome/ReView/pull/231",
+    "number": 231,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "fc3d391ea6f84122cdf25503ef12b40c26637bed",
+    "post": "6c85522fe5f2d88e9eb3dcba800a83cc33afcffa",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "glib",
+    "previousVersion": "0.17.10",
+    "newVersion": "0.18.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.71.0-bookworm-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.71.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.71.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0425"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

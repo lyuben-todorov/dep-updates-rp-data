@@ -1,0 +1,68 @@
+{
+  "id": "cargo-d5bdabe5",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/patrickshan/starship",
+    "organisation": "patrickshan",
+    "name": "starship"
+  },
+  "pr": {
+    "url": "https://github.com/patrickshan/starship/pull/108",
+    "number": 108,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "70641207bbc46183a3fcb6cb402564539cd45108",
+    "post": "d5bdabe5535adf3e7850c4cc31e1ed5d45fa29c4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "2.33.3",
+    "newVersion": "3.1.17",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0106"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cargo-2a2d9855",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/eldad/mpk-mini-ctl",
+    "organisation": "eldad",
+    "name": "mpk-mini-ctl"
+  },
+  "pr": {
+    "url": "https://github.com/eldad/mpk-mini-ctl/pull/201",
+    "number": 201,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c8dbd17c8e664bf7494ab6f48779215bab01c962",
+    "post": "2a2d9855a9b38f83d29e5b48b445dd612811559e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "thiserror",
+    "previousVersion": "1.0.64",
+    "newVersion": "2.0.7",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.83.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.83.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.83.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

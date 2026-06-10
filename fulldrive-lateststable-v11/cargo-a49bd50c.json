@@ -1,0 +1,70 @@
+{
+  "id": "cargo-a49bd50c",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/pitkley/dfw",
+    "organisation": "pitkley",
+    "name": "dfw"
+  },
+  "pr": {
+    "url": "https://github.com/pitkley/dfw/pull/509",
+    "number": 509,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f9cbd2d8098a01a94c019bea0acb0b82a3c367ca",
+    "post": "a49bd50cde5980525e9aac65fb21271e12f24c1b",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "2.34.0",
+    "newVersion": "3.0.6",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.57.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.57.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.57.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0107",
+          "E0433",
+          "E0432"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

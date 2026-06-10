@@ -1,0 +1,63 @@
+{
+  "id": "cargo-d1ff49ee",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/pborzenkov/koreader-syncd",
+    "organisation": "pborzenkov",
+    "name": "koreader-syncd"
+  },
+  "pr": {
+    "url": "https://github.com/pborzenkov/koreader-syncd/pull/146",
+    "number": 146,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cf6d67475223abdb2d834345033d03c68e52df51",
+    "post": "d1ff49ee45e4a1f9ac603080829f47ccf911b9d9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "http-body-util",
+    "previousVersion": "0.1.2",
+    "newVersion": "0.1.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.75.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.75.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.75",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

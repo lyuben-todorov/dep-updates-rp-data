@@ -1,0 +1,63 @@
+{
+  "id": "cargo-d8b9ef1e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/coreos/coreos-installer",
+    "organisation": "coreos",
+    "name": "coreos-installer"
+  },
+  "pr": {
+    "url": "https://github.com/coreos/coreos-installer/pull/1273",
+    "number": 1273,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "5042d5ebff207c575d952c2d62ec9bf32c3844fd",
+    "post": "d8b9ef1ec61e3561e7ed69e333a4537a7d6b6e27",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_with",
+    "previousVersion": "3.2.0",
+    "newVersion": "3.3.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.71.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.71.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.71.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.66",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

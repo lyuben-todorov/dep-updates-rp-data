@@ -1,0 +1,68 @@
+{
+  "id": "cargo-b748e14c",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/JasterV/gofish_bot",
+    "organisation": "JasterV",
+    "name": "gofish_bot"
+  },
+  "pr": {
+    "url": "https://github.com/JasterV/gofish_bot/pull/6",
+    "number": 6,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cd18452c2d6c7bd98e944245d49684455db46032",
+    "post": "b748e14c7f668dc986c580ab6821f7b0d265c77f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "h2",
+    "previousVersion": "0.3.4",
+    "newVersion": "0.3.17",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.68.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0432"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cargo-bbaf038e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/LooneY2K/repocontext",
+    "organisation": "LooneY2K",
+    "name": "repocontext"
+  },
+  "pr": {
+    "url": "https://github.com/LooneY2K/repocontext/pull/11",
+    "number": 11,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "75425cb6191527d8cf98528074b961d4d6b344db",
+    "post": "bbaf038e7c48ca5ef41a13e21a449336d31e3e33",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tree-sitter-go",
+    "previousVersion": "0.21.2",
+    "newVersion": "0.25.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.95.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.95.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0425"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.75",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

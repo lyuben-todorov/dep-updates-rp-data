@@ -1,0 +1,69 @@
+{
+  "id": "cargo-3bc98ab1",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/identity-com/solana",
+    "organisation": "identity-com",
+    "name": "solana"
+  },
+  "pr": {
+    "url": "https://github.com/identity-com/solana/pull/729",
+    "number": 729,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "2d849a2eae4ff71315d4de9fd393cb1d84695930",
+    "post": "3bc98ab17db5e22edf03d15a0e28f0d2232fbdd5",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "nix",
+    "previousVersion": "0.25.0",
+    "newVersion": "0.27.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.73.0-bookworm-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.73.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.65.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.65.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0432",
+          "E0433"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.65",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

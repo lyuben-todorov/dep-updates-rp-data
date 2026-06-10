@@ -1,0 +1,63 @@
+{
+  "id": "cargo-78819f53",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/dxps/rust_playground",
+    "organisation": "dxps",
+    "name": "rust_playground"
+  },
+  "pr": {
+    "url": "https://github.com/dxps/rust_playground/pull/44",
+    "number": 44,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a51c063f7ad5c9a9f390bfe60335c258da9356b3",
+    "post": "78819f53cb3615c2691b2dcb2ad8c88003ec26ec",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.41.1",
+    "newVersion": "1.43.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.86.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.86.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.86.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "cargo-2e7a4321",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/hyperlight-dev/hyperlight-wasm",
+    "organisation": "hyperlight-dev",
+    "name": "hyperlight-wasm"
+  },
+  "pr": {
+    "url": "https://github.com/hyperlight-dev/hyperlight-wasm/pull/463",
+    "number": 463,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7ccd18a869b55afc0db355b40e54306ff91e7aa6",
+    "post": "2e7a432143b5ae52c66372a970bd4c22d621b5ab",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "cargo-util-schemas",
+    "previousVersion": "0.10.1",
+    "newVersion": "0.13.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.89.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.89.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.89.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.89"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "OTHER",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.89",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.89"
+  }
+}

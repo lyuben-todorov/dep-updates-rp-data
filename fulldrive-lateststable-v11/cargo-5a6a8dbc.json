@@ -1,0 +1,63 @@
+{
+  "id": "cargo-5a6a8dbc",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/lukehsiao/tool",
+    "organisation": "lukehsiao",
+    "name": "tool"
+  },
+  "pr": {
+    "url": "https://github.com/lukehsiao/tool/pull/12",
+    "number": 12,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "867bd99b20b2240ca4cf7c3ce0db35b81c0a00bc",
+    "post": "5a6a8dbcf519b8999390118a55d1ede6839e441e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex",
+    "previousVersion": "1.11.0",
+    "newVersion": "1.11.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.82.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.64",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

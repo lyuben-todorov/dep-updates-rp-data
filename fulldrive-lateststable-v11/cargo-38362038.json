@@ -1,0 +1,63 @@
+{
+  "id": "cargo-38362038",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/IronCoreLabs/ironoxide-cli",
+    "organisation": "IronCoreLabs",
+    "name": "ironoxide-cli"
+  },
+  "pr": {
+    "url": "https://github.com/IronCoreLabs/ironoxide-cli/pull/226",
+    "number": 226,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1f57eac56bf44c564d88fb3551944d853efa2d0f",
+    "post": "383620380134fba2c62cca87fb6aa27529f422ae",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.29.1",
+    "newVersion": "1.32.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.72.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.72.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.68.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.68.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.68",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

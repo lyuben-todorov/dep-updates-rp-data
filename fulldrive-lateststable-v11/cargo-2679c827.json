@@ -1,0 +1,63 @@
+{
+  "id": "cargo-2679c827",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/microsoft/avml",
+    "organisation": "microsoft",
+    "name": "avml"
+  },
+  "pr": {
+    "url": "https://github.com/microsoft/avml/pull/489",
+    "number": 489,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f2d1c269654dccc1ff74492fc1585eb8402e5f79",
+    "post": "2679c82774de663845f8824b186f3726f3ef8cb8",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "h2",
+    "previousVersion": "0.3.24",
+    "newVersion": "0.3.26",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.77.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.77.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.77.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.70",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

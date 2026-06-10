@@ -1,0 +1,69 @@
+{
+  "id": "cargo-d9d48a76",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/ciehanski/kip",
+    "organisation": "ciehanski",
+    "name": "kip"
+  },
+  "pr": {
+    "url": "https://github.com/ciehanski/kip/pull/37",
+    "number": 37,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "543198481ff1d2c03e8b87ce8d77e4a228413d27",
+    "post": "d9d48a76dba824e6f2a3349c80ea8ca72c580d84",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "0.2.21",
+    "newVersion": "0.3.4",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.48.0-buster-20201231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.48.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.48.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0432",
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

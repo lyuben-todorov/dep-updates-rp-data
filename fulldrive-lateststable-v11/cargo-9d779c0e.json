@@ -1,0 +1,66 @@
+{
+  "id": "cargo-9d779c0e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/mahak/libra",
+    "organisation": "mahak",
+    "name": "libra"
+  },
+  "pr": {
+    "url": "https://github.com/mahak/libra/pull/247",
+    "number": 247,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "6bc1f4b715d3c99c6051aeb91bf4ad4ac9de9e41",
+    "post": "9d779c0e953386749208032b3c1f5c1c510124ab",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_yaml",
+    "previousVersion": "0.8.15",
+    "newVersion": "0.8.17",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.48.0-buster-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.48.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.48.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.48"
+  }
+}

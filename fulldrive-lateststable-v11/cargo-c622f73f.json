@@ -1,0 +1,66 @@
+{
+  "id": "cargo-c622f73f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/haicheviet/qdrant",
+    "organisation": "haicheviet",
+    "name": "qdrant"
+  },
+  "pr": {
+    "url": "https://github.com/haicheviet/qdrant/pull/23",
+    "number": 23,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7f4ff39201c595294d7a8041d3b89a8206c45bca",
+    "post": "c622f73ffae7abc168f707b29343b170b213b0eb",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "pprof",
+    "previousVersion": "0.6.2",
+    "newVersion": "0.9.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.61.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.61.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.61.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

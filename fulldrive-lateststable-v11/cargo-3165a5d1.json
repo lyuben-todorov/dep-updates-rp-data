@@ -1,0 +1,63 @@
+{
+  "id": "cargo-3165a5d1",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/influxdata/sinker",
+    "organisation": "influxdata",
+    "name": "sinker"
+  },
+  "pr": {
+    "url": "https://github.com/influxdata/sinker/pull/26",
+    "number": 26,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a00f24d3946602a7a803ba88cdc0cec19bfeaf4f",
+    "post": "3165a5d14590b53357a4df3f937d2f5e246067cf",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_yaml",
+    "previousVersion": "0.9.19",
+    "newVersion": "0.9.22",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.70.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.70.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.69.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.69"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.69",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

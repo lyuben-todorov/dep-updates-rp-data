@@ -1,0 +1,68 @@
+{
+  "id": "cargo-98fca3df",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/Mu-L/wasmer",
+    "organisation": "Mu-L",
+    "name": "wasmer"
+  },
+  "pr": {
+    "url": "https://github.com/Mu-L/wasmer/pull/149",
+    "number": 149,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b0311cdd2616aba66d6f4c10c7fedab35b87a576",
+    "post": "98fca3df5a5a169afda42ea918b52098f25a0e89",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "gimli",
+    "previousVersion": "0.22.0",
+    "newVersion": "0.23.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.50.0-buster-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.50.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.50.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0308"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

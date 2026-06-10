@@ -1,0 +1,63 @@
+{
+  "id": "cargo-2f182554",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mxsm/rocketmq-rust",
+    "organisation": "mxsm",
+    "name": "rocketmq-rust"
+  },
+  "pr": {
+    "url": "https://github.com/mxsm/rocketmq-rust/pull/689",
+    "number": 689,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7d938df45d5128881a5b9f4a65d4284b7f104aef",
+    "post": "2f1825547effeca96802ee879242086638ce1e5b",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "syn",
+    "previousVersion": "2.0.67",
+    "newVersion": "2.0.68",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.79.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.79.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.98.0-nightly",
+        "source": "floating_nondeterministic",
+        "channelDeclared": "nightly"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

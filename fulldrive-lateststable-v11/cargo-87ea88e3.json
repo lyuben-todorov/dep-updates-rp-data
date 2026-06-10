@@ -1,0 +1,63 @@
+{
+  "id": "cargo-87ea88e3",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mozilla-services/audit-filter",
+    "organisation": "mozilla-services",
+    "name": "audit-filter"
+  },
+  "pr": {
+    "url": "https://github.com/mozilla-services/audit-filter/pull/24",
+    "number": 24,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d1fa54fe8bec345403eef0c3a34ad4bc382bbe02",
+    "post": "87ea88e3dc17109e280f22dac6e71d868c44d6ee",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "wasm-bindgen",
+    "previousVersion": "0.2.34",
+    "newVersion": "0.2.36",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.32.0-stretch-20191231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.32.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.32.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

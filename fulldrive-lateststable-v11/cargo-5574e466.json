@@ -1,0 +1,63 @@
+{
+  "id": "cargo-5574e466",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/oxidecomputer/dropshot",
+    "organisation": "oxidecomputer",
+    "name": "dropshot"
+  },
+  "pr": {
+    "url": "https://github.com/oxidecomputer/dropshot/pull/951",
+    "number": 951,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8b442e7a3ec619a06a068c04eb5597fdde753b1b",
+    "post": "5574e4669e2a06d13db50d422bb66761d7dc6ae3",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.114",
+    "newVersion": "1.0.115",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.77.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.77.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.76.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.76.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.76",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

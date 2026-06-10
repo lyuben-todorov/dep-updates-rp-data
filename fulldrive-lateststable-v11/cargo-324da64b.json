@@ -1,0 +1,63 @@
+{
+  "id": "cargo-324da64b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Floppy/ruby-version-badger",
+    "organisation": "Floppy",
+    "name": "ruby-version-badger"
+  },
+  "pr": {
+    "url": "https://github.com/Floppy/ruby-version-badger/pull/285",
+    "number": 285,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "01fec5f4df48c709e4717049653de4f936910cd7",
+    "post": "324da64bd6a24d99b9332063d9bdfed908dcb6cb",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "wasm-bindgen",
+    "previousVersion": "0.2.65",
+    "newVersion": "0.2.67",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.44.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.44.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.44.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.44.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.44"
+  }
+}

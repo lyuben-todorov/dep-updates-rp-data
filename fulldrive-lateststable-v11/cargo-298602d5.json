@@ -1,0 +1,68 @@
+{
+  "id": "cargo-298602d5",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/gengle/chunkrs",
+    "organisation": "gengle",
+    "name": "chunkrs"
+  },
+  "pr": {
+    "url": "https://github.com/gengle/chunkrs/pull/1",
+    "number": 1,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "ae2e0c3cfaf2482d11399919a46b459dd8a56159",
+    "post": "298602d5863a0d00afb742f9cfe1cbaca58ff6d8",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rand",
+    "previousVersion": "0.8.5",
+    "newVersion": "0.9.3",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.94.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.94.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.94.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

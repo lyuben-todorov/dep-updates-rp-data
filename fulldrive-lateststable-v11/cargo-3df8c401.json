@@ -1,0 +1,68 @@
+{
+  "id": "cargo-3df8c401",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/ksonny/scribble-reader",
+    "organisation": "ksonny",
+    "name": "scribble-reader"
+  },
+  "pr": {
+    "url": "https://github.com/ksonny/scribble-reader/pull/4",
+    "number": 4,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8d5fdb4271631bc2c6dbb1dc5dd7e8db11fce38f",
+    "post": "3df8c4011d03043331e79bd31f797b9ff901240d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "egui-winit",
+    "previousVersion": "0.32.3",
+    "newVersion": "0.33.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.90.0-trixie-20251231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.90.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.98.0-nightly",
+        "source": "floating_nondeterministic",
+        "channelDeclared": "nightly"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0308"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

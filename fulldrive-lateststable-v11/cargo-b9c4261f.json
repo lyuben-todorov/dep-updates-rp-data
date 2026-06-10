@@ -1,0 +1,63 @@
+{
+  "id": "cargo-b9c4261f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mbj/mrs",
+    "organisation": "mbj",
+    "name": "mrs"
+  },
+  "pr": {
+    "url": "https://github.com/mbj/mrs/pull/328",
+    "number": 328,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "ab8f0abbf9edb83eb9ec146707c2d42202d32d88",
+    "post": "b9c4261f451d144f3be83928187c8bbefe4a59b9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "zip",
+    "previousVersion": "8.0.0",
+    "newVersion": "8.1.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.93.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.93.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.93.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.93"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.93",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.93"
+  }
+}

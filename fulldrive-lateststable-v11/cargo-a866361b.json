@@ -1,0 +1,72 @@
+{
+  "id": "cargo-a866361b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/kubewarden/kwctl",
+    "organisation": "kubewarden",
+    "name": "kwctl"
+  },
+  "pr": {
+    "url": "https://github.com/kubewarden/kwctl/pull/486",
+    "number": 486,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e25a88686f062adfe60a93a52a00151ca75d7080",
+    "post": "a866361b2c3e146d9c1d4de71e84c4ba1a8fae4c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "mdcat",
+    "previousVersion": "1.1.1",
+    "newVersion": "2.0.1",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.68.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0603",
+          "E0308",
+          "E0425",
+          "E0432",
+          "E0560"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

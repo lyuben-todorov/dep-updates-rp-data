@@ -1,0 +1,63 @@
+{
+  "id": "cargo-05e414e2",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/olix0r/ort",
+    "organisation": "olix0r",
+    "name": "ort"
+  },
+  "pr": {
+    "url": "https://github.com/olix0r/ort/pull/135",
+    "number": 135,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b21b6a8a03c9213b7cb2b593c06125f97cc68b92",
+    "post": "05e414e218fe96966228a269e035d9edf9a376c5",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "hyper",
+    "previousVersion": "0.14.16",
+    "newVersion": "0.14.17",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.58.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.58.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.58.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.58",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

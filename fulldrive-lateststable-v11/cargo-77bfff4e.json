@@ -1,0 +1,69 @@
+{
+  "id": "cargo-77bfff4e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/kachick/dprint-plugin-typstyle",
+    "organisation": "kachick",
+    "name": "dprint-plugin-typstyle"
+  },
+  "pr": {
+    "url": "https://github.com/kachick/dprint-plugin-typstyle/pull/146",
+    "number": 146,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "818bbf15ac6cb3a1bfa12d0a93df29d68eb5164c",
+    "post": "77bfff4eedb423cd5f2c3125397b0fcbe8f37e45",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "typstyle-core",
+    "previousVersion": "0.13.7",
+    "newVersion": "0.13.10",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.87.0-bookworm-20251231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.87.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.87.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0063",
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

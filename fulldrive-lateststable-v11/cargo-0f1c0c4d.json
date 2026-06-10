@@ -1,0 +1,63 @@
+{
+  "id": "cargo-0f1c0c4d",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Floppy/ruby-version-badger",
+    "organisation": "Floppy",
+    "name": "ruby-version-badger"
+  },
+  "pr": {
+    "url": "https://github.com/Floppy/ruby-version-badger/pull/237",
+    "number": 237,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "48dd841f785a62c50032681200a217a1d571e192",
+    "post": "0f1c0c4d78ee02adeae14efc3b48798ab3d98213",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.52",
+    "newVersion": "1.0.55",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.44.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.44.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.44.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.44.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.44",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

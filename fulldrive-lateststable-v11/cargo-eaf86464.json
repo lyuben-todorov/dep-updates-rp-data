@@ -1,0 +1,63 @@
+{
+  "id": "cargo-eaf86464",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/foresterre/imagineer",
+    "organisation": "foresterre",
+    "name": "imagineer"
+  },
+  "pr": {
+    "url": "https://github.com/foresterre/imagineer/pull/2299",
+    "number": 2299,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c0d5d090ca7388003a636092f9865f18c82424f3",
+    "post": "eaf8646431998f130a508af40c062123e6e066d8",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "proc-macro2",
+    "previousVersion": "1.0.93",
+    "newVersion": "1.0.94",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.79",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

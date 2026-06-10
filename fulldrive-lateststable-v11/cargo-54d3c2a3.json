@@ -1,0 +1,66 @@
+{
+  "id": "cargo-54d3c2a3",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/alsuren/mijia-homie",
+    "organisation": "alsuren",
+    "name": "mijia-homie"
+  },
+  "pr": {
+    "url": "https://github.com/alsuren/mijia-homie/pull/491",
+    "number": 491,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d67bb6e659491a3b271db108c631c66f9a81ad60",
+    "post": "54d3c2a3a85ab9fbb3430ec4caac530251f03b4c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "thiserror",
+    "previousVersion": "1.0.58",
+    "newVersion": "1.0.59",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.77.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.77.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.77.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

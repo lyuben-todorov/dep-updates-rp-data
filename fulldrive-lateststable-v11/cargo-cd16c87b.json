@@ -1,0 +1,63 @@
+{
+  "id": "cargo-cd16c87b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/ZoneCog/function-runner",
+    "organisation": "ZoneCog",
+    "name": "function-runner"
+  },
+  "pr": {
+    "url": "https://github.com/ZoneCog/function-runner/pull/11",
+    "number": 11,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8fc7ca48d6e6c5ea9a18c68356f769c663561c39",
+    "post": "cd16c87b5442896be95db1d3f1c17b6d1b4fbaf9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "deterministic-wasi-ctx",
+    "previousVersion": "0.1.24",
+    "newVersion": "0.1.26",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.80.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.80.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.80",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

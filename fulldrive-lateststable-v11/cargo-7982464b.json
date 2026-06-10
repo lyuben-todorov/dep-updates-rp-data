@@ -1,0 +1,63 @@
+{
+  "id": "cargo-7982464b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/nervosys/HyperMachine",
+    "organisation": "nervosys",
+    "name": "HyperMachine"
+  },
+  "pr": {
+    "url": "https://github.com/nervosys/HyperMachine/pull/29",
+    "number": 29,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "df7f56a61db79d411abee5557f6af04359541718",
+    "post": "7982464b0bcf55dc02bf3f634a18c774b8e6b005",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "aarch64-cpu",
+    "previousVersion": "9.4.0",
+    "newVersion": "11.2.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.95.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.95.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.96.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.95",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

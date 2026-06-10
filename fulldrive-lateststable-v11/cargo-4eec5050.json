@@ -1,0 +1,63 @@
+{
+  "id": "cargo-4eec5050",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/diem/diem",
+    "organisation": "diem",
+    "name": "diem"
+  },
+  "pr": {
+    "url": "https://github.com/diem/diem/pull/5111",
+    "number": 5111,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0e083380a04b7f5ad27fabc562840106427ad142",
+    "post": "4eec50507817d08ee2f3f9a11da01ea34f3ff89e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde-reflection",
+    "previousVersion": "0.3.0",
+    "newVersion": "0.3.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.44.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.44.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.44.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.44.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.44"
+  }
+}

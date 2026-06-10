@@ -1,0 +1,70 @@
+{
+  "id": "cargo-d1f370fd",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/DNSCrypt/encrypted-dns-server",
+    "organisation": "DNSCrypt",
+    "name": "encrypted-dns-server"
+  },
+  "pr": {
+    "url": "https://github.com/DNSCrypt/encrypted-dns-server/pull/297",
+    "number": 297,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "de5535f1dc5a5eeab6533a0f4e437fb983c6b863",
+    "post": "d1f370fd1b1abd7854a445643e6a151187e9b215",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "toml",
+    "previousVersion": "0.8.19",
+    "newVersion": "0.8.20",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.84.0-bookworm-20251231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.84.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0599",
+          "E0432",
+          "E0425"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

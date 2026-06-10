@@ -1,0 +1,63 @@
+{
+  "id": "cargo-89403fc9",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/VKCOM/swc-plugin-pre-paths",
+    "organisation": "VKCOM",
+    "name": "swc-plugin-pre-paths"
+  },
+  "pr": {
+    "url": "https://github.com/VKCOM/swc-plugin-pre-paths/pull/272",
+    "number": 272,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "caced2927f22b372cd859f4db71e23976f7eb390",
+    "post": "89403fc951d5c426a910b6dc9655f28fb9e54e40",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "redox_syscall",
+    "previousVersion": "0.5.12",
+    "newVersion": "0.5.13",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.87.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.87.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.88.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2025-05-06"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

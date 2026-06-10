@@ -1,0 +1,63 @@
+{
+  "id": "cargo-03fc4313",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/quinn-rs/quinn",
+    "organisation": "quinn-rs",
+    "name": "quinn"
+  },
+  "pr": {
+    "url": "https://github.com/quinn-rs/quinn/pull/2623",
+    "number": 2623,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f5fdc42f760b1475523c3514d3a0e0781fb6c72e",
+    "post": "03fc4313bf08ecd1dd3b1f25d7dbce5a771f59d0",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustls-pki-types",
+    "previousVersion": "1.14.0",
+    "newVersion": "1.14.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.95.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.95.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

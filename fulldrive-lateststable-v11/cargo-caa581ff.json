@@ -1,0 +1,63 @@
+{
+  "id": "cargo-caa581ff",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/edgehog-device-manager/edgehog-device-runtime",
+    "organisation": "edgehog-device-manager",
+    "name": "edgehog-device-runtime"
+  },
+  "pr": {
+    "url": "https://github.com/edgehog-device-manager/edgehog-device-runtime/pull/723",
+    "number": 723,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9efc16988a88efec867955c9c9d0ec16c562c68f",
+    "post": "caa581ff6270f4e865398eb432bb26fb55bc85d4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.50.0",
+    "newVersion": "1.51.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.94.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.94.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.94.1",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.94"
+  }
+}

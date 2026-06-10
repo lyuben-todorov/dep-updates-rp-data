@@ -1,0 +1,63 @@
+{
+  "id": "cargo-57da75cb",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/solana-labs/solana",
+    "organisation": "solana-labs",
+    "name": "solana"
+  },
+  "pr": {
+    "url": "https://github.com/solana-labs/solana/pull/4882",
+    "number": 4882,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4a02914b30d0e2632233cb6e26cfd608d9c7f05f",
+    "post": "57da75cb4cb2f845273d0148fba9ef4fdafddc0e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tempfile",
+    "previousVersion": "3.0.8",
+    "newVersion": "3.1.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.36.0-buster-20191231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.36.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.36.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

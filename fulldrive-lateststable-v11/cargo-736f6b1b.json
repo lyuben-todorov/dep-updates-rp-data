@@ -1,0 +1,63 @@
+{
+  "id": "cargo-736f6b1b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/nekevss/boa",
+    "organisation": "nekevss",
+    "name": "boa"
+  },
+  "pr": {
+    "url": "https://github.com/nekevss/boa/pull/323",
+    "number": 323,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3f5bad78885ae889e37844b303a91936eb1556d9",
+    "post": "736f6b1bce6ca5941e0a55abc1aa39a25d821714",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex",
+    "previousVersion": "1.8.1",
+    "newVersion": "1.8.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.69.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.69.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.69.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.66",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

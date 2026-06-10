@@ -1,0 +1,70 @@
+{
+  "id": "cargo-54a393fc",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/dfinity/evm-rpc-canister",
+    "organisation": "dfinity",
+    "name": "evm-rpc-canister"
+  },
+  "pr": {
+    "url": "https://github.com/dfinity/evm-rpc-canister/pull/12",
+    "number": 12,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b759724a69cd7ff933f5539a4a669d586d3ecfe3",
+    "post": "54a393fcba44611ce1c537c2f71fb201868766be",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "candid",
+    "previousVersion": "0.8.4",
+    "newVersion": "0.9.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.70.0-bookworm-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.70.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.70.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.70.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0308",
+          "E0432"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.70",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

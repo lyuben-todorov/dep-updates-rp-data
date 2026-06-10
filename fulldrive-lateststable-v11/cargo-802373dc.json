@@ -1,0 +1,63 @@
+{
+  "id": "cargo-802373dc",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/MaterializeInc/materialize",
+    "organisation": "MaterializeInc",
+    "name": "materialize"
+  },
+  "pr": {
+    "url": "https://github.com/MaterializeInc/materialize/pull/2378",
+    "number": 2378,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cf17f4776d1d8f44f2e2ee43019ff0664749b0cd",
+    "post": "802373dc13ca7350862cff6112767d923453ea99",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.67",
+    "newVersion": "0.2.68",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.41.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.41.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.41.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.41.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.41"
+  }
+}

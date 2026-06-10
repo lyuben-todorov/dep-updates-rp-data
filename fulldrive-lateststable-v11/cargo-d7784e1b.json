@@ -1,0 +1,66 @@
+{
+  "id": "cargo-d7784e1b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/lichess-org/lila-ip2proxy",
+    "organisation": "lichess-org",
+    "name": "lila-ip2proxy"
+  },
+  "pr": {
+    "url": "https://github.com/lichess-org/lila-ip2proxy/pull/19",
+    "number": 19,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "66b00c6c8bdb9734e2125345fbf6ba54cb583265",
+    "post": "d7784e1b68e5338e78d4207ecb82c1b995ce2603",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "0.2.22",
+    "newVersion": "0.3.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.47.0-buster-20201231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.47.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.47.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

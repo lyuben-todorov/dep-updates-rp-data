@@ -1,0 +1,63 @@
+{
+  "id": "cargo-5f9128a9",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/tremor-rs/tremor-language-server",
+    "organisation": "tremor-rs",
+    "name": "tremor-language-server"
+  },
+  "pr": {
+    "url": "https://github.com/tremor-rs/tremor-language-server/pull/245",
+    "number": 245,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b705a286d640c5adbd83c1ed95d768ed0b086bfc",
+    "post": "5f9128a92afdeeae9a7cc8868d9505b56b263f6e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.79",
+    "newVersion": "1.0.80",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.57.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.57.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.57",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

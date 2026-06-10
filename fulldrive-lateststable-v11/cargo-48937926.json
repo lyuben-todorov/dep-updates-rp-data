@@ -1,0 +1,63 @@
+{
+  "id": "cargo-48937926",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/svenstaro/miniserve",
+    "organisation": "svenstaro",
+    "name": "miniserve"
+  },
+  "pr": {
+    "url": "https://github.com/svenstaro/miniserve/pull/356",
+    "number": 356,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "57955278e5f5fa2ec28bec8b00e0854c610d2209",
+    "post": "48937926382c4075b1426afba0fd942ea3fa40d9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "strum",
+    "previousVersion": "0.18.0",
+    "newVersion": "0.19.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.45.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.45.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.47.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2020-07-20"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

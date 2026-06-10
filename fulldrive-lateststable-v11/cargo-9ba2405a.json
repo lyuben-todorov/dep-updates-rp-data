@@ -1,0 +1,70 @@
+{
+  "id": "cargo-9ba2405a",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/shadow/shadow",
+    "organisation": "shadow",
+    "name": "shadow"
+  },
+  "pr": {
+    "url": "https://github.com/shadow/shadow/pull/3712",
+    "number": 3712,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "066b03eec28b6b3cf557bdf6a66ad1c6891ae8e5",
+    "post": "9ba2405a69efa8aadc44e6cc0f1baf84ba58f976",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustix",
+    "previousVersion": "0.38.44",
+    "newVersion": "1.1.3",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0433",
+          "E0423",
+          "E0425"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

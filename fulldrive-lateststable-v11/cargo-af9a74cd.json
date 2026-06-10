@@ -1,0 +1,69 @@
+{
+  "id": "cargo-af9a74cd",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/allancalix/git-fmt",
+    "organisation": "allancalix",
+    "name": "git-fmt"
+  },
+  "pr": {
+    "url": "https://github.com/allancalix/git-fmt/pull/3",
+    "number": 3,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "6d01f37230a10cf4e73f8bb61968d7fe356f6fdd",
+    "post": "af9a74cdb22769e39ac6f44bd8c0a62035fd438f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "git2",
+    "previousVersion": "0.13.0",
+    "newVersion": "0.13.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.42.0-buster-20201231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.42.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.42.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0425",
+          "E0531"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

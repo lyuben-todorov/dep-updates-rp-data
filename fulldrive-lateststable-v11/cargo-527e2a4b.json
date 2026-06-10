@@ -1,0 +1,63 @@
+{
+  "id": "cargo-527e2a4b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/thomaseizinger/rendezvous-server",
+    "organisation": "thomaseizinger",
+    "name": "rendezvous-server"
+  },
+  "pr": {
+    "url": "https://github.com/thomaseizinger/rendezvous-server/pull/16",
+    "number": 16,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e4706259314227628f98868e9d1bf7d8bb44cab0",
+    "post": "527e2a4be9a654f77926d969f4ae4be36134e390",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.8.0",
+    "newVersion": "1.11.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.53.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.53.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.53.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.53"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.53"
+  }
+}

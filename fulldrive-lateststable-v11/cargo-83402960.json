@@ -1,0 +1,69 @@
+{
+  "id": "cargo-83402960",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/Corban-Dallas/clifolio",
+    "organisation": "Corban-Dallas",
+    "name": "clifolio"
+  },
+  "pr": {
+    "url": "https://github.com/Corban-Dallas/clifolio/pull/1",
+    "number": 1,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "36ce884bf9d8a05e98c1907057acc3f5dbe53b04",
+    "post": "83402960d62da7cc4de96ab36ed0a64554a75211",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ratatui",
+    "previousVersion": "0.29.0",
+    "newVersion": "0.30.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.93.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.93.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.93.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-d2e2392f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/aleph-zero-foundation/AlephBFT",
+    "organisation": "aleph-zero-foundation",
+    "name": "AlephBFT"
+  },
+  "pr": {
+    "url": "https://github.com/aleph-zero-foundation/AlephBFT/pull/65",
+    "number": 65,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "64b9b2c37e8f1624257414859a073c67b47bfece",
+    "post": "d2e2392f3bad6a40adaf757274f3c16ca1464ac6",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "sha3",
+    "previousVersion": "0.9.1",
+    "newVersion": "0.10.5",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.63.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.63.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.63.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2022-05-23"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

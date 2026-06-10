@@ -1,0 +1,63 @@
+{
+  "id": "cargo-83ff8c6a",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/JamesLaverack/mrpack-container",
+    "organisation": "JamesLaverack",
+    "name": "mrpack-container"
+  },
+  "pr": {
+    "url": "https://github.com/JamesLaverack/mrpack-container/pull/44",
+    "number": 44,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f0cacc982f9210070693b5689ac1c3c06dccc1f3",
+    "post": "83ff8c6a15d6472190710399814ed1ef2004ea69",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex",
+    "previousVersion": "1.10.5",
+    "newVersion": "1.10.6",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.80.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.80.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.78.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.78.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.78",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "cargo-1f18bdfd",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/openshift/cincinnati",
+    "organisation": "openshift",
+    "name": "cincinnati"
+  },
+  "pr": {
+    "url": "https://github.com/openshift/cincinnati/pull/400",
+    "number": 400,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "2b6d395ec8fee69a19092bf54c9afb678d03d8e5",
+    "post": "1f18bdfdaf58459ba788f898b9722931e75bb988",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "async-stream",
+    "previousVersion": "0.2.1",
+    "newVersion": "0.3.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.51.0-buster-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.51.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.51.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

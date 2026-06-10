@@ -1,0 +1,69 @@
+{
+  "id": "cargo-d5087041",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/AlexEne/twiggy",
+    "organisation": "AlexEne",
+    "name": "twiggy"
+  },
+  "pr": {
+    "url": "https://github.com/AlexEne/twiggy/pull/494",
+    "number": 494,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1f39375264caa03a8b89997681b615fa7797d6ee",
+    "post": "d508704168bdad3fd8ea053b9c90d6002bcefa2e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "object",
+    "previousVersion": "0.17.0",
+    "newVersion": "0.21.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.45.0-buster-20201231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.45.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.45.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

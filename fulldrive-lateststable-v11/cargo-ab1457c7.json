@@ -1,0 +1,71 @@
+{
+  "id": "cargo-ab1457c7",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/gearbot/Security-Hall",
+    "organisation": "gearbot",
+    "name": "Security-Hall"
+  },
+  "pr": {
+    "url": "https://github.com/gearbot/Security-Hall/pull/48",
+    "number": 48,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7a9caa7a14d1c5fb63f9fa918e6f8443b55d8c49",
+    "post": "ab1457c72e84e6d3b6973c63d5048bf0045ca320",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "warp",
+    "previousVersion": "0.1.19",
+    "newVersion": "0.2.5",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.46.0-buster-20201231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.46.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.46.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0308",
+          "E0425",
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-a233ba23",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/junction-labs/junction-client",
+    "organisation": "junction-labs",
+    "name": "junction-client"
+  },
+  "pr": {
+    "url": "https://github.com/junction-labs/junction-client/pull/74",
+    "number": 74,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "fc59285d6ab0ae753d8634f1b4e8ed986c4bc3b0",
+    "post": "a233ba23f321ef61db5eda63091331ae1330272e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "syn",
+    "previousVersion": "2.0.85",
+    "newVersion": "2.0.87",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.82.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.79",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

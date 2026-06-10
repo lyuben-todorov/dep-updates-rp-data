@@ -1,0 +1,63 @@
+{
+  "id": "cargo-e137e919",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/diffed-places/pipeline",
+    "organisation": "diffed-places",
+    "name": "pipeline"
+  },
+  "pr": {
+    "url": "https://github.com/diffed-places/pipeline/pull/268",
+    "number": 268,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e193abf1eaa6fe598ffe009588a9d84a385bfd12",
+    "post": "e137e919386bcd8d1c2536bd0d68d179405680c9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "reqwest",
+    "previousVersion": "0.13.3",
+    "newVersion": "0.13.4",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.95.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.95.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-93301902",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/MaterializeInc/k8s-eip-operator",
+    "organisation": "MaterializeInc",
+    "name": "k8s-eip-operator"
+  },
+  "pr": {
+    "url": "https://github.com/MaterializeInc/k8s-eip-operator/pull/105",
+    "number": 105,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b5a3a6664db1492d45950bcd44b7c3d74c124fa5",
+    "post": "933019023dc1545d81019e52e98fb55e2c62b323",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tracing-subscriber",
+    "previousVersion": "0.3.5",
+    "newVersion": "0.3.6",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.58.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.58.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.56.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

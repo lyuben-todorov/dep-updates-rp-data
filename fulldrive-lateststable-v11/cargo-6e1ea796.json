@@ -1,0 +1,66 @@
+{
+  "id": "cargo-6e1ea796",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/neodyland/cloud-shell",
+    "organisation": "neodyland",
+    "name": "cloud-shell"
+  },
+  "pr": {
+    "url": "https://github.com/neodyland/cloud-shell/pull/46",
+    "number": 46,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a80d816851873c78119846ee17c7afab76c1c47d",
+    "post": "6e1ea796f31c992ced0e83f2db417333c51d9036",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "kube",
+    "previousVersion": "0.93.1",
+    "newVersion": "0.96.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.81.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.81.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.81.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "BUILD_EXECUTION",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

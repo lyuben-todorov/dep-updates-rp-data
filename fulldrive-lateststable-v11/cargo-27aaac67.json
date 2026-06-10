@@ -1,0 +1,63 @@
+{
+  "id": "cargo-27aaac67",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/kaspar030/laze",
+    "organisation": "kaspar030",
+    "name": "laze"
+  },
+  "pr": {
+    "url": "https://github.com/kaspar030/laze/pull/232",
+    "number": 232,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "fb3a4c3668edc0e48ac3ec927a3d6220e0acc765",
+    "post": "27aaac67b465f933921b35e8f435057db89de60e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_yaml",
+    "previousVersion": "0.9.21",
+    "newVersion": "0.9.22",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.70.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.70.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.70.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.64",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

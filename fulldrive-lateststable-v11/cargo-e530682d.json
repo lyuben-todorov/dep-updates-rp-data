@@ -1,0 +1,68 @@
+{
+  "id": "cargo-e530682d",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/schani-rs/schani_library",
+    "organisation": "schani-rs",
+    "name": "schani_library"
+  },
+  "pr": {
+    "url": "https://github.com/schani-rs/schani_library/pull/11",
+    "number": 11,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d5e97e20337f70ab4fcbf0a842ffd98c0436f269",
+    "post": "e530682d0990d9aee77386680cc83516085a01e7",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "fern",
+    "previousVersion": "0.4.3",
+    "newVersion": "0.5.5",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.25.0-stretch-20181231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.25.0",
+        "sourceDateEpoch": 1546214400,
+        "aptSnapshot": "20181231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.25.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0308"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

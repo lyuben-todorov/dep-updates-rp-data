@@ -1,0 +1,63 @@
+{
+  "id": "cargo-afd42c3f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+    "organisation": "cloud-hypervisor",
+    "name": "cloud-hypervisor"
+  },
+  "pr": {
+    "url": "https://github.com/cloud-hypervisor/cloud-hypervisor/pull/6045",
+    "number": 6045,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b5ea8b7b020be1eb3ea667a47a7338754c41a834",
+    "post": "afd42c3f3b9e752df20d7d094b9889298b32530f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.150",
+    "newVersion": "0.2.151",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.74.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.70",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

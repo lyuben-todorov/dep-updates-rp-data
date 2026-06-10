@@ -1,0 +1,73 @@
+{
+  "id": "cargo-0d43d253",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/stateset/stateset-starks",
+    "organisation": "stateset",
+    "name": "stateset-starks"
+  },
+  "pr": {
+    "url": "https://github.com/stateset/stateset-starks/pull/11",
+    "number": 11,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "597de77c5f8ea0f7f4c9a76fb801c303cadf9fcf",
+    "post": "0d43d253e1389dcc1291b8c4a2f6c023a18cbc99",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "winter-prover",
+    "previousVersion": "0.10.3",
+    "newVersion": "0.13.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.90.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.90.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.90.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.90.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0053",
+          "E0276",
+          "E0308",
+          "E0046",
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.90",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.90"
+  }
+}

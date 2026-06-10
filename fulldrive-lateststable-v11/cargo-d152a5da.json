@@ -1,0 +1,66 @@
+{
+  "id": "cargo-d152a5da",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/rsksmart/safe-client-gateway",
+    "organisation": "rsksmart",
+    "name": "safe-client-gateway"
+  },
+  "pr": {
+    "url": "https://github.com/rsksmart/safe-client-gateway/pull/12",
+    "number": 12,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7afde5b4a837d7d030fb4a264a9c857d29f7bf9c",
+    "post": "d152a5da59447bc74ba55b4c7ced2e62d276acbc",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "h2",
+    "previousVersion": "0.3.3",
+    "newVersion": "0.3.17",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.54.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-05-21"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "OTHER",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "cargo-f82e5be0",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/passy/revmenu",
+    "organisation": "passy",
+    "name": "revmenu"
+  },
+  "pr": {
+    "url": "https://github.com/passy/revmenu/pull/21",
+    "number": 21,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c2e7ec6197e5e3f2665340abd92583b3584c5b85",
+    "post": "f82e5be0c58177e8190c5a03647fffcc728b7d81",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "im",
+    "previousVersion": "10.2.0",
+    "newVersion": "12.3.1",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.33.0-stretch-20191231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.33.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.33.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0432"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

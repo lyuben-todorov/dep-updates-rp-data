@@ -1,0 +1,63 @@
+{
+  "id": "cargo-246a5d93",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mmangkad/dns-benchmark",
+    "organisation": "mmangkad",
+    "name": "dns-benchmark"
+  },
+  "pr": {
+    "url": "https://github.com/mmangkad/dns-benchmark/pull/36",
+    "number": 36,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0c66d28886baaa830fcd9769f9a7cd2f62cd1266",
+    "post": "246a5d93f811441ae3bd1ed74bd320257efa5c87",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.51.0",
+    "newVersion": "1.51.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.92",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.92"
+  }
+}

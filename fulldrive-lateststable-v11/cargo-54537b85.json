@@ -1,0 +1,63 @@
+{
+  "id": "cargo-54537b85",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/tomaka/redshirt",
+    "organisation": "tomaka",
+    "name": "redshirt"
+  },
+  "pr": {
+    "url": "https://github.com/tomaka/redshirt/pull/985",
+    "number": 985,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4e43fb1dc20c1a079f57c928228371c198e93c39",
+    "post": "54537b8563c552cb075fff07ae8891d44d2f8b0a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "structopt",
+    "previousVersion": "0.3.23",
+    "newVersion": "0.3.25",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.55.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.55.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.54.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-05-22"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

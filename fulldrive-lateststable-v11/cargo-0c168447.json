@@ -1,0 +1,63 @@
+{
+  "id": "cargo-0c168447",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/linkerd/linkerd-await",
+    "organisation": "linkerd",
+    "name": "linkerd-await"
+  },
+  "pr": {
+    "url": "https://github.com/linkerd/linkerd-await/pull/100",
+    "number": 100,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a3df6722e076720cd929bd00b49c44b2a2e96728",
+    "post": "0c168447db0df3cc79f9a36d1131947690390c96",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "autocfg",
+    "previousVersion": "1.0.1",
+    "newVersion": "1.1.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.58.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.58.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.57.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.57.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.57",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

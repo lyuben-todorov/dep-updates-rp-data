@@ -1,0 +1,63 @@
+{
+  "id": "cargo-ded0ce15",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/oxidecomputer/serde_tokenstream",
+    "organisation": "oxidecomputer",
+    "name": "serde_tokenstream"
+  },
+  "pr": {
+    "url": "https://github.com/oxidecomputer/serde_tokenstream/pull/88",
+    "number": 88,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "089e56f5964202201d903a2f0681501f1ceffda9",
+    "post": "ded0ce15899e3c5b31e7690285b0203fea965c76",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "proc-macro2",
+    "previousVersion": "1.0.49",
+    "newVersion": "1.0.50",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.66.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.66.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.66.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.66"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.66",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

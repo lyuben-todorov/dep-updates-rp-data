@@ -1,0 +1,63 @@
+{
+  "id": "cargo-33dff9fe",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/CenterDevice/ceres",
+    "organisation": "CenterDevice",
+    "name": "ceres"
+  },
+  "pr": {
+    "url": "https://github.com/CenterDevice/ceres/pull/60",
+    "number": 60,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "41528795cd09f7eea836b51655de421c46721c75",
+    "post": "33dff9fe1cf62e01f506996fa0e28231fb01eb7f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "log",
+    "previousVersion": "0.4.1",
+    "newVersion": "0.4.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.27.0-stretch-20181231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.27.0",
+        "sourceDateEpoch": 1546214400,
+        "aptSnapshot": "20181231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.27.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-355df8cf",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/servo/servo",
+    "organisation": "servo",
+    "name": "servo"
+  },
+  "pr": {
+    "url": "https://github.com/servo/servo/pull/35838",
+    "number": 35838,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e9286979829c8eddcecc9b6c38fb1e61420b6131",
+    "post": "355df8cf6cb9217436121e599b1dfec13e0bf91d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "egui_glow",
+    "previousVersion": "0.31.0",
+    "newVersion": "0.31.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.85.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-4d0b1d63",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/traffloat/traffloat",
+    "organisation": "traffloat",
+    "name": "traffloat"
+  },
+  "pr": {
+    "url": "https://github.com/traffloat/traffloat/pull/50",
+    "number": 50,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "57c8dbc304736e37b53fb5e7b23f2b6fdb9fc699",
+    "post": "4d0b1d63b90ece5376a25e63c67ac3c8356d7fdb",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "nalgebra",
+    "previousVersion": "0.25.2",
+    "newVersion": "0.25.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.50.0-buster-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.50.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.52.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-02-12"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

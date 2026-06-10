@@ -1,0 +1,74 @@
+{
+  "id": "cargo-801818cf",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/SierraSoftworks/rex-rs",
+    "organisation": "SierraSoftworks",
+    "name": "rex-rs"
+  },
+  "pr": {
+    "url": "https://github.com/SierraSoftworks/rex-rs/pull/112",
+    "number": 112,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a236eed7b4bff375fc45c358c2793b687edd8849",
+    "post": "801818cfbc4b9c67a1feaf6ea1002cf46250be73",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "actix-http",
+    "previousVersion": "3.0.0-beta.3",
+    "newVersion": "3.0.0-beta.4",
+    "versionUpdateType": "other",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.50.0-buster-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.50.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.50.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0432",
+          "E0576",
+          "E0282",
+          "E0277",
+          "E0308",
+          "E0407",
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

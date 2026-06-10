@@ -1,0 +1,68 @@
+{
+  "id": "cargo-bbe4444a",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/rust-minidump/rust-minidump",
+    "organisation": "rust-minidump",
+    "name": "rust-minidump"
+  },
+  "pr": {
+    "url": "https://github.com/rust-minidump/rust-minidump/pull/975",
+    "number": 975,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e7ecb41676e4a21a9a7c804df050ad277e684d6b",
+    "post": "bbe4444a2938784c7ca84d3216077cabd9f1d91c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "object",
+    "previousVersion": "0.32.2",
+    "newVersion": "0.34.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.76.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.76.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.76.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-f9f1ae96",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/contentauth/c2pa-attacks",
+    "organisation": "contentauth",
+    "name": "c2pa-attacks"
+  },
+  "pr": {
+    "url": "https://github.com/contentauth/c2pa-attacks/pull/228",
+    "number": 228,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "16e099ae483d9bfc7c778bb5ea3f9684d18795b8",
+    "post": "f9f1ae964a390fb981ddbc579b843496875efed0",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tempfile",
+    "previousVersion": "3.13.0",
+    "newVersion": "3.14.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.82.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.68",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

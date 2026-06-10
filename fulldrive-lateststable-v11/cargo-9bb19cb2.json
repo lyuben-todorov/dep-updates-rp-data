@@ -1,0 +1,63 @@
+{
+  "id": "cargo-9bb19cb2",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/ChanTsune/Portable-Network-Archive",
+    "organisation": "ChanTsune",
+    "name": "Portable-Network-Archive"
+  },
+  "pr": {
+    "url": "https://github.com/ChanTsune/Portable-Network-Archive/pull/1273",
+    "number": 1273,
+    "author": "ChanTsune",
+    "authorType": "human",
+    "botType": null,
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e93dfd106391fc9a155adc6450203df628e9932c",
+    "post": "9bb19cb271c3cad738deccd3f42537db6dcedd33",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "wasm-bindgen",
+    "previousVersion": "0.2.92",
+    "newVersion": "0.2.97",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.83.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.83.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.83.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

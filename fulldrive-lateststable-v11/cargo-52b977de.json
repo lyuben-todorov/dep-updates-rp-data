@@ -1,0 +1,63 @@
+{
+  "id": "cargo-52b977de",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/uutils/coreutils",
+    "organisation": "uutils",
+    "name": "coreutils"
+  },
+  "pr": {
+    "url": "https://github.com/uutils/coreutils/pull/3967",
+    "number": 3967,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1e268b1a8f7248ecad1357a2519dff017809b1cc",
+    "post": "52b977de79fd616962726d99ebd26fdbb0e2d9c5",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "md-5",
+    "previousVersion": "0.10.4",
+    "newVersion": "0.10.5",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.64.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.64.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.64.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.59",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

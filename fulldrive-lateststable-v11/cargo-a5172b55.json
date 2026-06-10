@@ -1,0 +1,70 @@
+{
+  "id": "cargo-a5172b55",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/dignifiedquire/cx448",
+    "organisation": "dignifiedquire",
+    "name": "cx448"
+  },
+  "pr": {
+    "url": "https://github.com/dignifiedquire/cx448/pull/23",
+    "number": 23,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "58785c9ea154f646d03ccec4185f0a1ffa1c67e5",
+    "post": "a5172b5517c1bf0fe4b47f607a67fc501df7baf4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rand_core",
+    "previousVersion": "0.6.4",
+    "newVersion": "0.9.5",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0432",
+          "E0425"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.83",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

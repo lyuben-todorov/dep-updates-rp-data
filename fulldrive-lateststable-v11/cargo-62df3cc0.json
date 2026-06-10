@@ -1,0 +1,68 @@
+{
+  "id": "cargo-62df3cc0",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/MaterializeInc/k8s-eip-operator",
+    "organisation": "MaterializeInc",
+    "name": "k8s-eip-operator"
+  },
+  "pr": {
+    "url": "https://github.com/MaterializeInc/k8s-eip-operator/pull/87",
+    "number": 87,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "98846a8721dac9ea48ff823e849835087dd5c3b5",
+    "post": "62df3cc06727d7ccb20f1ee9dd33dd4d5de6cfa7",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "aws-config",
+    "previousVersion": "0.2.0",
+    "newVersion": "0.3.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.56.0-bullseye-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.56.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.56.1"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0308"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.56"
+  }
+}

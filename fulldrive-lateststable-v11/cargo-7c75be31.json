@@ -1,0 +1,63 @@
+{
+  "id": "cargo-7c75be31",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/William3Johnson/helix",
+    "organisation": "William3Johnson",
+    "name": "helix"
+  },
+  "pr": {
+    "url": "https://github.com/William3Johnson/helix/pull/11",
+    "number": 11,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "801984c7fc2cd3f4072f1bdf42c5fbfe1a634348",
+    "post": "7c75be313636fc186e22cb4132d6ca10dbfe8763",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde",
+    "previousVersion": "1.0.145",
+    "newVersion": "1.0.149",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.65.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.65.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.61.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.61.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.61",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

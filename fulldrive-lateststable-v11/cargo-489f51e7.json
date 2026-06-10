@@ -1,0 +1,63 @@
+{
+  "id": "cargo-489f51e7",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/eza-community/eza",
+    "organisation": "eza-community",
+    "name": "eza"
+  },
+  "pr": {
+    "url": "https://github.com/eza-community/eza/pull/122",
+    "number": 122,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "95796b10191425cb5269b7aabbcaf655a0716d8b",
+    "post": "489f51e7cf6ee505c983abe6f11a02559c71fb29",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "log",
+    "previousVersion": "0.4.14",
+    "newVersion": "0.4.20",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.71.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.71.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.98.0-nightly",
+        "source": "floating_nondeterministic",
+        "channelDeclared": "nightly"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.70",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

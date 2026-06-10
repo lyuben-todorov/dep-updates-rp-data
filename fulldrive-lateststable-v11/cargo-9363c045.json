@@ -1,0 +1,63 @@
+{
+  "id": "cargo-9363c045",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/slowli/jwt-compact",
+    "organisation": "slowli",
+    "name": "jwt-compact"
+  },
+  "pr": {
+    "url": "https://github.com/slowli/jwt-compact/pull/178",
+    "number": 178,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "defd133d9278d0714f98a8694e3e3a46acddf936",
+    "post": "9363c045b56d2099f7492fd3d92b168baaa98a6a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ed25519-dalek",
+    "previousVersion": "2.0.0",
+    "newVersion": "2.1.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.74.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.65",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-9326d70b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/helix-editor/helix",
+    "organisation": "helix-editor",
+    "name": "helix"
+  },
+  "pr": {
+    "url": "https://github.com/helix-editor/helix/pull/6462",
+    "number": 6462,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "198ff2c3f9c56afe4649cc0ecbb09ded5fd4a7c7",
+    "post": "9326d70b1c0e6c28aea7500d4bc45dc6fe762998",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.69",
+    "newVersion": "1.0.70",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.65.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.65.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.65",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

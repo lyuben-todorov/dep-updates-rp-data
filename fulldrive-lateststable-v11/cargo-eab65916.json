@@ -1,0 +1,63 @@
+{
+  "id": "cargo-eab65916",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/boa-dev/boa",
+    "organisation": "boa-dev",
+    "name": "boa"
+  },
+  "pr": {
+    "url": "https://github.com/boa-dev/boa/pull/2510",
+    "number": 2510,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f216a6dda9076185a6f9247b015d3649497b96c7",
+    "post": "eab65916eec5802503bc9533a622afae7e48ac1e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "once_cell",
+    "previousVersion": "1.16.0",
+    "newVersion": "1.17.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.66.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.66.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.66.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.66",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

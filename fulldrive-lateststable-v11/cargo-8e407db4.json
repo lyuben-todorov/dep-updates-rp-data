@@ -1,0 +1,63 @@
+{
+  "id": "cargo-8e407db4",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/crate-ci/stager",
+    "organisation": "crate-ci",
+    "name": "stager"
+  },
+  "pr": {
+    "url": "https://github.com/crate-ci/stager/pull/36",
+    "number": 36,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b263f438120e9fcb63525f024831d99ee2240f78",
+    "post": "8e407db44fac04654b8586300548b522a30618a0",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "log",
+    "previousVersion": "0.4.2",
+    "newVersion": "0.4.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.27.0-stretch-20181231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.27.0",
+        "sourceDateEpoch": 1546214400,
+        "aptSnapshot": "20181231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.27.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "cargo-bbf8169d",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/Chia-Network/chia_rs",
+    "organisation": "Chia-Network",
+    "name": "chia_rs"
+  },
+  "pr": {
+    "url": "https://github.com/Chia-Network/chia_rs/pull/741",
+    "number": 741,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "519a82e165cd307d6be7f01bcd15d6fe4b129366",
+    "post": "bbf8169dcbc478cd5367719b03e86162ce053951",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "syn",
+    "previousVersion": "2.0.75",
+    "newVersion": "2.0.79",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.79.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.79.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.79",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

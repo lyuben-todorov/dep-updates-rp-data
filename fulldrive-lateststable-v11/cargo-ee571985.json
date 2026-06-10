@@ -1,0 +1,63 @@
+{
+  "id": "cargo-ee571985",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/pablo-rod-ba/custom-substrate-node",
+    "organisation": "pablo-rod-ba",
+    "name": "custom-substrate-node"
+  },
+  "pr": {
+    "url": "https://github.com/pablo-rod-ba/custom-substrate-node/pull/11",
+    "number": 11,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "032e5bdcb8feb71e3bfa7a4b84d07743ef8be8e3",
+    "post": "ee5719859c3d291ced73512bfccba018caddb9f6",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.3.19",
+    "newVersion": "4.4.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.72.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.72.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.71.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2023-05-22"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-58ad767f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/littlekign/shadowsocks-rust",
+    "organisation": "littlekign",
+    "name": "shadowsocks-rust"
+  },
+  "pr": {
+    "url": "https://github.com/littlekign/shadowsocks-rust/pull/8",
+    "number": 8,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "51ddb519f934a04fe3c87576ed9ed3fa9d72eb50",
+    "post": "58ad767f714a3211cf809b62911bcd02f1b370ad",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "hyper",
+    "previousVersion": "0.14.12",
+    "newVersion": "0.14.13",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.55.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.55.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-07-29"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

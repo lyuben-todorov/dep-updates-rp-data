@@ -1,0 +1,63 @@
+{
+  "id": "cargo-a0f4d1ad",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/cobalt-org/cobalt.rs",
+    "organisation": "cobalt-org",
+    "name": "cobalt.rs"
+  },
+  "pr": {
+    "url": "https://github.com/cobalt-org/cobalt.rs/pull/419",
+    "number": 419,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "2e3fdb37f21949a58501359b78bed2e849f03510",
+    "post": "a0f4d1ad4d5648066b8600160b832099b117c6b7",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "2.31.1",
+    "newVersion": "2.31.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.25.0-stretch-20181231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.25.0",
+        "sourceDateEpoch": 1546214400,
+        "aptSnapshot": "20181231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.25.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

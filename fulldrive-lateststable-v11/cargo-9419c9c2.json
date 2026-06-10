@@ -1,0 +1,63 @@
+{
+  "id": "cargo-9419c9c2",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/awslabs/cargo-check-external-types",
+    "organisation": "awslabs",
+    "name": "cargo-check-external-types"
+  },
+  "pr": {
+    "url": "https://github.com/awslabs/cargo-check-external-types/pull/217",
+    "number": 217,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f12d96dd9dd546d8b4c3abe9e2a512bc86fa1c8a",
+    "post": "9419c9c2afd541eecab81168ef10fe54fd0d2de0",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde",
+    "previousVersion": "1.0.217",
+    "newVersion": "1.0.219",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2024-10-29"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-09130861",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/oxidecomputer/dropshot",
+    "organisation": "oxidecomputer",
+    "name": "dropshot"
+  },
+  "pr": {
+    "url": "https://github.com/oxidecomputer/dropshot/pull/305",
+    "number": 305,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0590171143964e32d913113df85174771d4699d9",
+    "post": "09130861c051c5b3a87fb1b9e802c03f81272b17",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "hyper",
+    "previousVersion": "0.14.17",
+    "newVersion": "0.14.18",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.59.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.59.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.58.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.58.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.58",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

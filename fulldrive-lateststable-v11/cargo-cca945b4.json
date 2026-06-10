@@ -1,0 +1,66 @@
+{
+  "id": "cargo-cca945b4",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/traffloat/traffloat",
+    "organisation": "traffloat",
+    "name": "traffloat"
+  },
+  "pr": {
+    "url": "https://github.com/traffloat/traffloat/pull/314",
+    "number": 314,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "74597939b19fc43fc48126fdcb1ca923762baf62",
+    "post": "cca945b49fbb9cdb72c20a378e7bfafc24b8eb8c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rmp-serde",
+    "previousVersion": "0.15.5",
+    "newVersion": "1.1.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.59.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2022-01-01"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

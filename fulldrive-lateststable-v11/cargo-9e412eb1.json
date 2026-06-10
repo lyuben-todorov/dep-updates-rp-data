@@ -1,0 +1,63 @@
+{
+  "id": "cargo-9e412eb1",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/robertpsoane/ducker",
+    "organisation": "robertpsoane",
+    "name": "ducker"
+  },
+  "pr": {
+    "url": "https://github.com/robertpsoane/ducker/pull/212",
+    "number": 212,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d707592cf9a0431aa0949028a2e6b4758b37b691",
+    "post": "9e412eb1c5dff41886ae2f7b462619c2e27f038c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tempfile",
+    "previousVersion": "3.21.0",
+    "newVersion": "3.22.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.89.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.89.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.89.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.80",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

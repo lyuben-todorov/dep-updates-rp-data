@@ -1,0 +1,63 @@
+{
+  "id": "cargo-dab39cae",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/aoide-org/aoide-rs",
+    "organisation": "aoide-org",
+    "name": "aoide-rs"
+  },
+  "pr": {
+    "url": "https://github.com/aoide-org/aoide-rs/pull/16",
+    "number": 16,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "fcf48a0c7be90edaaa8950c8f9aea35b2fd3a2c2",
+    "post": "dab39cae6fdd17769e81759d3829366c15f78362",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "slab",
+    "previousVersion": "0.4.10",
+    "newVersion": "0.4.11",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.89.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.89.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.96.0",
+        "source": "floating_nondeterministic",
+        "channelDeclared": "stable"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.89",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

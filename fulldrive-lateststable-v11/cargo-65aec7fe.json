@@ -1,0 +1,66 @@
+{
+  "id": "cargo-65aec7fe",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/qltysh/qlty",
+    "organisation": "qltysh",
+    "name": "qlty"
+  },
+  "pr": {
+    "url": "https://github.com/qltysh/qlty/pull/1421",
+    "number": 1421,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3882c7525faa54fbc14b1eaba6e19185d3def561",
+    "post": "65aec7fe988fcbf061d8d333d91eb0d71a250816",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "uuid",
+    "previousVersion": "1.11.0",
+    "newVersion": "1.11.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.84.0-bookworm-20251231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.84.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

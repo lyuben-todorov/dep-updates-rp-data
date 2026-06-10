@@ -1,0 +1,63 @@
+{
+  "id": "cargo-0ffb179b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/fishfolk/bones",
+    "organisation": "fishfolk",
+    "name": "bones"
+  },
+  "pr": {
+    "url": "https://github.com/fishfolk/bones/pull/349",
+    "number": 349,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1c5eb9556a0a462fa576f7a3d00721be58b00745",
+    "post": "0ffb179b9a70f5f3e5ebbd78e4b62a6e8affd03b",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "async-io",
+    "previousVersion": "1.13.0",
+    "newVersion": "2.3.2",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.76.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.76.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.75.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.75"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.75",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

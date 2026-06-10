@@ -1,0 +1,63 @@
+{
+  "id": "cargo-a8dd9f91",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/justanotherdot/async-perf-events",
+    "organisation": "justanotherdot",
+    "name": "async-perf-events"
+  },
+  "pr": {
+    "url": "https://github.com/justanotherdot/async-perf-events/pull/21",
+    "number": 21,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f934335505504ac161a2bd6c681bb3f4786fe8d7",
+    "post": "a8dd9f916bf7e0ee04f0bc4e9cfb4d6310b16123",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "perf-event",
+    "previousVersion": "0.4.7",
+    "newVersion": "0.4.8",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.59.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.59.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.59",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

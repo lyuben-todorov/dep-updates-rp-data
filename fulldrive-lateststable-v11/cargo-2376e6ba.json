@@ -1,0 +1,68 @@
+{
+  "id": "cargo-2376e6ba",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/uutils/coreutils",
+    "organisation": "uutils",
+    "name": "coreutils"
+  },
+  "pr": {
+    "url": "https://github.com/uutils/coreutils/pull/1408",
+    "number": 1408,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "787a11fea82c60744931b8beda83209a767e9f13",
+    "post": "2376e6ba878d3d6962ce310cae35e0461544dca6",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tempfile",
+    "previousVersion": "2.2.0",
+    "newVersion": "3.1.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.38.0-buster-20191231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.38.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.38.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0432"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

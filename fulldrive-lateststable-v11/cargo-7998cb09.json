@@ -1,0 +1,63 @@
+{
+  "id": "cargo-7998cb09",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/contentauth/c2pa-attacks",
+    "organisation": "contentauth",
+    "name": "c2pa-attacks"
+  },
+  "pr": {
+    "url": "https://github.com/contentauth/c2pa-attacks/pull/377",
+    "number": 377,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cfb99c9604e99b527cfe53444a448e748ff9ea74",
+    "post": "7998cb09690b3d4f252d9965a0f5929ecace4a44",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex",
+    "previousVersion": "1.12.2",
+    "newVersion": "1.12.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.93.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.93.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.93.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.86",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-22308069",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/dhth/ecscope",
+    "organisation": "dhth",
+    "name": "ecscope"
+  },
+  "pr": {
+    "url": "https://github.com/dhth/ecscope/pull/87",
+    "number": 87,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f1c896a977d508290b3a27870ded99e58f38894b",
+    "post": "223080693151b76ada3aacb10726700af526ac83",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "toml",
+    "previousVersion": "0.9.5",
+    "newVersion": "0.9.7",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.90.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.90.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.89.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.89"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.89",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

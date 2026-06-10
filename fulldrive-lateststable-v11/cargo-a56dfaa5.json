@@ -1,0 +1,63 @@
+{
+  "id": "cargo-a56dfaa5",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/olix0r/tcp-echo",
+    "organisation": "olix0r",
+    "name": "tcp-echo"
+  },
+  "pr": {
+    "url": "https://github.com/olix0r/tcp-echo/pull/15",
+    "number": 15,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7fc98d7c2d6a50f1c23ea11bcf26e500c47a8eda",
+    "post": "a56dfaa5793a94cfdcebaf6eda8391ca960920c9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.113",
+    "newVersion": "0.2.119",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.58.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.58.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.55.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.55.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.55",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

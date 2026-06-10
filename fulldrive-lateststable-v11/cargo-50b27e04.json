@@ -1,0 +1,63 @@
+{
+  "id": "cargo-50b27e04",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/auguwu/ume",
+    "organisation": "auguwu",
+    "name": "ume"
+  },
+  "pr": {
+    "url": "https://github.com/auguwu/ume/pull/197",
+    "number": 197,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "25262a1f5d9c92d309afcf9950509508b61fb9c2",
+    "post": "50b27e04b14f3cd0446a108d1b75f4b67e429e28",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustls",
+    "previousVersion": "0.21.10",
+    "newVersion": "0.21.11",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.77.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.77.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.77.2",
+        "source": "project_pinned",
+        "channelDeclared": "1.77"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.77",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

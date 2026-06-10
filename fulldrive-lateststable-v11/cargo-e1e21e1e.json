@@ -1,0 +1,63 @@
+{
+  "id": "cargo-e1e21e1e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/coreos/bootupd",
+    "organisation": "coreos",
+    "name": "bootupd"
+  },
+  "pr": {
+    "url": "https://github.com/coreos/bootupd/pull/887",
+    "number": 887,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3e15c6ff7fa4b3e65d59a9a4e9eb76a57808d012",
+    "post": "e1e21e1e2290f7297b663cbc19caa053bff72634",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tempfile",
+    "previousVersion": "3.17.1",
+    "newVersion": "3.19.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.75",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

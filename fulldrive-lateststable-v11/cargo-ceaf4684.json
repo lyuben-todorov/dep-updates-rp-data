@@ -1,0 +1,63 @@
+{
+  "id": "cargo-ceaf4684",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/5afe/safe-client-gateway",
+    "organisation": "5afe",
+    "name": "safe-client-gateway"
+  },
+  "pr": {
+    "url": "https://github.com/5afe/safe-client-gateway/pull/596",
+    "number": 596,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e76752068678ec80c4697e1bc332a53491274375",
+    "post": "ceaf4684b2167658ab08325d82a0e14b12075eac",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "redis",
+    "previousVersion": "0.20.0",
+    "newVersion": "0.21.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.54.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.54.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.54.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-05-21"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

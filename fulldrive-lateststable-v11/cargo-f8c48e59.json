@@ -1,0 +1,63 @@
+{
+  "id": "cargo-f8c48e59",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Devolutions/sspi-rs",
+    "organisation": "Devolutions",
+    "name": "sspi-rs"
+  },
+  "pr": {
+    "url": "https://github.com/Devolutions/sspi-rs/pull/288",
+    "number": 288,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4e02d2c1434af3e9f2ae5d2c5f5059035ad0103a",
+    "post": "f8c48e59076438579f594baa10f380a3820590e9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustls-native-certs",
+    "previousVersion": "0.7.2",
+    "newVersion": "0.8.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.81.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.81.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.72.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.72.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.72",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

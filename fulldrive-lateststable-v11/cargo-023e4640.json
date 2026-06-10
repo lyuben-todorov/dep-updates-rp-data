@@ -1,0 +1,63 @@
+{
+  "id": "cargo-023e4640",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/solana-labs/solana-program-library",
+    "organisation": "solana-labs",
+    "name": "solana-program-library"
+  },
+  "pr": {
+    "url": "https://github.com/solana-labs/solana-program-library/pull/5294",
+    "number": 5294,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "533a2e994996d763ae068b270f9080dc1be55a97",
+    "post": "023e46405f0f1c4b34468d4039ebc8c18fdfbcb6",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "chrono",
+    "previousVersion": "0.4.30",
+    "newVersion": "0.4.31",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.72.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.72.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.69.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.69.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.69",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

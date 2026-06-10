@@ -1,0 +1,63 @@
+{
+  "id": "cargo-d0923b21",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/artichoke/artichoke",
+    "organisation": "artichoke",
+    "name": "artichoke"
+  },
+  "pr": {
+    "url": "https://github.com/artichoke/artichoke/pull/2483",
+    "number": 2483,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "73f8bd2f4c30bd7057b7f471b8928d6312440d06",
+    "post": "d0923b21f1e0e6a5c0744a2cd30692a78c93139f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde",
+    "previousVersion": "1.0.152",
+    "newVersion": "1.0.159",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.67.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.67.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.67",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

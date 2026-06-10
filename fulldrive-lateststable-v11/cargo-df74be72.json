@@ -1,0 +1,63 @@
+{
+  "id": "cargo-df74be72",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/r0xsh/libra",
+    "organisation": "r0xsh",
+    "name": "libra"
+  },
+  "pr": {
+    "url": "https://github.com/r0xsh/libra/pull/1759",
+    "number": 1759,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "877263d97922187868b40e08e953608ca5313c10",
+    "post": "df74be722b42188c76217939b48cfd773bd29fac",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "flate2",
+    "previousVersion": "1.0.17",
+    "newVersion": "1.0.18",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.46.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.46.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.45.2",
+        "source": "project_pinned",
+        "channelDeclared": "1.45.2"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.45",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

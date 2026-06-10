@@ -1,0 +1,63 @@
+{
+  "id": "cargo-adfc0254",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Floppy/ruby-version-badger",
+    "organisation": "Floppy",
+    "name": "ruby-version-badger"
+  },
+  "pr": {
+    "url": "https://github.com/Floppy/ruby-version-badger/pull/87",
+    "number": 87,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "799581b6dbb9363411f98ba59cabbc0695ca888e",
+    "post": "adfc02549d80de127fd29fdd2fe331614e87d62d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio-threadpool",
+    "previousVersion": "0.1.17",
+    "newVersion": "0.1.18",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.41.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.41.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.37.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.37.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.37",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

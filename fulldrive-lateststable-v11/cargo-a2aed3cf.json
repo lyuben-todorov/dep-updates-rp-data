@@ -1,0 +1,63 @@
+{
+  "id": "cargo-a2aed3cf",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/linkerd/linkerd-failover",
+    "organisation": "linkerd",
+    "name": "linkerd-failover"
+  },
+  "pr": {
+    "url": "https://github.com/linkerd/linkerd-failover/pull/133",
+    "number": 133,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "44a457b59f1ec917742e06b757c55ab732b2b88e",
+    "post": "a2aed3cfcd17b6387267be64efdc4f55b5aebca3",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "syn",
+    "previousVersion": "1.0.89",
+    "newVersion": "1.0.90",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.59.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.59.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.59.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.59",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

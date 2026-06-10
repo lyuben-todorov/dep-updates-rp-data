@@ -1,0 +1,63 @@
+{
+  "id": "cargo-6f0f08c1",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/gelash/diem",
+    "organisation": "gelash",
+    "name": "diem"
+  },
+  "pr": {
+    "url": "https://github.com/gelash/diem/pull/384",
+    "number": 384,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "be4811ee515407175be79cbfcc333fa43ae548d9",
+    "post": "6f0f08c1e90133edc290fb385366bf83e3b57f04",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex-syntax",
+    "previousVersion": "0.6.22",
+    "newVersion": "0.6.27",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.62.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.62.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.50.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.50.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.50",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

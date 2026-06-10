@@ -1,0 +1,63 @@
+{
+  "id": "cargo-56da12f3",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/alexcrichton/wasm-gc",
+    "organisation": "alexcrichton",
+    "name": "wasm-gc"
+  },
+  "pr": {
+    "url": "https://github.com/alexcrichton/wasm-gc/pull/20",
+    "number": 20,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b085e2eeb5a3f0a0001505a6e86ca6faffd09353",
+    "post": "56da12f303e703ec49b7da17938a3b71fc2a7b35",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "log",
+    "previousVersion": "0.4.1",
+    "newVersion": "0.4.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.27.0-stretch-20181231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.27.0",
+        "sourceDateEpoch": 1546214400,
+        "aptSnapshot": "20181231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.27.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

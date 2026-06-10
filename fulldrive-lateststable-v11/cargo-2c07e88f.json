@@ -1,0 +1,63 @@
+{
+  "id": "cargo-2c07e88f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/vectordotdev/vrl",
+    "organisation": "vectordotdev",
+    "name": "vrl"
+  },
+  "pr": {
+    "url": "https://github.com/vectordotdev/vrl/pull/797",
+    "number": 797,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c78ac63ffec56f6a607fbb2329cae5872ac90288",
+    "post": "2c07e88f686da58089b63c4f9a9960a2ccdb7351",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "chrono",
+    "previousVersion": "0.4.37",
+    "newVersion": "0.4.38",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.77.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.77.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.76.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.76"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.76",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "cargo-e4922653",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/fishbrain/ssh-auth-github",
+    "organisation": "fishbrain",
+    "name": "ssh-auth-github"
+  },
+  "pr": {
+    "url": "https://github.com/fishbrain/ssh-auth-github/pull/25",
+    "number": 25,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0874e79764a0975ea8b8c62d704d7c201db8f21e",
+    "post": "e4922653edc51cfb4b68510d236afdde1711b795",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "reqwest",
+    "previousVersion": "0.8.5",
+    "newVersion": "0.9.9",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.32.0-stretch-20191231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.32.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.32.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0061",
+          "E0422",
+          "E0425"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

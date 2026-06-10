@@ -1,0 +1,63 @@
+{
+  "id": "cargo-9e466148",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/sebastienrousseau/hsh",
+    "organisation": "sebastienrousseau",
+    "name": "hsh"
+  },
+  "pr": {
+    "url": "https://github.com/sebastienrousseau/hsh/pull/60",
+    "number": 60,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b07cd5ee41223c27fdba170c5e57fb4f60cac06c",
+    "post": "9e466148c2459b617062174e298dbc416c18dae4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "base64",
+    "previousVersion": "0.21.6",
+    "newVersion": "0.21.7",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.75.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.75.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.75.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.71",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

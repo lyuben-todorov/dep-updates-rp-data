@@ -1,0 +1,66 @@
+{
+  "id": "cargo-00aee075",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/voloshyn/mobilecoin",
+    "organisation": "voloshyn",
+    "name": "mobilecoin"
+  },
+  "pr": {
+    "url": "https://github.com/voloshyn/mobilecoin/pull/13",
+    "number": 13,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1ad627a6b8405ef24aae6b1247182133f49ea358",
+    "post": "00aee07555cb51d35dc4f2c82161a90337f526f7",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "signature",
+    "previousVersion": "1.2.2",
+    "newVersion": "1.3.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.55.0-bullseye-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.55.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.55.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-07-21"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

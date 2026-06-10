@@ -1,0 +1,63 @@
+{
+  "id": "cargo-8a0eb26f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/keroro520/ckb",
+    "organisation": "keroro520",
+    "name": "ckb"
+  },
+  "pr": {
+    "url": "https://github.com/keroro520/ckb/pull/96",
+    "number": 96,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1595009f922697264bb76383ec0e0282ba5afd22",
+    "post": "8a0eb26fbbeb8c543168839473193a37a30538f1",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.108",
+    "newVersion": "0.2.114",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.58.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.58.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.51.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.51.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.51",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

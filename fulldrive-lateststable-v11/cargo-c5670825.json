@@ -1,0 +1,63 @@
+{
+  "id": "cargo-c5670825",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/nix-community/nix4vscode",
+    "organisation": "nix-community",
+    "name": "nix4vscode"
+  },
+  "pr": {
+    "url": "https://github.com/nix-community/nix4vscode/pull/363",
+    "number": 363,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4ad0eec8ad2286956560bb86264b43fc56456059",
+    "post": "c56708255b885786921b0d1f88e88f55b8015444",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "octocrab",
+    "previousVersion": "0.47.1",
+    "newVersion": "0.48.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.91.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.91.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.89.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.89.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.89",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

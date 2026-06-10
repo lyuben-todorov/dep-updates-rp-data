@@ -1,0 +1,63 @@
+{
+  "id": "cargo-53c642b3",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/hermit-os/hermit-rs",
+    "organisation": "hermit-os",
+    "name": "hermit-rs"
+  },
+  "pr": {
+    "url": "https://github.com/hermit-os/hermit-rs/pull/937",
+    "number": 937,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1753c281ec956eb6f9a317d1bf0277e093c9783f",
+    "post": "53c642b3e7f8d377d2231463fed23a46a8280051",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "bitflags",
+    "previousVersion": "2.10.0",
+    "newVersion": "2.11.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.93.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.93.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2026-02-01"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

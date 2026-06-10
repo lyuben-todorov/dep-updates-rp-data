@@ -1,0 +1,63 @@
+{
+  "id": "cargo-12e856fa",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/quickwit-oss/tantivy-py",
+    "organisation": "quickwit-oss",
+    "name": "tantivy-py"
+  },
+  "pr": {
+    "url": "https://github.com/quickwit-oss/tantivy-py/pull/283",
+    "number": 283,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cc7e785cba0b02e2512802bd57d3d29e2d7931d1",
+    "post": "12e856fab39890f27100bc59fd16450829525b83",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde",
+    "previousVersion": "1.0.200",
+    "newVersion": "1.0.201",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.78.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.78.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.73.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.73.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.73",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

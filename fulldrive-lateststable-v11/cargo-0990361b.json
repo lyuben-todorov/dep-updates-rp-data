@@ -1,0 +1,69 @@
+{
+  "id": "cargo-0990361b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/MaterializeInc/k8s-eip-operator",
+    "organisation": "MaterializeInc",
+    "name": "k8s-eip-operator"
+  },
+  "pr": {
+    "url": "https://github.com/MaterializeInc/k8s-eip-operator/pull/157",
+    "number": 157,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9018abb814734f324c7d09d960b7b55ad0424c97",
+    "post": "0990361be8cb70d257a8d6064bde6cb5d2fda2b6",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tonic",
+    "previousVersion": "0.6.2",
+    "newVersion": "0.7.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.56.1"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0308"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

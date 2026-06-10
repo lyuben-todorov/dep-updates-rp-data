@@ -1,0 +1,71 @@
+{
+  "id": "cargo-9ec989df",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/ZcashFoundation/zebra",
+    "organisation": "ZcashFoundation",
+    "name": "zebra"
+  },
+  "pr": {
+    "url": "https://github.com/ZcashFoundation/zebra/pull/148",
+    "number": 148,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7aa1a27fe9f75c4c660dc7b670622b9466d19814",
+    "post": "9ec989dfa734e3b8d702180f00a0f6da5c55abe8",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "abscissa_core",
+    "previousVersion": "0.3.0",
+    "newVersion": "0.5.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.39.0-buster-20191231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.39.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.39.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277",
+          "E0412",
+          "E0432",
+          "E0407"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

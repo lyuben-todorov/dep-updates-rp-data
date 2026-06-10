@@ -1,0 +1,68 @@
+{
+  "id": "cargo-c350064a",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/gifnksm/cargo-sync-rdme",
+    "organisation": "gifnksm",
+    "name": "cargo-sync-rdme"
+  },
+  "pr": {
+    "url": "https://github.com/gifnksm/cargo-sync-rdme/pull/349",
+    "number": 349,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9f5c1a7f24b5749863b6ed9f8948648772940c13",
+    "post": "c350064a56eca45e2f439e712c3ee3b6fcb3c110",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "pulldown-cmark-to-cmark",
+    "previousVersion": "11.2.0",
+    "newVersion": "13.0.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.77.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.77.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.77.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.74",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

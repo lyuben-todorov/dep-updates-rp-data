@@ -1,0 +1,63 @@
+{
+  "id": "cargo-0f27e57b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/stacked-git/stgit",
+    "organisation": "stacked-git",
+    "name": "stgit"
+  },
+  "pr": {
+    "url": "https://github.com/stacked-git/stgit/pull/381",
+    "number": 381,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f9b9280b570cb13696493ab4d39d64736edd2ca3",
+    "post": "0f27e57bc06a94eaad1340bc01c885f8f40e8f53",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "gix",
+    "previousVersion": "0.54.1",
+    "newVersion": "0.55.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.73.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.73.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.73.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.67",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

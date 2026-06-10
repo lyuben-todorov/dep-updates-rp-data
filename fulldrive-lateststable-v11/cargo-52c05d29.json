@@ -1,0 +1,63 @@
+{
+  "id": "cargo-52c05d29",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Eventual-Inc/Daft",
+    "organisation": "Eventual-Inc",
+    "name": "Daft"
+  },
+  "pr": {
+    "url": "https://github.com/Eventual-Inc/Daft/pull/4657",
+    "number": 4657,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "63f4cdec123d76780c61ece0145c66a689586265",
+    "post": "52c05d297aa132e566b4fd1ac73687765839bcfc",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "brotli",
+    "previousVersion": "3.5.0",
+    "newVersion": "7.0.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.88.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.88.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.86.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2025-01-19"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

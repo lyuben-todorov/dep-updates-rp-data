@@ -1,0 +1,63 @@
+{
+  "id": "cargo-c58c88fd",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/dfinity/idl2json",
+    "organisation": "dfinity",
+    "name": "idl2json"
+  },
+  "pr": {
+    "url": "https://github.com/dfinity/idl2json/pull/107",
+    "number": 107,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c2f53232724809ef3b7991cb19a4b97700589904",
+    "post": "c58c88fd362a1843a877040492d7fc00206a6e87",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.5.8",
+    "newVersion": "4.5.9",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.79.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.79.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.74.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.74.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.74",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

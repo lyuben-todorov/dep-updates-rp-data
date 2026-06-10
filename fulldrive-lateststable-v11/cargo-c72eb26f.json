@@ -1,0 +1,63 @@
+{
+  "id": "cargo-c72eb26f",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/solana-labs/solana-program-library",
+    "organisation": "solana-labs",
+    "name": "solana-program-library"
+  },
+  "pr": {
+    "url": "https://github.com/solana-labs/solana-program-library/pull/4251",
+    "number": 4251,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7fc4bf1a8d6d6855761b8286fc151f05d3f75ec3",
+    "post": "c72eb26fd9e8bd71ef891b2fb98ae6abdf864453",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.58",
+    "newVersion": "1.0.71",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.69.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.69.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.60.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.60",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

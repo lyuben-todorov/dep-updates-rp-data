@@ -1,0 +1,63 @@
+{
+  "id": "cargo-f9cfeb43",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Chia-Network/chia_rs",
+    "organisation": "Chia-Network",
+    "name": "chia_rs"
+  },
+  "pr": {
+    "url": "https://github.com/Chia-Network/chia_rs/pull/767",
+    "number": 767,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3ffba0400625e6f51375765437fb23e59297f3e8",
+    "post": "f9cfeb438eaa84cf30c45d48c131fce85e0e32b1",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "openssl",
+    "previousVersion": "0.10.66",
+    "newVersion": "0.10.68",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.79.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.79.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.79",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

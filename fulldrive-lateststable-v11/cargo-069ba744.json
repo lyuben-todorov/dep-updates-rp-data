@@ -1,0 +1,63 @@
+{
+  "id": "cargo-069ba744",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/DenuxPlays/dyncloud",
+    "organisation": "DenuxPlays",
+    "name": "dyncloud"
+  },
+  "pr": {
+    "url": "https://github.com/DenuxPlays/dyncloud/pull/41",
+    "number": 41,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "fec1c0590a91dc0eca59254f7b29ce861a3fe31c",
+    "post": "069ba7447bb62323b3673eff3a73ff748ac86add",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "toml",
+    "previousVersion": "0.8.17",
+    "newVersion": "0.8.19",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.80.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.80.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.79.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.79.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.79",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

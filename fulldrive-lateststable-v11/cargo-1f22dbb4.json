@@ -1,0 +1,76 @@
+{
+  "id": "cargo-1f22dbb4",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/oxc-project/oxc",
+    "organisation": "oxc-project",
+    "name": "oxc"
+  },
+  "pr": {
+    "url": "https://github.com/oxc-project/oxc/pull/829",
+    "number": 829,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "6faf676cd06301c03cc13763050102f4b908bc2f",
+    "post": "1f22dbb40ac568095b68950c71abc4033481aede",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ezno-checker",
+    "previousVersion": "0.0.4",
+    "newVersion": "0.0.7",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.72.0-bookworm-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.72.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.72.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0433",
+          "E0061",
+          "E0603",
+          "E0412",
+          "E0560",
+          "E0599",
+          "E0063",
+          "E0308",
+          "E0432"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.72",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

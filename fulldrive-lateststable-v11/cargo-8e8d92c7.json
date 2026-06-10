@@ -1,0 +1,63 @@
+{
+  "id": "cargo-8e8d92c7",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/crate-ci/cargo-release",
+    "organisation": "crate-ci",
+    "name": "cargo-release"
+  },
+  "pr": {
+    "url": "https://github.com/crate-ci/cargo-release/pull/791",
+    "number": 791,
+    "author": "znley",
+    "authorType": "human",
+    "botType": null,
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4b09269f320d2186b58a233306ecd6c1b848b746",
+    "post": "8e8d92c7c454b4a8f6a937ca51f06bf7035e1070",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.149",
+    "newVersion": "0.2.155",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.78.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.78.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.78.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.76",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

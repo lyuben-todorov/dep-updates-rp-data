@@ -1,0 +1,63 @@
+{
+  "id": "cargo-00e7b76a",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/getsentry/sentry-cli",
+    "organisation": "getsentry",
+    "name": "sentry-cli"
+  },
+  "pr": {
+    "url": "https://github.com/getsentry/sentry-cli/pull/3132",
+    "number": 3132,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "15a6c6272459aa2fa2798b737f43100cacf8bf1c",
+    "post": "00e7b76ab9853af70d5b280dd86abf6b87757121",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "time",
+    "previousVersion": "0.3.44",
+    "newVersion": "0.3.47",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.93.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.93.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.93.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.93"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.91",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.93"
+  }
+}

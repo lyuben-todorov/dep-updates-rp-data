@@ -1,0 +1,63 @@
+{
+  "id": "cargo-83aa9bfb",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/greenticai/greentic-session",
+    "organisation": "greenticai",
+    "name": "greentic-session"
+  },
+  "pr": {
+    "url": "https://github.com/greenticai/greentic-session/pull/113",
+    "number": 113,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3fd21369e8816718fae9007f32245a2d753a7ecd",
+    "post": "83aa9bfb8bfebafdf01226728eb545c9173bb03a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "redis",
+    "previousVersion": "1.2.0",
+    "newVersion": "1.2.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.95.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.95.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.95",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.95"
+  }
+}

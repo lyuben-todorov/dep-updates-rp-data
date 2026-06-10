@@ -1,0 +1,68 @@
+{
+  "id": "cargo-a99c9f5c",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/tangle-network/eigenlayer-contract-deployer",
+    "organisation": "tangle-network",
+    "name": "eigenlayer-contract-deployer"
+  },
+  "pr": {
+    "url": "https://github.com/tangle-network/eigenlayer-contract-deployer/pull/15",
+    "number": 15,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3d2e96bb3ddf8b855a61c38527d76b0655f1bf9e",
+    "post": "a99c9f5cef2b4bca270f0e71f0284943e413cabf",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "alloy-sol-types",
+    "previousVersion": "0.8.25",
+    "newVersion": "1.2.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.87.0-bookworm-20251231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.87.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.86.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.86"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0599"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.86",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

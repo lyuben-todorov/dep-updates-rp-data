@@ -1,0 +1,63 @@
+{
+  "id": "cargo-0a9e5b52",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/solana-labs/solana-program-library",
+    "organisation": "solana-labs",
+    "name": "solana-program-library"
+  },
+  "pr": {
+    "url": "https://github.com/solana-labs/solana-program-library/pull/4462",
+    "number": 4462,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3304d957e1a3a2454ea7e4ab181a6069a21a0ca1",
+    "post": "0a9e5b5296b83c26a833393077a4c922595bd405",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "borsh-derive",
+    "previousVersion": "0.9.3",
+    "newVersion": "0.11.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.70.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.70.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.60.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.60",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

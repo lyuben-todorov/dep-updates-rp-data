@@ -1,0 +1,63 @@
+{
+  "id": "cargo-f4332ad9",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/nervosnetwork/ckb",
+    "organisation": "nervosnetwork",
+    "name": "ckb"
+  },
+  "pr": {
+    "url": "https://github.com/nervosnetwork/ckb/pull/3896",
+    "number": 3896,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8f848b31a0b556f7e141335a31ec28a166de0b98",
+    "post": "f4332ad93ba6f2760ef3c34b63362a05bd943559",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.69",
+    "newVersion": "1.0.70",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.67.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.67.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.67",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

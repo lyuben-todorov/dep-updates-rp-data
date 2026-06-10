@@ -1,0 +1,63 @@
+{
+  "id": "cargo-d2494ca7",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/DBCDK/ha-registry",
+    "organisation": "DBCDK",
+    "name": "ha-registry"
+  },
+  "pr": {
+    "url": "https://github.com/DBCDK/ha-registry/pull/4",
+    "number": 4,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3bdb97e381f3c74ae5554485240c3dc9efaffed2",
+    "post": "d2494ca76712213042e3f0a371e5ecf6bf06cc30",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex",
+    "previousVersion": "1.10.3",
+    "newVersion": "1.10.4",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.78.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.78.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.77.2",
+        "source": "project_pinned",
+        "channelDeclared": "1.77.2"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.77",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-9cf12649",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/c410-f3r/wtx-apis",
+    "organisation": "c410-f3r",
+    "name": "wtx-apis"
+  },
+  "pr": {
+    "url": "https://github.com/c410-f3r/wtx-apis/pull/22",
+    "number": 22,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "01441efd4c18edaa2fc663eb0444763541d98dae",
+    "post": "9cf126499240c4f00d05db412d8d87199e3b5ec9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "solana-program",
+    "previousVersion": "1.18.1",
+    "newVersion": "1.18.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.76.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.76.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.75.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2023-10-15"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.65",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

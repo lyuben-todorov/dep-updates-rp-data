@@ -1,0 +1,63 @@
+{
+  "id": "cargo-8c1dd807",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/TangZhongham/ss-rust-reading",
+    "organisation": "TangZhongham",
+    "name": "ss-rust-reading"
+  },
+  "pr": {
+    "url": "https://github.com/TangZhongham/ss-rust-reading/pull/5",
+    "number": 5,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0e9f061450164d863075c0d864b04d498a7dc780",
+    "post": "8c1dd807a016594c8469ea1d53a3352df4694f26",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio-rustls",
+    "previousVersion": "0.22.0",
+    "newVersion": "0.23.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.55.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.55.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.57.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-09-10"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

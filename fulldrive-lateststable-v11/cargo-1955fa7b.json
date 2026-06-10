@@ -1,0 +1,63 @@
+{
+  "id": "cargo-1955fa7b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/a-kenji/flake-edit",
+    "organisation": "a-kenji",
+    "name": "flake-edit"
+  },
+  "pr": {
+    "url": "https://github.com/a-kenji/flake-edit/pull/17",
+    "number": 17,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b3e7ef67695c595ebef37330d662522d7c1b849a",
+    "post": "1955fa7be0356a6da4ead9d1e5987aa204ee9c87",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.4.7",
+    "newVersion": "4.4.10",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.72.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.72.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.72",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

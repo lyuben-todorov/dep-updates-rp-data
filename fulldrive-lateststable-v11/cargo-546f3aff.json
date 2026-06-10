@@ -1,0 +1,68 @@
+{
+  "id": "cargo-546f3aff",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/crev-dev/cargo-crev",
+    "organisation": "crev-dev",
+    "name": "cargo-crev"
+  },
+  "pr": {
+    "url": "https://github.com/crev-dev/cargo-crev/pull/826",
+    "number": 826,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "369ae4920ab36b06381f12934c7f04b0b0cc7aec",
+    "post": "546f3aff91ffbf44e7e39b43c2a780eea6faa254",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rust-argon2",
+    "previousVersion": "2.1.0",
+    "newVersion": "3.0.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.88.0-bookworm-20251231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.88.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.88.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0063"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.77",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

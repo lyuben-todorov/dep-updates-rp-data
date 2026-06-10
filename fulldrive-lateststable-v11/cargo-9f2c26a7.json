@@ -1,0 +1,66 @@
+{
+  "id": "cargo-9f2c26a7",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/kimberlitedb/kimberlite",
+    "organisation": "kimberlitedb",
+    "name": "kimberlite"
+  },
+  "pr": {
+    "url": "https://github.com/kimberlitedb/kimberlite/pull/44",
+    "number": 44,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8bccff799e68a2875c8be4045470c7af60e44477",
+    "post": "9f2c26a7f99874241b3390e63633e1382177aad5",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "console",
+    "previousVersion": "0.15.11",
+    "newVersion": "0.16.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.88.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.88.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.88.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.88"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": []
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.88"
+  }
+}

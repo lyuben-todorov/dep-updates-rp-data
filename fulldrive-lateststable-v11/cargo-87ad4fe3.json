@@ -1,0 +1,63 @@
+{
+  "id": "cargo-87ad4fe3",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/build-trust/ockam",
+    "organisation": "build-trust",
+    "name": "ockam"
+  },
+  "pr": {
+    "url": "https://github.com/build-trust/ockam/pull/6974",
+    "number": 6974,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "72d0940ef8eb8a6a66c41b489d2e283c9004c122",
+    "post": "87ad4fe3817b6a7fdda8a6c9d44f4e272f266431",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "heapless",
+    "previousVersion": "0.7.16",
+    "newVersion": "0.8.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.72.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.72"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.72",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

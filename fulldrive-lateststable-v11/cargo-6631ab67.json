@@ -1,0 +1,63 @@
+{
+  "id": "cargo-6631ab67",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mudpuppy-rs/mudpuppy",
+    "organisation": "mudpuppy-rs",
+    "name": "mudpuppy"
+  },
+  "pr": {
+    "url": "https://github.com/mudpuppy-rs/mudpuppy/pull/46",
+    "number": 46,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9b83806bb8f9e55316d08b371fa16b3a7e790344",
+    "post": "6631ab6728811870c587b2e42ca77cd2bd5acfa4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.40.0",
+    "newVersion": "1.41.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.82.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.74",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

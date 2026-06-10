@@ -1,0 +1,63 @@
+{
+  "id": "cargo-b87f28b9",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mobilecoinfoundation/mobilecoin",
+    "organisation": "mobilecoinfoundation",
+    "name": "mobilecoin"
+  },
+  "pr": {
+    "url": "https://github.com/mobilecoinfoundation/mobilecoin/pull/515",
+    "number": 515,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "aa60fcbc62fd7670584fb7649559cc1ba0f7d354",
+    "post": "b87f28b96728c6d3ee0205df4bddacd340675162",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "x25519-dalek",
+    "previousVersion": "1.0.1",
+    "newVersion": "1.1.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.47.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.47.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.46.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2020-07-01"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

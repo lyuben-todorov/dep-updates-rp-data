@@ -1,0 +1,63 @@
+{
+  "id": "cargo-3a2eb7fa",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Shylock-Hg/libra",
+    "organisation": "Shylock-Hg",
+    "name": "libra"
+  },
+  "pr": {
+    "url": "https://github.com/Shylock-Hg/libra/pull/1198",
+    "number": 1198,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "762cc88b5c878ca6fb195fdcb3c517809e0c9150",
+    "post": "3a2eb7fab3560022d75603a7cb9f785566ed695c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.82",
+    "newVersion": "0.2.113",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.58.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.58.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.48.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.48.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.48",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

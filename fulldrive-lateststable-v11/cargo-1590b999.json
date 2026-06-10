@@ -1,0 +1,63 @@
+{
+  "id": "cargo-1590b999",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/eranrund/mobilecoin",
+    "organisation": "eranrund",
+    "name": "mobilecoin"
+  },
+  "pr": {
+    "url": "https://github.com/eranrund/mobilecoin/pull/44",
+    "number": 44,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e87ab8e56b17ca3ccbb595a954f4e7c54c01d65c",
+    "post": "1590b9999cc827fbda3396ac1f9679835420f8e5",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "hkdf",
+    "previousVersion": "0.9.0",
+    "newVersion": "0.11.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.56.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.56.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.55.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-07-21"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-93a3ef96",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/tangle-network/frost-blueprint",
+    "organisation": "tangle-network",
+    "name": "frost-blueprint"
+  },
+  "pr": {
+    "url": "https://github.com/tangle-network/frost-blueprint/pull/37",
+    "number": 37,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4510583327e932c047db1c019ef5602f29ae9a24",
+    "post": "93a3ef96c7aa513de93ad0bc2b069d3fae78a867",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "alloy-signer-local",
+    "previousVersion": "0.5.4",
+    "newVersion": "0.7.3",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.83.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.83.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.83.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2024-10-13"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.81",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

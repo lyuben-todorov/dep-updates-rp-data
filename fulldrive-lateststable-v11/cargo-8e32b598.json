@@ -1,0 +1,63 @@
+{
+  "id": "cargo-8e32b598",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/VKCOM/swc-plugin-pre-paths",
+    "organisation": "VKCOM",
+    "name": "swc-plugin-pre-paths"
+  },
+  "pr": {
+    "url": "https://github.com/VKCOM/swc-plugin-pre-paths/pull/143",
+    "number": 143,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "011d2fc5a31cb3e4fe7334e167cd46830e8a02f9",
+    "post": "8e32b598f119e6175ae47d842492fbd1ccabf3cc",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.152",
+    "newVersion": "0.2.153",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.75.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.75.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.75.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2023-11-04"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

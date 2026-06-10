@@ -1,0 +1,63 @@
+{
+  "id": "cargo-b5642b59",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/solana-program/slashing",
+    "organisation": "solana-program",
+    "name": "slashing"
+  },
+  "pr": {
+    "url": "https://github.com/solana-program/slashing/pull/47",
+    "number": 47,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "fe8da3a4f3e5f78585b64c820ecdda86b226877f",
+    "post": "b5642b5953bb8789dae0f27df01e21cc45587641",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.44.1",
+    "newVersion": "1.44.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.86.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.86.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.84.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.84",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

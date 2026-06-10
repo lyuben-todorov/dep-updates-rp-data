@@ -1,0 +1,63 @@
+{
+  "id": "cargo-8a6b3575",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/CueCrux/Crux",
+    "organisation": "CueCrux",
+    "name": "Crux"
+  },
+  "pr": {
+    "url": "https://github.com/CueCrux/Crux/pull/15",
+    "number": 15,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a2b9c18f0577f0b93c3bacc44b63d3bb7a5fb2b3",
+    "post": "8a6b357542688faa9faa7330c4b7dec5b14d5baa",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "opentelemetry_sdk",
+    "previousVersion": "0.27.1",
+    "newVersion": "0.31.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.88.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.88.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.88.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.88"
+  }
+}

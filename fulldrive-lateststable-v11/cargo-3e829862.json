@@ -1,0 +1,63 @@
+{
+  "id": "cargo-3e829862",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/solana-program/slashing",
+    "organisation": "solana-program",
+    "name": "slashing"
+  },
+  "pr": {
+    "url": "https://github.com/solana-program/slashing/pull/57",
+    "number": 57,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "281b4475a6e0fef1cbd9a1c7e2dfbd3aed9079bd",
+    "post": "3e829862106edc9b4b1066a4fbdb0c04f1726603",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "bitflags",
+    "previousVersion": "2.9.0",
+    "newVersion": "2.9.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.87.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.87.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.84.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.84",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

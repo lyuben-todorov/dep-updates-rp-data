@@ -1,0 +1,63 @@
+{
+  "id": "cargo-cf459451",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/sagebind/isahc",
+    "organisation": "sagebind",
+    "name": "isahc"
+  },
+  "pr": {
+    "url": "https://github.com/sagebind/isahc/pull/505",
+    "number": 505,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d2f9a96e5d8633bcdf17c283d4dd1409a6f61655",
+    "post": "cf4594518b720b776a944be45bdb0d4ef8cc6edc",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "psl",
+    "previousVersion": "2.1.206",
+    "newVersion": "2.1.207",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.85"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.85"
+  }
+}

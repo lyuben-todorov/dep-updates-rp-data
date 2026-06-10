@@ -1,0 +1,63 @@
+{
+  "id": "cargo-2052f8fe",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/rayketcham-lab/PKI-Signing-Service",
+    "organisation": "rayketcham-lab",
+    "name": "PKI-Signing-Service"
+  },
+  "pr": {
+    "url": "https://github.com/rayketcham-lab/PKI-Signing-Service/pull/76",
+    "number": 76,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d2aeea69dc8464136b541c1fe630c05516e8c352",
+    "post": "2052f8feeebe56e9810d6f8f518411520c6b603f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustls-webpki",
+    "previousVersion": "0.103.12",
+    "newVersion": "0.103.13",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.94.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.94.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.94.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.94"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cargo-9c004689",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/sane-fmt/sane-fmt",
+    "organisation": "sane-fmt",
+    "name": "sane-fmt"
+  },
+  "pr": {
+    "url": "https://github.com/sane-fmt/sane-fmt/pull/304",
+    "number": 304,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7803e385430ac20693adbb675aac319039aebc80",
+    "post": "9c004689743d6fa5203fd4af629033880e7777a5",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.0.15",
+    "newVersion": "4.0.26",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.65.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.65.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.62.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.62.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.62",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

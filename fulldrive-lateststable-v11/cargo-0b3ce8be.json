@@ -1,0 +1,63 @@
+{
+  "id": "cargo-0b3ce8be",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/servo/servo",
+    "organisation": "servo",
+    "name": "servo"
+  },
+  "pr": {
+    "url": "https://github.com/servo/servo/pull/42551",
+    "number": 42551,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "94f418c6e6f0cc2531181568e6cc07dcb36914dd",
+    "post": "0b3ce8be403953d72f0c92b6eafd02f68bd878f2",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "aws-lc-sys",
+    "previousVersion": "0.37.0",
+    "newVersion": "0.37.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.91.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.91.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.91.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.91.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.86",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.91"
+  }
+}

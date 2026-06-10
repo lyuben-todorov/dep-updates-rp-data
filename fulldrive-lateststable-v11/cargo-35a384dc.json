@@ -1,0 +1,63 @@
+{
+  "id": "cargo-35a384dc",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/matoous/mwp",
+    "organisation": "matoous",
+    "name": "mwp"
+  },
+  "pr": {
+    "url": "https://github.com/matoous/mwp/pull/68",
+    "number": 68,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c710739175178be46e8d960b79cf03ebf9332a03",
+    "post": "35a384dc6390f6907c2b78de81a8bfd8756dfb37",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex",
+    "previousVersion": "1.10.4",
+    "newVersion": "1.10.5",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.78.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.78.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.74.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.74.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.74",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

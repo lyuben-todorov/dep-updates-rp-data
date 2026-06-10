@@ -1,0 +1,63 @@
+{
+  "id": "cargo-1d48f234",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/nix-community/nix4vscode",
+    "organisation": "nix-community",
+    "name": "nix4vscode"
+  },
+  "pr": {
+    "url": "https://github.com/nix-community/nix4vscode/pull/69",
+    "number": 69,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9cb4c0744276f423add0439603187a2632ea2d0c",
+    "post": "1d48f23427bf168071ecb287d0664fd85fc81d6c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.82",
+    "newVersion": "1.0.83",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.78.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.78.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.76.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.76"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.76",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cargo-a46514e2",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/schani-rs/schani_library",
+    "organisation": "schani-rs",
+    "name": "schani_library"
+  },
+  "pr": {
+    "url": "https://github.com/schani-rs/schani_library/pull/9",
+    "number": 9,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "88ea7c220b5d2a54e6900cfd7f6995b9f5580bd4",
+    "post": "a46514e2d26aba6b8a2d078bdd612b02b43f80e2",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "diesel",
+    "previousVersion": "1.0.0-beta1",
+    "newVersion": "1.1.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.25.0-stretch-20181231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.25.0",
+        "sourceDateEpoch": 1546214400,
+        "aptSnapshot": "20181231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.25.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_BITROT",
+        "errorCodes": [
+          "E0277"
+        ]
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

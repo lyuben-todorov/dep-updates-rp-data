@@ -1,0 +1,63 @@
+{
+  "id": "cargo-99da3bd4",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Hanssen0/axon-1",
+    "organisation": "Hanssen0",
+    "name": "axon-1"
+  },
+  "pr": {
+    "url": "https://github.com/Hanssen0/axon-1/pull/78",
+    "number": 78,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "90468c1868d179f86d60b9a731903eb3767086d2",
+    "post": "99da3bd44eaf3054020aee4ac6c47292addb8d08",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tendermint-proto",
+    "previousVersion": "0.23.9",
+    "newVersion": "0.29.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.67.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.67.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.67.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.67"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.67",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

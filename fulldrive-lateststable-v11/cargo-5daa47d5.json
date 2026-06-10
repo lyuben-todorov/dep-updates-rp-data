@@ -1,0 +1,63 @@
+{
+  "id": "cargo-5daa47d5",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/linkerd/linkerd2-proxy",
+    "organisation": "linkerd",
+    "name": "linkerd2-proxy"
+  },
+  "pr": {
+    "url": "https://github.com/linkerd/linkerd2-proxy/pull/1598",
+    "number": 1598,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e13a2e18cc82766340a86955d6ed4ad3bc206e20",
+    "post": "5daa47d597b7a8311f4c73723738007dee47aa19",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "quote",
+    "previousVersion": "1.0.17",
+    "newVersion": "1.0.18",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.59.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.59.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.59",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

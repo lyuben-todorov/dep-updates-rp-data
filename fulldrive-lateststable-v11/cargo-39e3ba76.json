@@ -1,0 +1,63 @@
+{
+  "id": "cargo-39e3ba76",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/tremor-rs/tremor-runtime",
+    "organisation": "tremor-rs",
+    "name": "tremor-runtime"
+  },
+  "pr": {
+    "url": "https://github.com/tremor-rs/tremor-runtime/pull/2571",
+    "number": 2571,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "356618a1fa5d0ccfe861e92980ad07732dcfdb55",
+    "post": "39e3ba76b3f82dc0783c9d01bad122c15eb53f4e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "aws-types",
+    "previousVersion": "1.3.0",
+    "newVersion": "1.3.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.78.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.78.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.78.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.62",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

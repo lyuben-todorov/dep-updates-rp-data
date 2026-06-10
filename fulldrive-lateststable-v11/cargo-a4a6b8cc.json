@@ -1,0 +1,63 @@
+{
+  "id": "cargo-a4a6b8cc",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/btc-vision/op-vm",
+    "organisation": "btc-vision",
+    "name": "op-vm"
+  },
+  "pr": {
+    "url": "https://github.com/btc-vision/op-vm/pull/204",
+    "number": 204,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d91ffb742d710a50714ff5352c4b13765f71c14a",
+    "post": "a4a6b8cc315c519718b5c1513a0fe006ef1a9943",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "bitcoin",
+    "previousVersion": "0.32.8",
+    "newVersion": "0.32.9",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.93.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.93.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.93.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.93.1"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.93",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.93"
+  }
+}
