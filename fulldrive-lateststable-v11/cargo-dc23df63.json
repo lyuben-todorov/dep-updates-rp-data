@@ -1,0 +1,63 @@
+{
+  "id": "cargo-dc23df63",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/pop-os/popsicle",
+    "organisation": "pop-os",
+    "name": "popsicle"
+  },
+  "pr": {
+    "url": "https://github.com/pop-os/popsicle/pull/76",
+    "number": 76,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "17720e87e6187f37165c11e11961d0503099e453",
+    "post": "dc23df63db2a1cbda385ac27359dbfb1a146827c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "parking_lot",
+    "previousVersion": "0.7.1",
+    "newVersion": "0.8.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.35.0-stretch-20191231-p1.1.1",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.35.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.31.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.31.0"
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

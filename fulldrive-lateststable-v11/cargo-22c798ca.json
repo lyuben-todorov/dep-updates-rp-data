@@ -1,16 +1,16 @@
 {
-  "id": "cargo-0ac850b3",
+  "id": "cargo-22c798ca",
   "schemaVersion": "1.1.0",
   "ecosystem": "cargo",
   "category": "non-breaking",
   "project": {
-    "url": "https://github.com/axonweb3/axon",
-    "organisation": "axonweb3",
-    "name": "axon"
+    "url": "https://github.com/michaeladler/notmuch-mailmover",
+    "organisation": "michaeladler",
+    "name": "notmuch-mailmover"
   },
   "pr": {
-    "url": "https://github.com/axonweb3/axon/pull/920",
-    "number": 920,
+    "url": "https://github.com/michaeladler/notmuch-mailmover/pull/27",
+    "number": 27,
     "author": "dependabot[bot]",
     "authorType": "bot",
     "botType": "dependabot",
@@ -18,46 +18,46 @@
     "mergedAt": null
   },
   "commits": {
-    "pre": "279a8ce446fd88bda4d168f648e0fe62abc36d7d",
-    "post": "0ac850b308eec60bcf77a873317ebe756d6e32fd",
+    "pre": "e3edeca8d46d8c52e0d202708ce3fcba48e444d3",
+    "post": "22c798ca204cdaf17f43bc188379b96521875ebe",
     "fix": null,
     "preAuthorType": null,
     "postAuthorType": null,
     "fixAuthorType": null
   },
   "update": {
-    "dependencyName": "serde_json",
-    "previousVersion": "1.0.89",
-    "newVersion": "1.0.91",
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.69",
+    "newVersion": "1.0.70",
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
   "reproductions": [
     {
       "pipelineVersion": "1.1.1",
-      "imageTag": "rp2026/cargo-fat:1.66.0-bullseye-20221231-p1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.1",
       "category": "non-breaking",
       "fatImage": {
-        "rustVersion": "1.66.0",
-        "sourceDateEpoch": 1672444800,
-        "aptSnapshot": "20221231T000000Z",
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
         "debianRelease": "bullseye"
       },
       "buildFlags": [
         "--locked"
       ],
       "toolchainUsed": {
-        "version": "1.65.0",
-        "source": "project_pinned",
-        "channelDeclared": "1.65"
+        "version": "1.68.0",
+        "source": "image_default",
+        "channelDeclared": null
       },
       "verifiedOn": [],
       "failure": null
     }
   ],
   "ecosystemMetadata": {
-    "rustMsrv": "1.65",
-    "rustMsrvDetected": true,
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
     "detectedRustc": null
   }
 }

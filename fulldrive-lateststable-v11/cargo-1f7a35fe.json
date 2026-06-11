@@ -1,62 +1,62 @@
 {
-  "id": "cargo-0ac850b3",
+  "id": "cargo-1f7a35fe",
   "schemaVersion": "1.1.0",
   "ecosystem": "cargo",
   "category": "non-breaking",
   "project": {
-    "url": "https://github.com/axonweb3/axon",
-    "organisation": "axonweb3",
-    "name": "axon"
+    "url": "https://github.com/astraly-labs/vesu-liquidator",
+    "organisation": "astraly-labs",
+    "name": "vesu-liquidator"
   },
   "pr": {
-    "url": "https://github.com/axonweb3/axon/pull/920",
-    "number": 920,
+    "url": "https://github.com/astraly-labs/vesu-liquidator/pull/98",
+    "number": 98,
     "author": "dependabot[bot]",
     "authorType": "bot",
     "botType": "dependabot",
-    "merged": true,
+    "merged": false,
     "mergedAt": null
   },
   "commits": {
-    "pre": "279a8ce446fd88bda4d168f648e0fe62abc36d7d",
-    "post": "0ac850b308eec60bcf77a873317ebe756d6e32fd",
+    "pre": "a0d71e49f0e8a0941bb9ddd72d4f373a60e3bc18",
+    "post": "1f7a35feba702b3a5e3258c48a951ffb5cc2515f",
     "fix": null,
     "preAuthorType": null,
     "postAuthorType": null,
     "fixAuthorType": null
   },
   "update": {
-    "dependencyName": "serde_json",
-    "previousVersion": "1.0.89",
-    "newVersion": "1.0.91",
+    "dependencyName": "reqwest",
+    "previousVersion": "0.12.9",
+    "newVersion": "0.12.12",
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
   "reproductions": [
     {
       "pipelineVersion": "1.1.1",
-      "imageTag": "rp2026/cargo-fat:1.66.0-bullseye-20221231-p1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.83.0-bookworm-20251231-p1.1.1",
       "category": "non-breaking",
       "fatImage": {
-        "rustVersion": "1.66.0",
-        "sourceDateEpoch": 1672444800,
-        "aptSnapshot": "20221231T000000Z",
-        "debianRelease": "bullseye"
+        "rustVersion": "1.83.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
       },
       "buildFlags": [
         "--locked"
       ],
       "toolchainUsed": {
-        "version": "1.65.0",
+        "version": "1.82.0",
         "source": "project_pinned",
-        "channelDeclared": "1.65"
+        "channelDeclared": "1.82.0"
       },
       "verifiedOn": [],
       "failure": null
     }
   ],
   "ecosystemMetadata": {
-    "rustMsrv": "1.65",
+    "rustMsrv": "1.82",
     "rustMsrvDetected": true,
     "detectedRustc": null
   }

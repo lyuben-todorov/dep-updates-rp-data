@@ -1,0 +1,63 @@
+{
+  "id": "cargo-951eeb52",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/aimultiple-benchmark/qdrant-bench-gre-2",
+    "organisation": "aimultiple-benchmark",
+    "name": "qdrant-bench-gre-2"
+  },
+  "pr": {
+    "url": "https://github.com/aimultiple-benchmark/qdrant-bench-gre-2/pull/30",
+    "number": 30,
+    "author": "aimultiple-benchmark",
+    "authorType": "human",
+    "botType": null,
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7db7d20e14fb45e93bbd528cecd4ebff3b408aac",
+    "post": "951eeb525051d0340498b37879d9bb4de26a1f7a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "slog",
+    "previousVersion": "2.8.0",
+    "newVersion": "2.8.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.90.0-trixie-20251231-p1.1.1",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.90.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.90.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

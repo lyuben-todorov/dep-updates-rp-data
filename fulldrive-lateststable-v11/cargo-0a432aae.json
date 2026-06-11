@@ -1,16 +1,16 @@
 {
-  "id": "cargo-0ac850b3",
+  "id": "cargo-0a432aae",
   "schemaVersion": "1.1.0",
   "ecosystem": "cargo",
   "category": "non-breaking",
   "project": {
-    "url": "https://github.com/axonweb3/axon",
-    "organisation": "axonweb3",
-    "name": "axon"
+    "url": "https://github.com/bytedance/g3",
+    "organisation": "bytedance",
+    "name": "g3"
   },
   "pr": {
-    "url": "https://github.com/axonweb3/axon/pull/920",
-    "number": 920,
+    "url": "https://github.com/bytedance/g3/pull/28",
+    "number": 28,
     "author": "dependabot[bot]",
     "authorType": "bot",
     "botType": "dependabot",
@@ -18,46 +18,46 @@
     "mergedAt": null
   },
   "commits": {
-    "pre": "279a8ce446fd88bda4d168f648e0fe62abc36d7d",
-    "post": "0ac850b308eec60bcf77a873317ebe756d6e32fd",
+    "pre": "7dae65941e86984e6fca4c5f0c6f7329bc46fcc4",
+    "post": "0a432aae972dd100b48a1540aa519fd8c2ad8c6c",
     "fix": null,
     "preAuthorType": null,
     "postAuthorType": null,
     "fixAuthorType": null
   },
   "update": {
-    "dependencyName": "serde_json",
-    "previousVersion": "1.0.89",
-    "newVersion": "1.0.91",
+    "dependencyName": "clap",
+    "previousVersion": "4.2.4",
+    "newVersion": "4.2.5",
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
   "reproductions": [
     {
       "pipelineVersion": "1.1.1",
-      "imageTag": "rp2026/cargo-fat:1.66.0-bullseye-20221231-p1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.69.0-bullseye-20231231-p1.1.1",
       "category": "non-breaking",
       "fatImage": {
-        "rustVersion": "1.66.0",
-        "sourceDateEpoch": 1672444800,
-        "aptSnapshot": "20221231T000000Z",
+        "rustVersion": "1.69.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
         "debianRelease": "bullseye"
       },
       "buildFlags": [
         "--locked"
       ],
       "toolchainUsed": {
-        "version": "1.65.0",
-        "source": "project_pinned",
-        "channelDeclared": "1.65"
+        "version": "1.69.0",
+        "source": "image_default",
+        "channelDeclared": null
       },
       "verifiedOn": [],
       "failure": null
     }
   ],
   "ecosystemMetadata": {
-    "rustMsrv": "1.65",
-    "rustMsrvDetected": true,
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
     "detectedRustc": null
   }
 }

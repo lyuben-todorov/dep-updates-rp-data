@@ -1,16 +1,16 @@
 {
-  "id": "cargo-0ac850b3",
+  "id": "cargo-8dad48aa",
   "schemaVersion": "1.1.0",
   "ecosystem": "cargo",
   "category": "non-breaking",
   "project": {
-    "url": "https://github.com/axonweb3/axon",
-    "organisation": "axonweb3",
-    "name": "axon"
+    "url": "https://github.com/sheosi/lily",
+    "organisation": "sheosi",
+    "name": "lily"
   },
   "pr": {
-    "url": "https://github.com/axonweb3/axon/pull/920",
-    "number": 920,
+    "url": "https://github.com/sheosi/lily/pull/239",
+    "number": 239,
     "author": "dependabot[bot]",
     "authorType": "bot",
     "botType": "dependabot",
@@ -18,27 +18,27 @@
     "mergedAt": null
   },
   "commits": {
-    "pre": "279a8ce446fd88bda4d168f648e0fe62abc36d7d",
-    "post": "0ac850b308eec60bcf77a873317ebe756d6e32fd",
+    "pre": "77ac47bd8ab04cb49b24f46885009ce94431fcfe",
+    "post": "8dad48aa2171165d74b2f4264cb61052e60fa171",
     "fix": null,
     "preAuthorType": null,
     "postAuthorType": null,
     "fixAuthorType": null
   },
   "update": {
-    "dependencyName": "serde_json",
-    "previousVersion": "1.0.89",
-    "newVersion": "1.0.91",
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.57",
+    "newVersion": "1.0.58",
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
   "reproductions": [
     {
       "pipelineVersion": "1.1.1",
-      "imageTag": "rp2026/cargo-fat:1.66.0-bullseye-20221231-p1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.61.0-bullseye-20221231-p1.1.1",
       "category": "non-breaking",
       "fatImage": {
-        "rustVersion": "1.66.0",
+        "rustVersion": "1.61.0",
         "sourceDateEpoch": 1672444800,
         "aptSnapshot": "20221231T000000Z",
         "debianRelease": "bullseye"
@@ -47,17 +47,17 @@
         "--locked"
       ],
       "toolchainUsed": {
-        "version": "1.65.0",
-        "source": "project_pinned",
-        "channelDeclared": "1.65"
+        "version": "1.61.0",
+        "source": "image_default",
+        "channelDeclared": null
       },
       "verifiedOn": [],
       "failure": null
     }
   ],
   "ecosystemMetadata": {
-    "rustMsrv": "1.65",
-    "rustMsrvDetected": true,
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
     "detectedRustc": null
   }
 }
