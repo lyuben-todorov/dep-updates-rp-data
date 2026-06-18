@@ -1,8 +1,8 @@
 {
   "id": "cargo-bbf8169d",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
-  "category": "breaking",
+  "category": "indeterminate",
   "project": {
     "url": "https://github.com/Chia-Network/chia_rs",
     "organisation": "Chia-Network",
@@ -32,15 +32,11 @@
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.79",
-    "rustMsrvDetected": true
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
       "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20250318",
-      "category": "breaking",
+      "category": "indeterminate",
       "fatImage": {
         "rustVersion": "1.85.0",
         "sourceDateEpoch": 1742256000,
@@ -58,9 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
         "errorCodes": [],
-        "failureCategory": "LOCK_FILE_STALE"
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.79",
+    "rustMsrvDetected": true
+  }
 }

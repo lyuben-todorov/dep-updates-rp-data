@@ -1,6 +1,6 @@
 {
   "id": "cargo-066cda68",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "major",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.45",
-    "rustMsrvDetected": true
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -58,9 +54,31 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "DEPENDENCY_RESOLUTION",
         "errorCodes": [],
-        "failureCategory": "LOCK_FILE_STALE"
+        "symptoms": [
+          {
+            "checkId": "resolve-patches",
+            "category": "DEPENDENCY_RESOLUTION",
+            "subcategory": "RESOLVE_PATCHES",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "patch table unresolvable",
+            "terminal": true
+          },
+          {
+            "checkId": "network",
+            "category": "NETWORK_ERROR",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "network fetch failure",
+            "terminal": false
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.45",
+    "rustMsrvDetected": true
+  }
 }

@@ -1,6 +1,6 @@
 {
   "id": "cargo-b9347e2e",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "minor",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.85",
-    "rustMsrvDetected": true
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -58,9 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "OTHER",
         "errorCodes": [],
-        "failureCategory": "OTHER"
+        "symptoms": [
+          {
+            "checkId": "other",
+            "category": "OTHER",
+            "subcategory": null,
+            "locus": null,
+            "evidence": "error: rustc 1.85.0 is not supported by the following packages:",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true
+  }
 }

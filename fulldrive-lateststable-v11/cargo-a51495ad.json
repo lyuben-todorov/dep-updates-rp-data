@@ -1,6 +1,6 @@
 {
   "id": "cargo-a51495ad",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "NATIVE_DEP_MISSING",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-pkgconfig",
+            "category": "NATIVE_DEP_MISSING",
+            "subcategory": "pkg-config",
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "build-script: pkg-config not found via pkg-config",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

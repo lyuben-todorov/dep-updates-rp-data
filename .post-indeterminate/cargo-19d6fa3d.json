@@ -1,8 +1,8 @@
 {
   "id": "cargo-19d6fa3d",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
-  "category": "breaking",
+  "category": "indeterminate",
   "project": {
     "url": "https://github.com/nervosnetwork/ckb",
     "organisation": "nervosnetwork",
@@ -36,7 +36,7 @@
     {
       "pipelineVersion": "1.1.0",
       "imageTag": "rp2026/cargo-fat:1.41.0-buster-20201231-p1.1.0",
-      "category": "breaking",
+      "category": "indeterminate",
       "fatImage": {
         "rustVersion": "1.41.0",
         "sourceDateEpoch": 1609372800,
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "LOCK_FILE_STALE",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

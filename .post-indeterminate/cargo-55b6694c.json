@@ -1,6 +1,6 @@
 {
   "id": "cargo-55b6694c",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -53,8 +53,18 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "RUSTC_BITROT",
-        "errorCodes": []
+        "failureCategory": "OOM_KILL",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "oom-kill",
+            "category": "OOM_KILL",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "{\"reason\":\"compiler-message\",\"package_id\":\"path+file:///src/mpris#mecomp-mpris@0.2.1\",\"manifest_path\":\"/src/mpris/Cargo.",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

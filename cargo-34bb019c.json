@@ -1,8 +1,8 @@
 {
   "id": "cargo-34bb019c",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
-  "category": "breaking",
+  "category": "indeterminate",
   "project": {
     "url": "https://github.com/ErichDonGubler/cargo-script",
     "organisation": "ErichDonGubler",
@@ -32,15 +32,11 @@
     "versionUpdateType": "minor",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.39",
-    "rustMsrvDetected": false
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
       "imageTag": "rp2026/cargo-fat:1.39.0-stretch-20191231",
-      "category": "breaking",
+      "category": "indeterminate",
       "fatImage": {
         "rustVersion": "1.39.0",
         "sourceDateEpoch": 1577750400,
@@ -58,9 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
         "errorCodes": [],
-        "failureCategory": "LOCK_FILE_STALE"
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false
+  }
 }

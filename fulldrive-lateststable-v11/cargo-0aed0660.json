@@ -1,6 +1,6 @@
 {
   "id": "cargo-0aed0660",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "TIMEOUT",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "timeout-marker",
+            "category": "TIMEOUT",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "reproducer timeout marker",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

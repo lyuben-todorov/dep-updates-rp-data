@@ -1,6 +1,6 @@
 {
   "id": "cargo-c27bd443",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "TEST_FAILURE",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

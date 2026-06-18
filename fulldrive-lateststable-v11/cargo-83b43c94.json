@@ -1,6 +1,6 @@
 {
   "id": "cargo-83b43c94",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "BUILD_EXECUTION",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-panic",
+            "category": "BUILD_EXECUTION",
+            "subcategory": "BUILD_SCRIPT_PANIC",
+            "locus": "TOOLCHAIN",
+            "evidence": "thread 'main' panicked at '",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "id": "cargo-f382a617",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -53,8 +53,26 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "TEST_FAILURE",
-        "errorCodes": []
+        "failureCategory": "PORT_IN_USE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "port-in-use",
+            "category": "PORT_IN_USE",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "thread 'record::config::should_allow_recording_on_dedicated_port' panicked at 'Failed binding stubr recorder to a local ",
+            "terminal": true
+          },
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": false
+          }
+        ]
       }
     }
   ],

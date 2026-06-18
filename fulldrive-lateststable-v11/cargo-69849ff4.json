@@ -1,6 +1,6 @@
 {
   "id": "cargo-69849ff4",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -56,6 +56,16 @@
         "failureCategory": "NIGHTLY_REQUIRED",
         "errorCodes": [
           "E0658"
+        ],
+        "symptoms": [
+          {
+            "checkId": "nightly-ecode",
+            "category": "NIGHTLY_REQUIRED",
+            "subcategory": "E0658",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0658] \u2014 needs nightly",
+            "terminal": true
+          }
         ]
       }
     }

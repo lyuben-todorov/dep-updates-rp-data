@@ -1,6 +1,6 @@
 {
   "id": "cargo-2bc36217",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -53,8 +53,26 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "TEST_FAILURE",
-        "errorCodes": []
+        "failureCategory": "PORT_IN_USE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "port-in-use",
+            "category": "PORT_IN_USE",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Os { code: 98, kind: AddrInUse, message: \"A",
+            "terminal": true
+          },
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": false
+          }
+        ]
       }
     }
   ],

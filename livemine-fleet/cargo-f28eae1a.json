@@ -1,6 +1,6 @@
 {
   "id": "cargo-f28eae1a",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "minor",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.56",
-    "rustMsrvDetected": false
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -58,9 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "OTHER",
         "errorCodes": [],
-        "failureCategory": "OTHER"
+        "symptoms": [
+          {
+            "checkId": "other",
+            "category": "OTHER",
+            "subcategory": null,
+            "locus": null,
+            "evidence": "error: the crate `savefile v0.18.1 (/src/savefile)` depends on crate `bit-vec v0.8.0` multiple times with different name",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
 }

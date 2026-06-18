@@ -1,6 +1,6 @@
 {
   "id": "cargo-9d928d78",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -56,6 +56,16 @@
         "failureCategory": "RUSTC_BITROT",
         "errorCodes": [
           "E0432"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-bitrot",
+            "category": "RUSTC_BITROT",
+            "subcategory": "E0432",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0432] (\u00d71, of 1 rustc errors)",
+            "terminal": true
+          }
         ]
       }
     }

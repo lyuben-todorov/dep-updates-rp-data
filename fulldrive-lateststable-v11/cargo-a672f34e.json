@@ -1,6 +1,6 @@
 {
   "id": "cargo-a672f34e",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -58,6 +58,16 @@
           "E0599",
           "E0277",
           "E0432"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-bitrot",
+            "category": "RUSTC_BITROT",
+            "subcategory": "E0599",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0599] (\u00d72, of 4 rustc errors)",
+            "terminal": true
+          }
         ]
       }
     }

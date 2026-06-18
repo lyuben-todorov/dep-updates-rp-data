@@ -1,6 +1,6 @@
 {
   "id": "cargo-600ff9da",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.56",
-    "rustMsrvDetected": false
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -58,9 +54,31 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "OPENSSL_MISMATCH",
         "errorCodes": [],
-        "failureCategory": "OPENSSL_MISMATCH"
+        "symptoms": [
+          {
+            "checkId": "openssl-terminal",
+            "category": "OPENSSL_MISMATCH",
+            "subcategory": null,
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "error: failed to run custom build command for `openssl v0.9.24`",
+            "terminal": true
+          },
+          {
+            "checkId": "bs-openssl",
+            "category": "OPENSSL_MISMATCH",
+            "subcategory": null,
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "thread 'main' panicked at 'Unable to detect OpenSSL version', /cargo-cache/registry/src/github.com-1ecc6299db9ec823/open",
+            "terminal": false
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
 }

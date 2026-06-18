@@ -1,8 +1,8 @@
 {
   "id": "cargo-aec74c1a",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
-  "category": "breaking",
+  "category": "indeterminate",
   "project": {
     "url": "https://github.com/walker84837/ryokan",
     "organisation": "walker84837",
@@ -32,15 +32,11 @@
     "versionUpdateType": "minor",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.56",
-    "rustMsrvDetected": false
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
       "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
-      "category": "breaking",
+      "category": "indeterminate",
       "fatImage": {
         "rustVersion": "1.92.0",
         "sourceDateEpoch": 1768262400,
@@ -58,9 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
         "errorCodes": [],
-        "failureCategory": "LOCK_FILE_STALE"
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
 }

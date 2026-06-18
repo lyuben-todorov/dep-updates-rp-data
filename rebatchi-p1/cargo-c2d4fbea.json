@@ -1,6 +1,6 @@
 {
   "id": "cargo-c2d4fbea",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "minor",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.56",
-    "rustMsrvDetected": false
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -58,6 +54,7 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "RUSTC_BITROT",
         "errorCodes": [
           "E0437",
           "E0046",
@@ -65,8 +62,21 @@
           "E0432",
           "E0599"
         ],
-        "failureCategory": "RUSTC_BITROT"
+        "symptoms": [
+          {
+            "checkId": "rustc-bitrot",
+            "category": "RUSTC_BITROT",
+            "subcategory": "E0437",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0437] (\u00d74, of 12 rustc errors)",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
 }

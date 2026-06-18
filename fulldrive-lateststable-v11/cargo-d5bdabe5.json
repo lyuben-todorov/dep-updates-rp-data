@@ -1,6 +1,6 @@
 {
   "id": "cargo-d5bdabe5",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -56,6 +56,16 @@
         "failureCategory": "RUSTC_BITROT",
         "errorCodes": [
           "E0106"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-bitrot",
+            "category": "RUSTC_BITROT",
+            "subcategory": "E0106",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0106] (\u00d72, of 2 rustc errors)",
+            "terminal": true
+          }
         ]
       }
     }

@@ -1,6 +1,6 @@
 {
   "id": "cargo-f4761417",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -56,6 +56,16 @@
         "failureCategory": "RUSTC_BITROT",
         "errorCodes": [
           "E0560"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-bitrot",
+            "category": "RUSTC_BITROT",
+            "subcategory": "E0560",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0560] (\u00d71, of 1 rustc errors)",
+            "terminal": true
+          }
         ]
       }
     }

@@ -1,8 +1,8 @@
 {
   "id": "cargo-76e77b4d",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
-  "category": "breaking",
+  "category": "indeterminate",
   "project": {
     "url": "https://github.com/Dynulo/Gluon",
     "organisation": "Dynulo",
@@ -32,15 +32,11 @@
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.31",
-    "rustMsrvDetected": true
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
       "imageTag": "rp2026/cargo-fat:1.49.0-buster-20210209",
-      "category": "breaking",
+      "category": "indeterminate",
       "fatImage": {
         "rustVersion": "1.49.0",
         "sourceDateEpoch": 1612828800,
@@ -58,11 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
-        "errorCodes": [
-          "E0405"
-        ],
-        "failureCategory": "RUSTC_BITROT"
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
 }

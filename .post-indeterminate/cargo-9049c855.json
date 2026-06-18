@@ -1,6 +1,6 @@
 {
   "id": "cargo-9049c855",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -53,8 +53,18 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "RUSTC_BITROT",
-        "errorCodes": []
+        "failureCategory": "OTHER",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "other",
+            "category": "OTHER",
+            "subcategory": null,
+            "locus": null,
+            "evidence": "error: failed to download `unreachable v1.0.0`",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

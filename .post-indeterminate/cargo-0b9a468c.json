@@ -1,6 +1,6 @@
 {
   "id": "cargo-0b9a468c",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -53,8 +53,26 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "TEST_FAILURE",
-        "errorCodes": []
+        "failureCategory": "NET_EXTERNAL",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "net-external",
+            "category": "NET_EXTERNAL",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "called `Result::unwrap()` on an `Err` value: error sending request for url (https://piston-meta.mojang.com/v1/packages/1",
+            "terminal": true
+          },
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": false
+          }
+        ]
       }
     }
   ],

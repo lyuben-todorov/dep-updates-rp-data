@@ -1,6 +1,6 @@
 {
   "id": "cargo-c622f73f",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -53,8 +53,18 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "RUSTC_BITROT",
-        "errorCodes": []
+        "failureCategory": "OOM_KILL",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "oom-kill",
+            "category": "OOM_KILL",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "{\"reason\":\"compiler-message\",\"package_id\":\"segment 0.3.1 (path+file:///src/lib/segment)\",\"manifest_path\":\"/src/lib/segme",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

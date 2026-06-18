@@ -1,6 +1,6 @@
 {
   "id": "cargo-91be6a2a",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "minor",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.81",
-    "rustMsrvDetected": true
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -58,9 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "TIMEOUT",
         "errorCodes": [],
-        "failureCategory": "TIMEOUT"
+        "symptoms": [
+          {
+            "checkId": "timeout-marker",
+            "category": "TIMEOUT",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "reproducer timeout marker",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.81",
+    "rustMsrvDetected": true
+  }
 }

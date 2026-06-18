@@ -1,6 +1,6 @@
 {
   "id": "cargo-ff6bbf99",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,25 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "OPENSSL_MISMATCH",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "openssl-terminal",
+            "category": "OPENSSL_MISMATCH",
+            "subcategory": null,
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "Error { kind: ToolExecError, message: \"Command \\\"cc\\\" \\\"-O0\\\" \\\"-ffunction-sections\\\" \\\"-fdata-sections\\\" \\\"-fPIC\\\" \\\"-g",
+            "terminal": true
+          },
+          {
+            "checkId": "bs-openssl",
+            "category": "OPENSSL_MISMATCH",
+            "subcategory": null,
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "X86_64_UNKNOWN_LINUX_GNU_OPENSSL_NO_VENDOR unset",
+            "terminal": false
+          }
+        ]
       }
     }
   ],

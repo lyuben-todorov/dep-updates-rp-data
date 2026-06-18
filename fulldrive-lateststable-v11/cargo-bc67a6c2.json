@@ -1,6 +1,6 @@
 {
   "id": "cargo-bc67a6c2",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "DEPENDENCY_RESOLUTION",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "registry-resolver",
+            "category": "DEPENDENCY_RESOLUTION",
+            "subcategory": "REGISTRY_RESOLVER",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "cargo resolver rejected",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

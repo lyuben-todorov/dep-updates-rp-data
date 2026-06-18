@@ -1,6 +1,6 @@
 {
   "id": "cargo-02e638aa",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.31",
-    "rustMsrvDetected": true
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -58,9 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
+        "failureCategory": "NO_LOG",
         "errorCodes": [],
-        "failureCategory": "TIMEOUT"
+        "symptoms": [
+          {
+            "checkId": "no-log",
+            "category": "NO_LOG",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "no error line in pre-log",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
 }

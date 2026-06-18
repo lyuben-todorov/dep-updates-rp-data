@@ -1,6 +1,6 @@
 {
   "id": "cargo-24f7ca83",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -53,8 +53,18 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "RUSTC_BITROT",
-        "errorCodes": []
+        "failureCategory": "OOM_KILL",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "oom-kill",
+            "category": "OOM_KILL",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "{\"reason\":\"compiler-message\",\"package_id\":\"path+file:///src/actix-web-lab#0.22.0\",\"manifest_path\":\"/src/actix-web-lab/Ca",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

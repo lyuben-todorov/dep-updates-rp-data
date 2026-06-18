@@ -1,6 +1,6 @@
 {
   "id": "cargo-f5266f60",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "minor",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.31",
-    "rustMsrvDetected": true
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -58,11 +54,23 @@
       },
       "verifiedOn": [],
       "failure": {
-        "errorCodes": [
-          "E0425"
-        ],
-        "failureCategory": "RUSTC_BITROT"
+        "failureCategory": "DEPENDENCY_SOURCE_GONE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "git-source-gone",
+            "category": "DEPENDENCY_SOURCE_GONE",
+            "subcategory": "GIT_OBJECT_GONE",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "git-sourced dependency's source permanently gone",
+            "terminal": true
+          }
+        ]
       }
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
 }

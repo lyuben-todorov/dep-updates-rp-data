@@ -1,6 +1,6 @@
 {
   "id": "cargo-d7784e1b",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "RUSTC_BITROT",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "could-not-compile-fallback",
+            "category": "RUSTC_BITROT",
+            "subcategory": null,
+            "locus": "TOOLCHAIN",
+            "evidence": "could not compile lila-ip2proxy",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

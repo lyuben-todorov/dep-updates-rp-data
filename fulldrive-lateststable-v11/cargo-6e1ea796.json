@@ -1,6 +1,6 @@
 {
   "id": "cargo-6e1ea796",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "BUILD_EXECUTION",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-panic",
+            "category": "BUILD_EXECUTION",
+            "subcategory": "BUILD_SCRIPT_PANIC",
+            "locus": "TOOLCHAIN",
+            "evidence": "thread 'main' panicked at /cargo-cache/registry/src/index.crates.io-6f17d22bba15001f/k8s-openapi-0.23.0/build.rs:17:42:",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

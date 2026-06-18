@@ -1,6 +1,6 @@
 {
   "id": "cargo-7b87e4a2",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -53,8 +53,26 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "TEST_FAILURE",
-        "errorCodes": []
+        "failureCategory": "NET_EXTERNAL",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "net-external",
+            "category": "NET_EXTERNAL",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "Failed to get response: Middleware(error sending request for url (https://api.modrinth.com/v2/project/P7dR8mSH)",
+            "terminal": true
+          },
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": false
+          }
+        ]
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "id": "cargo-b046a20a",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "non-breaking",
   "project": {
@@ -32,10 +32,6 @@
     "versionUpdateType": "patch",
     "scope": "runtime"
   },
-  "ecosystemMetadata": {
-    "rustMsrv": "1.56",
-    "rustMsrvDetected": false
-  },
   "reproductions": [
     {
       "pipelineVersion": "1.0.0",
@@ -56,7 +52,12 @@
         "source": "floating_nondeterministic",
         "channelDeclared": "stable"
       },
-      "verifiedOn": []
+      "verifiedOn": [],
+      "failure": null
     }
-  ]
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
 }

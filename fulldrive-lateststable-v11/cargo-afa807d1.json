@@ -1,6 +1,6 @@
 {
   "id": "cargo-afa807d1",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "DEPENDENCY_RESOLUTION",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "git-dep-gone-ambiguous",
+            "category": "DEPENDENCY_RESOLUTION",
+            "subcategory": "GIT_DEP_GONE",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "git-sourced dep no longer reachable",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

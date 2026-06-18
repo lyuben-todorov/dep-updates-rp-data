@@ -1,6 +1,6 @@
 {
   "id": "cargo-6d4ba580",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "NATIVE_DEP_MISSING",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-build-tool",
+            "category": "NATIVE_DEP_MISSING",
+            "subcategory": "build-tool",
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "build-script: missing build tool/binary (build-tool)",
+            "terminal": true
+          }
+        ]
       }
     }
   ],

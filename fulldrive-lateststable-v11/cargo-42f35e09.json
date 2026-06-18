@@ -1,6 +1,6 @@
 {
   "id": "cargo-42f35e09",
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "ecosystem": "cargo",
   "category": "breaking",
   "project": {
@@ -54,7 +54,17 @@
       "verifiedOn": [],
       "failure": {
         "failureCategory": "MSRV_TOO_LOW",
-        "errorCodes": []
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "msrv-too-low",
+            "category": "MSRV_TOO_LOW",
+            "subcategory": "serde_yaml v0.9.2",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "requires rustc 1.58+",
+            "terminal": true
+          }
+        ]
       }
     }
   ],
