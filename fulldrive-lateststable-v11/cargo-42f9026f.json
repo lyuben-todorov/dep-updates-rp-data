@@ -53,19 +53,27 @@
       },
       "verifiedOn": [],
       "failure": {
-        "failureCategory": "RUSTC_BITROT",
+        "failureCategory": "TEST_FAILURE",
         "errorCodes": [
           "E0432",
           "E0601"
         ],
         "symptoms": [
           {
+            "checkId": "build-ok-test-fail",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "build completed (cargo build-finished / tests ran) \u2014 failure is in test execution",
+            "terminal": true
+          },
+          {
             "checkId": "rustc-bitrot",
             "category": "RUSTC_BITROT",
             "subcategory": "E0432",
             "locus": "TOOLCHAIN",
             "evidence": "error[E0432] (\u00d71, of 2 rustc errors)",
-            "terminal": true
+            "terminal": false
           },
           {
             "checkId": "test-failure",
