@@ -1,0 +1,72 @@
+{
+  "id": "cargo-2fc0a6b0",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/jontze/wasm-functions",
+    "organisation": "jontze",
+    "name": "wasm-functions"
+  },
+  "pr": {
+    "url": "https://github.com/jontze/wasm-functions/pull/134",
+    "number": 134,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1b82d140d19083858b70694b5963f56aa3419ed8",
+    "post": "2fc0a6b08f2d094c5bb6ae9f6f9891461ee656b3",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tower-http",
+    "previousVersion": "0.6.4",
+    "newVersion": "0.6.6",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 5,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 13,
+        "total": 5
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

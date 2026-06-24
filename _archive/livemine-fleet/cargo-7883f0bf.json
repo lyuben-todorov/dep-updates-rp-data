@@ -1,0 +1,72 @@
+{
+  "id": "cargo-7883f0bf",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/harehare/mq",
+    "organisation": "harehare",
+    "name": "mq"
+  },
+  "pr": {
+    "url": "https://github.com/harehare/mq/pull/942",
+    "number": 942,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a767b0330d10fcd1cd038e7969c5b0e4fd220246",
+    "post": "7883f0bff795f2cc7a65e74255819822a85e32c4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "scraper",
+    "previousVersion": "0.24.0",
+    "newVersion": "0.25.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.90.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.90.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 2930,
+        "failed": 0,
+        "ignored": 4,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 31,
+        "total": 2934
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.90",
+    "rustMsrvDetected": true
+  }
+}

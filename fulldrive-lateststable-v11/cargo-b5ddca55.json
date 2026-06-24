@@ -1,0 +1,72 @@
+{
+  "id": "cargo-b5ddca55",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/TheNeikos/cloudmqtt",
+    "organisation": "TheNeikos",
+    "name": "cloudmqtt"
+  },
+  "pr": {
+    "url": "https://github.com/TheNeikos/cloudmqtt/pull/331",
+    "number": 331,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "ecdf04d3cbd825a3c7f69079b28f29292c40611d",
+    "post": "b5ddca55511afbb36fb639b63eb41eb6e624b997",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.41.0",
+    "newVersion": "1.41.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.83.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.83.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.76.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.76.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 3,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 3
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.76",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

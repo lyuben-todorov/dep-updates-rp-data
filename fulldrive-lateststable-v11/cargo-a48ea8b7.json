@@ -1,0 +1,79 @@
+{
+  "id": "cargo-a48ea8b7",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/iqlusioninc/cosmon",
+    "organisation": "iqlusioninc",
+    "name": "cosmon"
+  },
+  "pr": {
+    "url": "https://github.com/iqlusioninc/cosmon/pull/143",
+    "number": 143,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1d37b02f8ac95c6ff8b3d5a8df7bcf25c0b391c2",
+    "post": "a48ea8b7d25417b2c29b26ccb7768b526d4301d3",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "0.2.22",
+    "newVersion": "1.0.1",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.48.0-buster-20201231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.48.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.48.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0425"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0425",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0425] (\u00d74, of 4 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

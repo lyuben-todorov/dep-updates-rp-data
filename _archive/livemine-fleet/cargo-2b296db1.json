@@ -1,0 +1,72 @@
+{
+  "id": "cargo-2b296db1",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/seffradev/drinkbot",
+    "organisation": "seffradev",
+    "name": "drinkbot"
+  },
+  "pr": {
+    "url": "https://github.com/seffradev/drinkbot/pull/8",
+    "number": 8,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9ca7ef8efa9bd2d2a50de9dba3a93263242503fd",
+    "post": "2b296db163e7b1f7cb3dc666cf3acfcc940b7491",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.87",
+    "newVersion": "1.0.89",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20250318",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1742256000,
+        "aptSnapshot": "20250318T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 0
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

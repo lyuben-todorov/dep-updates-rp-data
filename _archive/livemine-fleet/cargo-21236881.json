@@ -1,0 +1,85 @@
+{
+  "id": "cargo-21236881",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/mstange/samply",
+    "organisation": "mstange",
+    "name": "samply"
+  },
+  "pr": {
+    "url": "https://github.com/mstange/samply/pull/379",
+    "number": 379,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "14614b74988bb8ff3f97fd61705d6eaa51ebc16b",
+    "post": "21236881d8dfe9a13cfecc5b8fa9623abad16381",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "zerocopy-derive",
+    "previousVersion": "0.7.35",
+    "newVersion": "0.8.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20250318",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1742256000,
+        "aptSnapshot": "20250318T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0433",
+          "E0405",
+          "E0603",
+          "E0407",
+          "E0412",
+          "E0119",
+          "E0277"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0433",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0433] (\u00d721, of 57 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

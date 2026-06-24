@@ -1,0 +1,72 @@
+{
+  "id": "cargo-bb5264fc",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/idlab-discover/masters-robbe-haegeman",
+    "organisation": "idlab-discover",
+    "name": "masters-robbe-haegeman"
+  },
+  "pr": {
+    "url": "https://github.com/idlab-discover/masters-robbe-haegeman/pull/76",
+    "number": 76,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "84ed4f4f6aa168986f55f80d7e82c938d86ba084",
+    "post": "bb5264fcaf6dbf8f24843512240b820cf1c7e037",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustls",
+    "previousVersion": "0.23.27",
+    "newVersion": "0.23.33",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 1,
+        "failed": 0,
+        "ignored": 2,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 8,
+        "total": 3
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

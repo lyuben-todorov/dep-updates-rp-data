@@ -1,0 +1,72 @@
+{
+  "id": "cargo-722457a0",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/googleapis/google-cloud-rust",
+    "organisation": "googleapis",
+    "name": "google-cloud-rust"
+  },
+  "pr": {
+    "url": "https://github.com/googleapis/google-cloud-rust/pull/3372",
+    "number": 3372,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "454b9a9841b4692a9b5b2a4163f8325ebdc7f719",
+    "post": "722457a0e90542cffe713ecf156ab7cf3cf8ee8c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_with",
+    "previousVersion": "3.14.0",
+    "newVersion": "3.14.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 3349,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 110,
+        "total": 3349
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "cargo-cc322a8b",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/diem/diem-devtools",
+    "organisation": "diem",
+    "name": "diem-devtools"
+  },
+  "pr": {
+    "url": "https://github.com/diem/diem-devtools/pull/190",
+    "number": 190,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "712034d37f9a36d199082489af38337f66c66712",
+    "post": "cc322a8b7258f0c7484a459bd1f313e78adc4b2e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap_derive",
+    "previousVersion": "3.0.12",
+    "newVersion": "3.1.7",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.59.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.59.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.59.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0412",
+          "E0433",
+          "E0405"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0412",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0412] (\u00d710, of 14 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

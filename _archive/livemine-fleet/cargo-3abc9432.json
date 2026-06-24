@@ -1,0 +1,72 @@
+{
+  "id": "cargo-3abc9432",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/TheAlgorythm/zsplit",
+    "organisation": "TheAlgorythm",
+    "name": "zsplit"
+  },
+  "pr": {
+    "url": "https://github.com/TheAlgorythm/zsplit/pull/143",
+    "number": 143,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b015fa346cff4a343257495d03bdea0b96f066d9",
+    "post": "3abc9432497381bd11d99d2522ca86feb4ae792f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.82",
+    "newVersion": "1.0.83",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20250318",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1742256000,
+        "aptSnapshot": "20250318T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 36,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 4,
+        "total": 36
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cargo-92d11db6",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/solana-program/feature-proposal",
+    "organisation": "solana-program",
+    "name": "feature-proposal"
+  },
+  "pr": {
+    "url": "https://github.com/solana-program/feature-proposal/pull/110",
+    "number": 110,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "20b3de5d9b9df998622ffd750996bda1e4c230de",
+    "post": "92d11db6c68a2b92c7d06d2bf576b5ee5fe56734",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "solana-system-interface",
+    "previousVersion": "2.0.0",
+    "newVersion": "3.0.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.86",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.86.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.86.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0308"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

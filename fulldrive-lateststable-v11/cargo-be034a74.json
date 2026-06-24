@@ -1,0 +1,79 @@
+{
+  "id": "cargo-be034a74",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/rpadovani/dormarch",
+    "organisation": "rpadovani",
+    "name": "dormarch"
+  },
+  "pr": {
+    "url": "https://github.com/rpadovani/dormarch/pull/14",
+    "number": 14,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "47d176ce2a6c96af61b3679f2aa3c27753f31566",
+    "post": "be034a7495d823e68db7871421bafbf5493a6c98",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "3.0.0-beta.5",
+    "newVersion": "3.0.0-rc.8",
+    "versionUpdateType": "other",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.57.0-bullseye-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.57.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.57.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0599"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0599",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0599] (\u00d71, of 1 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "cargo-0d929a1c",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/libp2p/rust-libp2p",
+    "organisation": "libp2p",
+    "name": "rust-libp2p"
+  },
+  "pr": {
+    "url": "https://github.com/libp2p/rust-libp2p/pull/5032",
+    "number": 5032,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4260702f749d45fb53ea7edd2fb0a728afb83488",
+    "post": "0d929a1c7621e929ad5fad60c809f24743da3d88",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "futures",
+    "previousVersion": "0.3.29",
+    "newVersion": "0.3.30",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.74.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 12,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 12
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.73",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

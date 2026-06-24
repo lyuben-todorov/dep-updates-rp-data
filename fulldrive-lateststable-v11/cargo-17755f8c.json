@@ -1,0 +1,79 @@
+{
+  "id": "cargo-17755f8c",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/maximumstock/poe-stash-indexer",
+    "organisation": "maximumstock",
+    "name": "poe-stash-indexer"
+  },
+  "pr": {
+    "url": "https://github.com/maximumstock/poe-stash-indexer/pull/456",
+    "number": 456,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b09283750774380934df1e10838cc05b451baf3c",
+    "post": "17755f8ca1786360f43061813e61926b08608a3a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tower-http",
+    "previousVersion": "0.4.3",
+    "newVersion": "0.5.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.74.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0277"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0277",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0277] (\u00d71, of 1 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

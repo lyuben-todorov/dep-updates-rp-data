@@ -1,0 +1,72 @@
+{
+  "id": "cargo-d53362f1",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/TheAlgorythm/pam-auth",
+    "organisation": "TheAlgorythm",
+    "name": "pam-auth"
+  },
+  "pr": {
+    "url": "https://github.com/TheAlgorythm/pam-auth/pull/162",
+    "number": 162,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b84963ae5a549b48b90911410646701da566c1a6",
+    "post": "d53362f12ee7a5a482afd44c7ee8c3de16537a87",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "enumflags2",
+    "previousVersion": "0.7.9",
+    "newVersion": "0.7.10",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.78.0-bookworm-20241231-p1.1.1",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.78.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.78.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 4,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 7,
+        "total": 4
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

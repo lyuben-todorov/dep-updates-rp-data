@@ -1,0 +1,72 @@
+{
+  "id": "cargo-34d831fb",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/sarroutbi/koji-retriever",
+    "organisation": "sarroutbi",
+    "name": "koji-retriever"
+  },
+  "pr": {
+    "url": "https://github.com/sarroutbi/koji-retriever/pull/264",
+    "number": 264,
+    "author": "sarroutbi",
+    "authorType": "human",
+    "botType": null,
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "36debae8708f35eb9b772cfb59dce2f82de4fb79",
+    "post": "34d831fbac206f31d9b1eba508bf76729b06da79",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.5.13",
+    "newVersion": "4.5.16",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20250318",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1742256000,
+        "aptSnapshot": "20250318T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 12,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 4,
+        "total": 12
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

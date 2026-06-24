@@ -1,0 +1,69 @@
+{
+  "id": "cargo-bab2bf34",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/Dwlad90/stylex-swc-plugin",
+    "organisation": "Dwlad90",
+    "name": "stylex-swc-plugin"
+  },
+  "pr": {
+    "url": "https://github.com/Dwlad90/stylex-swc-plugin/pull/630",
+    "number": 630,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "43580749d8ed2042e4b0eef9e61cf446ab315238",
+    "post": "bab2bf342424dd426339212b16e83f4d5cb71742",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "napi-derive",
+    "previousVersion": "2.16.13",
+    "newVersion": "3.3.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.90",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.90.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.90.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0599",
+          "E0308"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "cargo-c056fc69",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/hoprnet/hoprd-operator",
+    "organisation": "hoprnet",
+    "name": "hoprd-operator"
+  },
+  "pr": {
+    "url": "https://github.com/hoprnet/hoprd-operator/pull/193",
+    "number": 193,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c3bfd7b8f3ddca286b3efa142c9e059cdb82a2a4",
+    "post": "c056fc698758eb2928c75627ba98d3ecb2d55264",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "kube",
+    "previousVersion": "0.87.2",
+    "newVersion": "0.88.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.75.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.75.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.75.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.75"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "BUILD_EXECUTION",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-panic",
+            "category": "BUILD_EXECUTION",
+            "subcategory": "BUILD_SCRIPT_PANIC",
+            "locus": "TOOLCHAIN",
+            "evidence": "thread 'main' panicked at /cargo-cache/registry/src/index.crates.io-6f17d22bba15001f/k8s-openapi-0.21.0/build.rs:17:42:",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.75",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

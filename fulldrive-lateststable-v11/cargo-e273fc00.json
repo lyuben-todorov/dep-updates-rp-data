@@ -1,0 +1,77 @@
+{
+  "id": "cargo-e273fc00",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/IronCoreLabs/ironoxide-cli",
+    "organisation": "IronCoreLabs",
+    "name": "ironoxide-cli"
+  },
+  "pr": {
+    "url": "https://github.com/IronCoreLabs/ironoxide-cli/pull/40",
+    "number": 40,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f8f79f15e8c0e9ee7b0081e86bb3410f1c45537f",
+    "post": "e273fc0009bbeda2f7d37e0ff3a8c45d44644b85",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "0.2.22",
+    "newVersion": "0.3.3",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.47.0-buster-20201231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.47.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.47.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "could-not-compile-fallback",
+            "category": "RUSTC_ERROR",
+            "subcategory": null,
+            "locus": "TOOLCHAIN",
+            "evidence": "could not compile ironoxide-cli",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

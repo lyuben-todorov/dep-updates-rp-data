@@ -1,0 +1,72 @@
+{
+  "id": "cargo-231fb3b8",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/rafat1999/RustScan",
+    "organisation": "rafat1999",
+    "name": "RustScan"
+  },
+  "pr": {
+    "url": "https://github.com/rafat1999/RustScan/pull/22",
+    "number": 22,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8a6334dfe8069c2e80db16ff666d9ad0d9e90b1f",
+    "post": "231fb3b888f4afa348f719618def953bfb4cc0e1",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "toml",
+    "previousVersion": "0.8.20",
+    "newVersion": "0.9.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 64,
+        "failed": 0,
+        "ignored": 8,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 4,
+        "total": 72
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

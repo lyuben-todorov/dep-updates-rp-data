@@ -1,0 +1,85 @@
+{
+  "id": "cargo-bd5daaf8",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/vmware-tanzu/kubeapps",
+    "organisation": "vmware-tanzu",
+    "name": "kubeapps"
+  },
+  "pr": {
+    "url": "https://github.com/vmware-tanzu/kubeapps/pull/6177",
+    "number": 6177,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9ba0443c314ab5c6dd4f16f5b038856febb88258",
+    "post": "bd5daaf82d08782ecdf57183d073f7d411dff29c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "kube-runtime",
+    "previousVersion": "0.80.0",
+    "newVersion": "0.82.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.68.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 37,
+        "failed": 1,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 38
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

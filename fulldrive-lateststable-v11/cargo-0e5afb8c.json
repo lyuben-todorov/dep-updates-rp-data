@@ -1,0 +1,80 @@
+{
+  "id": "cargo-0e5afb8c",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/AnderEnder/s3find-rs",
+    "organisation": "AnderEnder",
+    "name": "s3find-rs"
+  },
+  "pr": {
+    "url": "https://github.com/AnderEnder/s3find-rs/pull/10",
+    "number": 10,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e67f0e70b5ba88eac5014895ecbcb92d48cea5b8",
+    "post": "0e5afb8c12a26bc3eb8bd0d57979df5d24363a0a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rusoto_core",
+    "previousVersion": "0.33.1",
+    "newVersion": "0.34.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.29.0-stretch-20181231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.29.0",
+        "sourceDateEpoch": 1546214400,
+        "aptSnapshot": "20181231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.29.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0277",
+          "E0308"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0277",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0277] (\u00d72, of 4 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "cargo-3dbc93f7",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/reacherhq/check-if-email-exists",
+    "organisation": "reacherhq",
+    "name": "check-if-email-exists"
+  },
+  "pr": {
+    "url": "https://github.com/reacherhq/check-if-email-exists/pull/414",
+    "number": 414,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "5fad57d88ef92d65c7d493cdcb45eff347d6a286",
+    "post": "3dbc93f7e8c0f6bd69439ee477414390455a7f67",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.53",
+    "newVersion": "1.0.55",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.49.0-buster-20210209",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.49.0",
+        "sourceDateEpoch": 1612828800,
+        "aptSnapshot": "20210209T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.49.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
+}

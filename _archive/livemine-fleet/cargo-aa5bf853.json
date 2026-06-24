@@ -1,0 +1,72 @@
+{
+  "id": "cargo-aa5bf853",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/UCSD-E4E/git-lfs-synology",
+    "organisation": "UCSD-E4E",
+    "name": "git-lfs-synology"
+  },
+  "pr": {
+    "url": "https://github.com/UCSD-E4E/git-lfs-synology/pull/50",
+    "number": 50,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "06510787cc411f430467a3b431b39152714d4060",
+    "post": "aa5bf853281982dcd2690dbc5ea7614ef5692f78",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.5.23",
+    "newVersion": "4.5.28",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20251231",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.82.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.82"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 12,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 12
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.82",
+    "rustMsrvDetected": true
+  }
+}

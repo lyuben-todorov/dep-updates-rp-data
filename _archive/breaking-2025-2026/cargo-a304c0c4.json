@@ -1,0 +1,62 @@
+{
+  "id": "cargo-a304c0c4",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mxsm/rocketmq-rust",
+    "organisation": "mxsm",
+    "name": "rocketmq-rust"
+  },
+  "pr": {
+    "url": "https://github.com/mxsm/rocketmq-rust/pull/6320",
+    "number": 6320,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "90d2bbaaa4149d8c0ce65510e43254a3595a993d",
+    "post": "a304c0c45b002b8c64eb2e5f5c7923b30307b0d8",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.181",
+    "newVersion": "0.2.182",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.98.0-nightly",
+        "source": "floating_nondeterministic",
+        "channelDeclared": "nightly"
+      },
+      "verifiedOn": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "cargo-a9e29673",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/smoketurner/k8s-valkey-operator",
+    "organisation": "smoketurner",
+    "name": "k8s-valkey-operator"
+  },
+  "pr": {
+    "url": "https://github.com/smoketurner/k8s-valkey-operator/pull/36",
+    "number": 36,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "bf3b086bd6c802a6f067f21d8905127df2299aac",
+    "post": "a9e29673526e01471e5549005ffbeb4c5caed72c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rand",
+    "previousVersion": "0.10.0",
+    "newVersion": "0.10.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.94.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.94.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.96.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 533,
+        "failed": 0,
+        "ignored": 52,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 6,
+        "total": 585
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.92",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

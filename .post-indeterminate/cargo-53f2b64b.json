@@ -1,0 +1,77 @@
+{
+  "id": "cargo-53f2b64b",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "indeterminate",
+  "project": {
+    "url": "https://github.com/justinfrevert/identity-example",
+    "organisation": "justinfrevert",
+    "name": "identity-example"
+  },
+  "pr": {
+    "url": "https://github.com/justinfrevert/identity-example/pull/20",
+    "number": 20,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "18124242049f8a9fee3b8c7f71d2a2779d7e1ff8",
+    "post": "53f2b64bce3c78a5f54369be1b1cbb50b04f7e25",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.3.12",
+    "newVersion": "4.4.7",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.73.0-bookworm-20231231-p1.1.0",
+      "category": "indeterminate",
+      "fatImage": {
+        "rustVersion": "1.73.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.73.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2023-08-04"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

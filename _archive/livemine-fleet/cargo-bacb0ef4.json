@@ -1,0 +1,72 @@
+{
+  "id": "cargo-bacb0ef4",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/donovanglover/hyprdim",
+    "organisation": "donovanglover",
+    "name": "hyprdim"
+  },
+  "pr": {
+    "url": "https://github.com/donovanglover/hyprdim/pull/128",
+    "number": 128,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "6395ed6dc36922fd60b277b740cfded17370a66a",
+    "post": "bacb0ef4ad8976031a19185b05cf86c99b922802",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap_complete",
+    "previousVersion": "4.5.44",
+    "newVersion": "4.5.47",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 4,
+        "failed": 0,
+        "ignored": 2,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 6
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

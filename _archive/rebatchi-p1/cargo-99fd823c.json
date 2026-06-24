@@ -1,0 +1,72 @@
+{
+  "id": "cargo-99fd823c",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/gears-project/gears-cli",
+    "organisation": "gears-project",
+    "name": "gears-cli"
+  },
+  "pr": {
+    "url": "https://github.com/gears-project/gears-cli/pull/41",
+    "number": 41,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a18b51fc9176dbcb52950da2e5c2abb0792f6233",
+    "post": "99fd823c7b43f33093525129297f25d504930bfb",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "yaml-rust",
+    "previousVersion": "0.4.0",
+    "newVersion": "0.4.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.39.0-stretch-20191123",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.39.0",
+        "sourceDateEpoch": 1574467200,
+        "aptSnapshot": "20191123T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.39.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 0
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false
+  }
+}

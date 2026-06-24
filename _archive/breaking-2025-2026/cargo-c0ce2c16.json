@@ -1,0 +1,66 @@
+{
+  "id": "cargo-c0ce2c16",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/LorenzoLeonardo/async-curl",
+    "organisation": "LorenzoLeonardo",
+    "name": "async-curl"
+  },
+  "pr": {
+    "url": "https://github.com/LorenzoLeonardo/async-curl/pull/110",
+    "number": 110,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "73067c693614328fded5fbf6e2caba734b8dd7bc",
+    "post": "c0ce2c16b705b381ffb83ca485c8538b9f08ea7f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ctor",
+    "previousVersion": "0.6.3",
+    "newVersion": "1.0.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

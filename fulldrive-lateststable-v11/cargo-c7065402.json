@@ -1,0 +1,72 @@
+{
+  "id": "cargo-c7065402",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Shylock-Hg/libra",
+    "organisation": "Shylock-Hg",
+    "name": "libra"
+  },
+  "pr": {
+    "url": "https://github.com/Shylock-Hg/libra/pull/607",
+    "number": 607,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4b58af65683db70a7ae4fbc1bdc801d4762df3ce",
+    "post": "c70654026eafd7e824ff735070b8ffc37c613a79",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "flate2",
+    "previousVersion": "1.0.17",
+    "newVersion": "1.0.18",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.46.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.46.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.45.2",
+        "source": "project_pinned",
+        "channelDeclared": "1.45.2"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 6,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 6
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.45",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

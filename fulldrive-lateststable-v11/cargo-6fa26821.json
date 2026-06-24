@@ -1,0 +1,85 @@
+{
+  "id": "cargo-6fa26821",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/brettcannon/python-launcher",
+    "organisation": "brettcannon",
+    "name": "python-launcher"
+  },
+  "pr": {
+    "url": "https://github.com/brettcannon/python-launcher/pull/276",
+    "number": 276,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9f9820dd504753a64fcee8d03506885ccd327d9d",
+    "post": "6fa2682197e101f33c83110b0fc7ca4860b0c40a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tempfile",
+    "previousVersion": "3.3.0",
+    "newVersion": "3.4.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.67.0-bullseye-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.67.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.67.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 102,
+        "failed": 1,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 6,
+        "total": 103
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.58",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

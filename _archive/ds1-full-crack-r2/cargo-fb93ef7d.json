@@ -1,0 +1,72 @@
+{
+  "id": "cargo-fb93ef7d",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/shssoichiro/oxipng",
+    "organisation": "shssoichiro",
+    "name": "oxipng"
+  },
+  "pr": {
+    "url": "https://github.com/oxipng/oxipng/pull/299",
+    "number": 299,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d5bf3bbb59e8938cbb79c67b506bab8e942ac0a9",
+    "post": "fb93ef7df6ed9aad2ccd55c60cad9109c0fa0b7f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "bytemuck",
+    "previousVersion": "1.3.1",
+    "newVersion": "1.4.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.49.0-buster-20210209",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.49.0",
+        "sourceDateEpoch": 1612828800,
+        "aptSnapshot": "20210209T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.49.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 262,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 9,
+        "total": 262
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
+}

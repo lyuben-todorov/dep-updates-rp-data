@@ -1,0 +1,72 @@
+{
+  "id": "cargo-47c38ef0",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/midgleyc/ruffle",
+    "organisation": "midgleyc",
+    "name": "ruffle"
+  },
+  "pr": {
+    "url": "https://github.com/midgleyc/ruffle/pull/176",
+    "number": 176,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0e4d2d48f5a04483ab81092b983ed099318dd91b",
+    "post": "47c38ef0c36acb33380342ea57848da83a94ae3a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "wgpu",
+    "previousVersion": "0.11.0",
+    "newVersion": "0.11.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.57.0-bullseye-20211231-p1.1.1",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.57.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.57.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 861,
+        "failed": 0,
+        "ignored": 11,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 22,
+        "total": 872
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

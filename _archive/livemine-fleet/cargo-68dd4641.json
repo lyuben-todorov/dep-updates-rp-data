@@ -1,0 +1,80 @@
+{
+  "id": "cargo-68dd4641",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/rodneylab/axum-graphql",
+    "organisation": "rodneylab",
+    "name": "axum-graphql"
+  },
+  "pr": {
+    "url": "https://github.com/rodneylab/axum-graphql/pull/327",
+    "number": 327,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "534eced31fb37361c9ff5e1baa4d7b914b2c85eb",
+    "post": "68dd4641ea569d5f44be19cad4e7938920b46807",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "opentelemetry-appender-tracing",
+    "previousVersion": "0.30.1",
+    "newVersion": "0.31.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.90.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.90"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0277",
+          "E0599"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0277",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0277] (\u00d74, of 6 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.90",
+    "rustMsrvDetected": true
+  }
+}

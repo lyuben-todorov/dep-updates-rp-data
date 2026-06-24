@@ -1,0 +1,66 @@
+{
+  "id": "cargo-f64c6a82",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/OHANA-WEB/solana-program-library",
+    "organisation": "OHANA-WEB",
+    "name": "solana-program-library"
+  },
+  "pr": {
+    "url": "https://github.com/OHANA-WEB/solana-program-library/pull/10",
+    "number": 10,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "2082cedb25ed0a7495d08c7e4749efbf5bea3f5d",
+    "post": "f64c6a823986c9787c3ff838edc7c2ffb01e7bd3",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "proptest",
+    "previousVersion": "1.6.0",
+    "newVersion": "1.9.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.81",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.81.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.81.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [],
+        "failureCategory": "OTHER"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "cargo-0ab7764f",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/EmbarkStudios/cargo-deny",
+    "organisation": "EmbarkStudios",
+    "name": "cargo-deny"
+  },
+  "pr": {
+    "url": "https://github.com/EmbarkStudios/cargo-deny/pull/166",
+    "number": 166,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "051ad4069cd1edde15c0723f5ea0d4dc94fe3d18",
+    "post": "0ab7764f51501dedad9f61ac33cc8ccff3804f37",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "bitvec",
+    "previousVersion": "0.17.2",
+    "newVersion": "0.17.4",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.56.0-buster-20211022",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.56.0",
+        "sourceDateEpoch": 1634860800,
+        "aptSnapshot": "20211022T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 7,
+        "failed": 0,
+        "ignored": 4,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 5,
+        "total": 11
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

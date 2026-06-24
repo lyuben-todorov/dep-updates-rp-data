@@ -1,0 +1,66 @@
+{
+  "id": "cargo-bfc7681b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/0x53A/ractor-wormhole",
+    "organisation": "0x53A",
+    "name": "ractor-wormhole"
+  },
+  "pr": {
+    "url": "https://github.com/0x53A/ractor-wormhole/pull/20",
+    "number": 20,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "fe2259569e7276db59c23bed500753ae8f48ba47",
+    "post": "bfc7681be640b3c33469be278e954eb2823da249",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "bincode",
+    "previousVersion": "2.0.1",
+    "newVersion": "3.0.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.98.0-nightly",
+        "source": "floating_nondeterministic",
+        "channelDeclared": "nightly"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

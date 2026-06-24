@@ -1,0 +1,72 @@
+{
+  "id": "cargo-2472a197",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/RustCrypto/SSH",
+    "organisation": "RustCrypto",
+    "name": "SSH"
+  },
+  "pr": {
+    "url": "https://github.com/RustCrypto/SSH/pull/426",
+    "number": 426,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a9a034e078e533a6f4054c81f2ad29528a6801cb",
+    "post": "2472a1972526afe5f9c2e1cc1e7b6632aab0dd2d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "base64ct",
+    "previousVersion": "1.8.0",
+    "newVersion": "1.8.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.91.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.91.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.91.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 138,
+        "failed": 0,
+        "ignored": 8,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 24,
+        "total": 146
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

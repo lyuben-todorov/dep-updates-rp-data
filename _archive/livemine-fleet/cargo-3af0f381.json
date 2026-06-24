@@ -1,0 +1,77 @@
+{
+  "id": "cargo-3af0f381",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "indeterminate",
+  "project": {
+    "url": "https://github.com/uiua-lang/uiua",
+    "organisation": "uiua-lang",
+    "name": "uiua"
+  },
+  "pr": {
+    "url": "https://github.com/uiua-lang/uiua/pull/845",
+    "number": 845,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0ce5427e5882d1f25149b4ebef826d1b9e4451ca",
+    "post": "3af0f3819b3fc0b3a39f5e42729460b9aeeb6520",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustyline",
+    "previousVersion": "15.0.0",
+    "newVersion": "17.0.1",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "indeterminate",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.83",
+    "rustMsrvDetected": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "cargo-215afa48",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/jeremyBanks/speedruns",
+    "organisation": "jeremyBanks",
+    "name": "speedruns"
+  },
+  "pr": {
+    "url": "https://github.com/jeremyBanks/speedruns/pull/44",
+    "number": 44,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b56d259eb943476057b0a64ef5b66a735e4a9c1c",
+    "post": "215afa486d243cce6a029dccbc57650c68318c6c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "async-task",
+    "previousVersion": "1.1.1",
+    "newVersion": "1.2.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.40.0-buster-20201231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.40.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.41.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2019-12-15"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 3,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 6,
+        "total": 3
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "cargo-bb283987",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Mythic-Project/solana-program-library",
+    "organisation": "Mythic-Project",
+    "name": "solana-program-library"
+  },
+  "pr": {
+    "url": "https://github.com/Mythic-Project/solana-program-library/pull/600",
+    "number": 600,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "5afaf6f5c85700277a54584d85ef737fda0a8903",
+    "post": "bb2839870aa2c695e49d69a2d2f1031bae552b79",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "honggfuzz",
+    "previousVersion": "0.5.56",
+    "newVersion": "0.5.60",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.81",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.81.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.81.0"
+      },
+      "verifiedOn": []
+    }
+  ]
+}

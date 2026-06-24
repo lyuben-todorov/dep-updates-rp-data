@@ -1,0 +1,72 @@
+{
+  "id": "cargo-85870d02",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/omerbenamram/evtx",
+    "organisation": "omerbenamram",
+    "name": "evtx"
+  },
+  "pr": {
+    "url": "https://github.com/omerbenamram/evtx/pull/133",
+    "number": 133,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0435cbdf1fecd5c85b736bda33e25308d05323fc",
+    "post": "85870d02a0a51ff0a8d8e0ac6ff4bbc6d664072f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "chrono",
+    "previousVersion": "0.4.13",
+    "newVersion": "0.4.19",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.49.0-buster-20210209",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.49.0",
+        "sourceDateEpoch": 1612828800,
+        "aptSnapshot": "20210209T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.49.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 47,
+        "failed": 2,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 9,
+        "total": 49
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "cargo-d4e96336",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/2ro/OpenExhibit",
+    "organisation": "2ro",
+    "name": "OpenExhibit"
+  },
+  "pr": {
+    "url": "https://github.com/2ro/OpenExhibit/pull/10",
+    "number": 10,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d99d393b143d75ebc3d2c8ee9076458bbceaf84e",
+    "post": "d4e96336b48452349452e22739d980a7fae5a2cd",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rand",
+    "previousVersion": "0.8.6",
+    "newVersion": "0.10.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.80",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0425",
+          "E0432",
+          "E0599"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "cargo-ff09e571",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/travier/coreos-installer",
+    "organisation": "travier",
+    "name": "coreos-installer"
+  },
+  "pr": {
+    "url": "https://github.com/travier/coreos-installer/pull/5",
+    "number": 5,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "205c362030dc4af3c0468c09509edd7dc1837141",
+    "post": "ff09e57162655a389dd98d19b9cfc30ffc4e620d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "flate2",
+    "previousVersion": "1.0.17",
+    "newVersion": "1.0.18",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.49.0-buster-20210209",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.49.0",
+        "sourceDateEpoch": 1612828800,
+        "aptSnapshot": "20210209T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.49.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 16,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 16
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
+}

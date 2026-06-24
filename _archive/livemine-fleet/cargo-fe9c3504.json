@@ -1,0 +1,72 @@
+{
+  "id": "cargo-fe9c3504",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/linkerd/linkerd-extension-init",
+    "organisation": "linkerd",
+    "name": "linkerd-extension-init"
+  },
+  "pr": {
+    "url": "https://github.com/linkerd/linkerd-extension-init/pull/215",
+    "number": 215,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f40a932094ef98c3cb8f2a074f57d182b643b8e2",
+    "post": "fe9c3504222ecdca495f8ded0108ff95495494da",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "regex-automata",
+    "previousVersion": "0.4.9",
+    "newVersion": "0.4.11",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.88.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.88.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 2,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 2
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true
+  }
+}

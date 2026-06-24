@@ -1,0 +1,62 @@
+{
+  "id": "cargo-86f22bdd",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/lilyinstarlight/nixpkgs-fod-reports",
+    "organisation": "lilyinstarlight",
+    "name": "nixpkgs-fod-reports"
+  },
+  "pr": {
+    "url": "https://github.com/lilyinstarlight/nixpkgs-fod-reports/pull/210",
+    "number": 210,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3e28463a52562a38007a559e4e0dac3ccea5600f",
+    "post": "86f22bddce9d5034ba9f2e17fdd61bf6f0bf29d5",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rayon",
+    "previousVersion": "1.10.0",
+    "newVersion": "1.11.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": []
+    }
+  ]
+}

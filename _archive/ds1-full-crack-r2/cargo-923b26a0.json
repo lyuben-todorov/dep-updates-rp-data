@@ -1,0 +1,64 @@
+{
+  "id": "cargo-923b26a0",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/reacherhq/check-if-email-exists",
+    "organisation": "reacherhq",
+    "name": "check-if-email-exists"
+  },
+  "pr": {
+    "url": "https://github.com/reacherhq/check-if-email-exists/pull/792",
+    "number": 792,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0b4b20cb0ac8ac936358a9fabe689c38f8f7ead9",
+    "post": "923b26a097ad285cf64a9ee3d50454e9e2670f90",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "futures-lite",
+    "previousVersion": "1.11.2",
+    "newVersion": "1.11.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.49.0-buster-20210209",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.49.0",
+        "sourceDateEpoch": 1612828800,
+        "aptSnapshot": "20210209T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.49.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
+}

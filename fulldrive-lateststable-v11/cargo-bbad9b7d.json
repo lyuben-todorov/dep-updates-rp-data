@@ -1,0 +1,72 @@
+{
+  "id": "cargo-bbad9b7d",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/mobilecoinfoundation/mobilecoin",
+    "organisation": "mobilecoinfoundation",
+    "name": "mobilecoin"
+  },
+  "pr": {
+    "url": "https://github.com/mobilecoinfoundation/mobilecoin/pull/3732",
+    "number": 3732,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7c280c460fce4f66b110c06310d10bd46fcffc34",
+    "post": "bbad9b7d330f3c2f580adb7683e327cc952da7cf",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rocket",
+    "previousVersion": "0.5.0-rc.4",
+    "newVersion": "0.5.0",
+    "versionUpdateType": "other",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.1",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.74.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2023-10-01"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 1,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 1
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.74",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

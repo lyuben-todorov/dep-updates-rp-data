@@ -1,0 +1,72 @@
+{
+  "id": "cargo-943076bb",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/ruchirK/materialize",
+    "organisation": "ruchirK",
+    "name": "materialize"
+  },
+  "pr": {
+    "url": "https://github.com/ruchirK/materialize/pull/139",
+    "number": 139,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "6f1b5ee52637a7dd902782745bc3cc8908c9dd55",
+    "post": "943076bbdd95e6bdc2992b4a8ddde350eac43fc4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "num_enum",
+    "previousVersion": "0.5.1",
+    "newVersion": "0.5.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.53.0-bullseye-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.53.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.53.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 15,
+        "failed": 0,
+        "ignored": 1,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 16
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.53"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "cargo-dd50948c",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/ck3mp3r/laio-cli",
+    "organisation": "ck3mp3r",
+    "name": "laio-cli"
+  },
+  "pr": {
+    "url": "https://github.com/ck3mp3r/laio-cli/pull/174",
+    "number": 174,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "dd8331744f649ef8db7c14dcb4ba85bf4f45870c",
+    "post": "dd50948c2dbf135e0acd8811f11fcda6c756202f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap_complete",
+    "previousVersion": "4.5.44",
+    "newVersion": "4.5.45",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 14,
+        "failed": 3,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 17
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

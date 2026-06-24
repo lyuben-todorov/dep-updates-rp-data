@@ -1,0 +1,72 @@
+{
+  "id": "cargo-ec58f3ff",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/solana-program/zk-elgamal-proof",
+    "organisation": "solana-program",
+    "name": "zk-elgamal-proof"
+  },
+  "pr": {
+    "url": "https://github.com/solana-program/zk-elgamal-proof/pull/43",
+    "number": 43,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "558988e408f7fdaf4e278e790dd852f8d46a5f15",
+    "post": "ec58f3ff736bf5b239961afb48943d7c600a3811",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "bytemuck_derive",
+    "previousVersion": "1.9.3",
+    "newVersion": "1.10.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.89.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.89.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.87.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.87.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 95,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 95
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.87",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "cargo-3a9c5ea5",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/benbrandt/d20",
+    "organisation": "benbrandt",
+    "name": "d20"
+  },
+  "pr": {
+    "url": "https://github.com/benbrandt/d20/pull/964",
+    "number": 964,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "6077d510ae229f1fbc9becd439085d047b78eff8",
+    "post": "3a9c5ea55f3b627314192f568e0acc50a4560ce9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.28",
+    "newVersion": "1.0.29",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.56.0-buster-20211022",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.56.0",
+        "sourceDateEpoch": 1634860800,
+        "aptSnapshot": "20211022T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 11,
+        "failed": 1,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 6,
+        "total": 12
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

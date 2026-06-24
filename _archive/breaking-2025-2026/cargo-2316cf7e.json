@@ -1,0 +1,69 @@
+{
+  "id": "cargo-2316cf7e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/influxdata/sinker",
+    "organisation": "influxdata",
+    "name": "sinker"
+  },
+  "pr": {
+    "url": "https://github.com/influxdata/sinker/pull/220",
+    "number": 220,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c17c1b2586645584fedb449fb286affd44e13509",
+    "post": "2316cf7e706a6aff3e48f0b73dd969c67366b9ed",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "schemars",
+    "previousVersion": "0.8.21",
+    "newVersion": "1.1.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.85.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0277",
+          "E0433"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

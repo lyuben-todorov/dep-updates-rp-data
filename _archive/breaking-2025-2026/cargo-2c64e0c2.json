@@ -1,0 +1,69 @@
+{
+  "id": "cargo-2c64e0c2",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/leynos/mdtablefix",
+    "organisation": "leynos",
+    "name": "mdtablefix"
+  },
+  "pr": {
+    "url": "https://github.com/leynos/mdtablefix/pull/220",
+    "number": 220,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3224a64d0e35a73e1fca0b9f8f65c9b200c1ffcb",
+    "post": "2c64e0c26e47ef411e9190299a7689ed9626d03d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "markup5ever_rcdom",
+    "previousVersion": "0.3.0",
+    "newVersion": "0.39.0+unofficial",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.89",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.96.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2026-03-26"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0277",
+          "E0599"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

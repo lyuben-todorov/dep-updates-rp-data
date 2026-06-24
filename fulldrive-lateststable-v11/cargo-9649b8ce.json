@@ -1,0 +1,72 @@
+{
+  "id": "cargo-9649b8ce",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/cljoly/rusqlite_migration",
+    "organisation": "cljoly",
+    "name": "rusqlite_migration"
+  },
+  "pr": {
+    "url": "https://github.com/cljoly/rusqlite_migration/pull/214",
+    "number": 214,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b554d00fd35cd9249a2869793a284b4a10f4319e",
+    "post": "9649b8ceeb43fa3bc1ba9e574b7d40478f789e85",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.93",
+    "newVersion": "1.0.94",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.83.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.83.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.83.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 120,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 17,
+        "total": 120
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.77",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

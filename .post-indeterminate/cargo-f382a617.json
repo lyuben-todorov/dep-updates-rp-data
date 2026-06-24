@@ -1,0 +1,93 @@
+{
+  "id": "cargo-f382a617",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/beltram/stubr",
+    "organisation": "beltram",
+    "name": "stubr"
+  },
+  "pr": {
+    "url": "https://github.com/beltram/stubr/pull/335",
+    "number": 335,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e21177bc286d2ae6cd0c49e4e42ffdb1a439c4fd",
+    "post": "f382a617e51453e12e4a340e6ce783fde06017c1",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "handlebars",
+    "previousVersion": "4.2.2",
+    "newVersion": "4.3.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_PORT_IN_USE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-port-in-use",
+            "category": "TEST_PORT_IN_USE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "thread 'record::config::should_allow_recording_on_dedicated_port' panicked at 'Failed binding stubr recorder to a local ",
+            "terminal": true
+          },
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": false
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 929,
+        "failed": 1,
+        "ignored": 1,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 4,
+        "total": 931
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

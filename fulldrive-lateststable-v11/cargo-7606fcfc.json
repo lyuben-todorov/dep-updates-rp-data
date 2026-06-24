@@ -1,0 +1,77 @@
+{
+  "id": "cargo-7606fcfc",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/lukaspustina/clams-bin",
+    "organisation": "lukaspustina",
+    "name": "clams-bin"
+  },
+  "pr": {
+    "url": "https://github.com/lukaspustina/clams-bin/pull/169",
+    "number": 169,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "14cf8732a4809b2003fbe255edffab448047b19a",
+    "post": "7606fcfcd6a857a6f8b79c15f15da357ecb515cc",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "structopt",
+    "previousVersion": "0.2.18",
+    "newVersion": "0.3.19",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.47.0-buster-20201231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.47.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.47.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "could-not-compile-fallback",
+            "category": "RUSTC_ERROR",
+            "subcategory": null,
+            "locus": "TOOLCHAIN",
+            "evidence": "could not compile clams-bin",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

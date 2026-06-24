@@ -1,0 +1,72 @@
+{
+  "id": "cargo-6d85ca6e",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/wireapp/core-crypto",
+    "organisation": "wireapp",
+    "name": "core-crypto"
+  },
+  "pr": {
+    "url": "https://github.com/wireapp/core-crypto/pull/676",
+    "number": 676,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "392bc120ac54080496c27a5e68f494f89c15ccbe",
+    "post": "6d85ca6ed46ea9fa3719b15079e5061b312bec48",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "fantoccini",
+    "previousVersion": "0.21.1",
+    "newVersion": "0.21.2",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.80.0-bookworm-20241231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.80.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.80.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 710,
+        "failed": 0,
+        "ignored": 14,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 20,
+        "total": 724
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

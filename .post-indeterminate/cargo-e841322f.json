@@ -1,0 +1,77 @@
+{
+  "id": "cargo-e841322f",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "indeterminate",
+  "project": {
+    "url": "https://github.com/nervosnetwork/ckb",
+    "organisation": "nervosnetwork",
+    "name": "ckb"
+  },
+  "pr": {
+    "url": "https://github.com/nervosnetwork/ckb/pull/2232",
+    "number": 2232,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "01eb5b2ecadf7e421b117d6c013e182978746e2f",
+    "post": "e841322f62ca86b122693d96257eaedb6992e6a5",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "crossbeam-channel",
+    "previousVersion": "0.3.9",
+    "newVersion": "0.4.3",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.45.0-buster-20201231-p1.1.0",
+      "category": "indeterminate",
+      "fatImage": {
+        "rustVersion": "1.45.0",
+        "sourceDateEpoch": 1609372800,
+        "aptSnapshot": "20201231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.45.2",
+        "source": "project_pinned",
+        "channelDeclared": "1.45.2"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.45",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

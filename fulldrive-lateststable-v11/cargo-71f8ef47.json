@@ -1,0 +1,72 @@
+{
+  "id": "cargo-71f8ef47",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/oxidecomputer/oxide.rs",
+    "organisation": "oxidecomputer",
+    "name": "oxide.rs"
+  },
+  "pr": {
+    "url": "https://github.com/oxidecomputer/oxide.rs/pull/317",
+    "number": 317,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e35c72af0393f001e9f295e86714f59df4311d3c",
+    "post": "71f8ef47a94e2e4c9f8ac1684203485faf8310f2",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio",
+    "previousVersion": "1.29.1",
+    "newVersion": "1.31.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.71.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.71.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.68.2",
+        "source": "project_pinned",
+        "channelDeclared": "1.68"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 35,
+        "failed": 0,
+        "ignored": 149,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 15,
+        "total": 184
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.68",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

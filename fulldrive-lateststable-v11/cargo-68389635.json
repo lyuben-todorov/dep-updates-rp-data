@@ -1,0 +1,77 @@
+{
+  "id": "cargo-68389635",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/digidawww/solana",
+    "organisation": "digidawww",
+    "name": "solana"
+  },
+  "pr": {
+    "url": "https://github.com/digidawww/solana/pull/66",
+    "number": 66,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "852b25e1672615c26a5bc5b578fbd4bfb69e1d94",
+    "post": "68389635b80dd5c29fe8dceb8cd8438fa52dfc5e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tokio-util",
+    "previousVersion": "0.6.3",
+    "newVersion": "0.7.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TIMEOUT",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "timeout-marker",
+            "category": "TIMEOUT",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "reproducer timeout marker",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

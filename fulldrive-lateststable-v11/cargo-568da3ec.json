@@ -1,0 +1,72 @@
+{
+  "id": "cargo-568da3ec",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/sagiegurari/duckscript",
+    "organisation": "sagiegurari",
+    "name": "duckscript"
+  },
+  "pr": {
+    "url": "https://github.com/sagiegurari/duckscript/pull/496",
+    "number": 496,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f70e53f3a3338968f9c76b64c041d066586caf07",
+    "post": "568da3eccb1a93f7111ef10d559095b7404ba387",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "zip",
+    "previousVersion": "2.2.2",
+    "newVersion": "2.2.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 1013,
+        "failed": 0,
+        "ignored": 4,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 5,
+        "total": 1017
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

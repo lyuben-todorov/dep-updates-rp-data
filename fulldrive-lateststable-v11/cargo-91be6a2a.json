@@ -1,0 +1,77 @@
+{
+  "id": "cargo-91be6a2a",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/tangle-network/frost-blueprint",
+    "organisation": "tangle-network",
+    "name": "frost-blueprint"
+  },
+  "pr": {
+    "url": "https://github.com/tangle-network/frost-blueprint/pull/8",
+    "number": 8,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "dcfe35decc1567252bf856d3b7cf0e376e60fc33",
+    "post": "91be6a2abbb4fde8ed3a286bd080dc7249ca5f23",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "alloy-rpc-client",
+    "previousVersion": "0.4.2",
+    "newVersion": "0.6.4",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.83.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2024-10-13"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TIMEOUT",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "timeout-marker",
+            "category": "TIMEOUT",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "reproducer timeout marker",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.81",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

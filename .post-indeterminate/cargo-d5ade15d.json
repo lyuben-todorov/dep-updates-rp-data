@@ -1,0 +1,77 @@
+{
+  "id": "cargo-d5ade15d",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "indeterminate",
+  "project": {
+    "url": "https://github.com/mobilecoinfoundation/mobilecoin",
+    "organisation": "mobilecoinfoundation",
+    "name": "mobilecoin"
+  },
+  "pr": {
+    "url": "https://github.com/mobilecoinfoundation/mobilecoin/pull/1511",
+    "number": 1511,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "08796cd571cf302adafb7413e317db3d7997b71f",
+    "post": "d5ade15dfc9addd5dae9cbe1c31f91bd0890be13",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "blake2",
+    "previousVersion": "0.9.2",
+    "newVersion": "0.10.3",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.58.0-bullseye-20221231-p1.1.0",
+      "category": "indeterminate",
+      "fatImage": {
+        "rustVersion": "1.58.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.55.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-07-21"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

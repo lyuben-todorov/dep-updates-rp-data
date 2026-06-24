@@ -1,0 +1,72 @@
+{
+  "id": "cargo-64811113",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/shadowsocks/shadowsocks-rust",
+    "organisation": "shadowsocks",
+    "name": "shadowsocks-rust"
+  },
+  "pr": {
+    "url": "https://github.com/shadowsocks/shadowsocks-rust/pull/484",
+    "number": 484,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "dee933e614f27a8639480f65b60b526b0250eff1",
+    "post": "6481111390f179f70e0eb8a0a38d8724f483ae95",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "libc",
+    "previousVersion": "0.2.91",
+    "newVersion": "0.2.92",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.51.0-buster-20211231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.51.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.53.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-03-24"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 6,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 10,
+        "total": 6
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

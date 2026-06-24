@@ -1,0 +1,77 @@
+{
+  "id": "cargo-da263774",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/vmware-tanzu/kubeapps",
+    "organisation": "vmware-tanzu",
+    "name": "kubeapps"
+  },
+  "pr": {
+    "url": "https://github.com/vmware-tanzu/kubeapps/pull/6178",
+    "number": 6178,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9ba0443c314ab5c6dd4f16f5b038856febb88258",
+    "post": "da263774c987c2ea1423fe756e0ee39e66ac6314",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "kube",
+    "previousVersion": "0.80.0",
+    "newVersion": "0.82.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.68.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "BUILD_EXECUTION",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-panic",
+            "category": "BUILD_EXECUTION",
+            "subcategory": "BUILD_SCRIPT_PANIC",
+            "locus": "TOOLCHAIN",
+            "evidence": "thread 'main' panicked at '",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

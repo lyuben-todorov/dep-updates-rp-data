@@ -1,0 +1,77 @@
+{
+  "id": "cargo-53214eaf",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "indeterminate",
+  "project": {
+    "url": "https://github.com/driftluo/ckb",
+    "organisation": "driftluo",
+    "name": "ckb"
+  },
+  "pr": {
+    "url": "https://github.com/driftluo/ckb/pull/48",
+    "number": 48,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "eb8d1bc3f84baebd2a9560a4f5fb4949ff07c966",
+    "post": "53214eafba8995e29633c7b883e2e775b991eebb",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "syn",
+    "previousVersion": "1.0.76",
+    "newVersion": "1.0.77",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.51.0-buster-20211231-p1.1.0",
+      "category": "indeterminate",
+      "fatImage": {
+        "rustVersion": "1.51.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.51.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "LOCK_FILE_STALE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "lockfile-stale",
+            "category": "LOCK_FILE_STALE",
+            "subcategory": null,
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "--locked rejected stale/changed lockfile",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.51"
+  }
+}

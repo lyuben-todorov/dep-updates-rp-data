@@ -1,0 +1,72 @@
+{
+  "id": "cargo-e07a6530",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/sthagen/dandavison-delta",
+    "organisation": "sthagen",
+    "name": "dandavison-delta"
+  },
+  "pr": {
+    "url": "https://github.com/sthagen/dandavison-delta/pull/89",
+    "number": 89,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f16ebab42f6278c5173059735ad408d1785d5616",
+    "post": "e07a65301c59621067ba9cb044669b73a7a11c5e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "smol_str",
+    "previousVersion": "0.1.21",
+    "newVersion": "0.1.23",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 338,
+        "failed": 0,
+        "ignored": 9,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 347
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

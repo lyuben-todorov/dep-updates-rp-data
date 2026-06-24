@@ -1,0 +1,72 @@
+{
+  "id": "cargo-c411214b",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/michakfromparis/graphql-codegen-rust",
+    "organisation": "michakfromparis",
+    "name": "graphql-codegen-rust"
+  },
+  "pr": {
+    "url": "https://github.com/michakfromparis/graphql-codegen-rust/pull/34",
+    "number": 34,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b93ac2db2e5497d49cd25fd888d804b8e7750c21",
+    "post": "c411214bb05befbe71a31d472a093de20e2c9332",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "proc-macro2",
+    "previousVersion": "1.0.101",
+    "newVersion": "1.0.103",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.86.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.86"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 29,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 6,
+        "total": 29
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.86",
+    "rustMsrvDetected": true
+  }
+}

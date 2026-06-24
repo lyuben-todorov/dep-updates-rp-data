@@ -1,0 +1,72 @@
+{
+  "id": "cargo-40407d39",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/dmitri-perelman/diem",
+    "organisation": "dmitri-perelman",
+    "name": "diem"
+  },
+  "pr": {
+    "url": "https://github.com/dmitri-perelman/diem/pull/185",
+    "number": 185,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "921769f7f85a3885f34b2de9969d06b8851f62e8",
+    "post": "40407d396fe985e559390faac912d53c4d5a798a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.60",
+    "newVersion": "1.0.82",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.62.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.62.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.48.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.48.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 55,
+        "failed": 0,
+        "ignored": 1,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 56
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.48",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

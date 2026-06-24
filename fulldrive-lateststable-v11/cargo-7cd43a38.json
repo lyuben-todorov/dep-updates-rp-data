@@ -1,0 +1,72 @@
+{
+  "id": "cargo-7cd43a38",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/zgfzgf/diem",
+    "organisation": "zgfzgf",
+    "name": "diem"
+  },
+  "pr": {
+    "url": "https://github.com/zgfzgf/diem/pull/266",
+    "number": 266,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "570a197dd5c8c7a0788a5be14856e36aab5f909f",
+    "post": "7cd43a38c289ead39819cab94ca1b9acc882887a",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "erased-serde",
+    "previousVersion": "0.3.13",
+    "newVersion": "0.3.21",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.61.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.61.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.48.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.48.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 32,
+        "failed": 0,
+        "ignored": 1,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 5,
+        "total": 33
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.48",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

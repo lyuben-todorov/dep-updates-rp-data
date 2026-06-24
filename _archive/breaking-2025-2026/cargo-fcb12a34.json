@@ -1,0 +1,62 @@
+{
+  "id": "cargo-fcb12a34",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/aicers/reproduce",
+    "organisation": "aicers",
+    "name": "reproduce"
+  },
+  "pr": {
+    "url": "https://github.com/aicers/reproduce/pull/700",
+    "number": 700,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "4b24a23243c3aa3b1e967f59851416a3afff71dc",
+    "post": "fcb12a3458251245df5adee9c0ecb6d029976f7f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "num_enum",
+    "previousVersion": "0.7.4",
+    "newVersion": "0.7.5",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": []
+    }
+  ]
+}

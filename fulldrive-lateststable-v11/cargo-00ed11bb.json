@@ -1,0 +1,72 @@
+{
+  "id": "cargo-00ed11bb",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/litentry/heima",
+    "organisation": "litentry",
+    "name": "heima"
+  },
+  "pr": {
+    "url": "https://github.com/litentry/heima/pull/395",
+    "number": 395,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "986720f40c3b5a0bc4cc36fafa6e45eb05eef037",
+    "post": "00ed11bba8260033efe92d6aa7e339fe78c3ab2f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "3.1.5",
+    "newVersion": "3.1.6",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.59.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.59.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.59.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-12-12"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 65,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 15,
+        "total": 65
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

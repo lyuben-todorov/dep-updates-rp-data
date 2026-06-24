@@ -1,0 +1,72 @@
+{
+  "id": "cargo-0cc63cf7",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/hyperpolymath/protocol-squisher",
+    "organisation": "hyperpolymath",
+    "name": "protocol-squisher"
+  },
+  "pr": {
+    "url": "https://github.com/hyperpolymath/protocol-squisher/pull/34",
+    "number": 34,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "726172795edc84c762a68b114f446927ddadaa7e",
+    "post": "0cc63cf75da7415d7dae7cb05bf57509a15d72f3",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "toml",
+    "previousVersion": "1.1.0+spec-1.1.0",
+    "newVersion": "1.1.2+spec-1.1.0",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.86.0-bookworm-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.86.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.86.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.86"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 3,
+        "failed": 0,
+        "ignored": 3,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 6
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.86",
+    "rustMsrvDetected": true,
+    "detectedRustc": "1.86"
+  }
+}

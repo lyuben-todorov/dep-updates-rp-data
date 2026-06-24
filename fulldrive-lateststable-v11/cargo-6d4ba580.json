@@ -1,0 +1,77 @@
+{
+  "id": "cargo-6d4ba580",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/andreasots/eris",
+    "organisation": "andreasots",
+    "name": "eris"
+  },
+  "pr": {
+    "url": "https://github.com/andreasots/eris/pull/2256",
+    "number": 2256,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "316685a974d00005dedbee588991e0423197d17d",
+    "post": "6d4ba580973892eac0801a3115cee63068c009a3",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "cc",
+    "previousVersion": "1.0.76",
+    "newVersion": "1.0.77",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.65.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.65.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.96.0",
+        "source": "floating_nondeterministic",
+        "channelDeclared": "stable"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "NATIVE_DEP_MISSING",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-build-tool",
+            "category": "NATIVE_DEP_MISSING",
+            "subcategory": "build-tool",
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "build-script: missing build tool/binary (build-tool)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

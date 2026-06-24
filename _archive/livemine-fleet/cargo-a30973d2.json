@@ -1,0 +1,85 @@
+{
+  "id": "cargo-a30973d2",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/aws/amazon-q-developer-cli",
+    "organisation": "aws",
+    "name": "amazon-q-developer-cli"
+  },
+  "pr": {
+    "url": "https://github.com/aws/amazon-q-developer-cli/pull/3488",
+    "number": 3488,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "cf39ab6297ee7654fcbeed253445d35fe5c92b07",
+    "post": "a30973d210f2bebd7971b4ec9b4e0e33afdbce14",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "syn",
+    "previousVersion": "2.0.107",
+    "newVersion": "2.0.111",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.87.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.87.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 327,
+        "failed": 1,
+        "ignored": 13,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 341
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.87",
+    "rustMsrvDetected": true
+  }
+}

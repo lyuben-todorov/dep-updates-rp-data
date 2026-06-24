@@ -1,0 +1,68 @@
+{
+  "id": "cargo-9061c357",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/linkerd/linkerd-extension-init",
+    "organisation": "linkerd",
+    "name": "linkerd-extension-init"
+  },
+  "pr": {
+    "url": "https://github.com/linkerd/linkerd-extension-init/pull/130",
+    "number": 130,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "141606a3ad4b76d9c1423b366bdc4e54ad656a62",
+    "post": "9061c357103f1e6b8bf063d2d938f2fadc6a9c4e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "jsonptr",
+    "previousVersion": "0.6.3",
+    "newVersion": "0.7.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.83",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.83.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.83.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0308"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

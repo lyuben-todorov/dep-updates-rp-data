@@ -1,0 +1,95 @@
+{
+  "id": "cargo-e09855e4",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/fishbrain/ssh-auth-github",
+    "organisation": "fishbrain",
+    "name": "ssh-auth-github"
+  },
+  "pr": {
+    "url": "https://github.com/fishbrain/ssh-auth-github/pull/137",
+    "number": 137,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0874e79764a0975ea8b8c62d704d7c201db8f21e",
+    "post": "e09855e47bb2ea29f437b606aec17590c49859ba",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.16",
+    "newVersion": "1.0.64",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.39.0-stretch-20191231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.39.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.39.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "OPENSSL_MISMATCH",
+        "errorCodes": [
+          "E0713"
+        ],
+        "symptoms": [
+          {
+            "checkId": "openssl-terminal",
+            "category": "OPENSSL_MISMATCH",
+            "subcategory": null,
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "error: failed to run custom build command for `openssl v0.9.24`",
+            "terminal": true
+          },
+          {
+            "checkId": "bs-openssl",
+            "category": "OPENSSL_MISMATCH",
+            "subcategory": null,
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "thread 'main' panicked at 'Unable to detect OpenSSL version', /cargo-cache/registry/src/github.com-1ecc6299db9ec823/open",
+            "terminal": false
+          },
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0713",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0713] (\u00d71, of 1 rustc errors)",
+            "terminal": false
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

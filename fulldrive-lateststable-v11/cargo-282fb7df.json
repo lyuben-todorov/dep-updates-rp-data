@@ -1,0 +1,72 @@
+{
+  "id": "cargo-282fb7df",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/RustCrypto/formats",
+    "organisation": "RustCrypto",
+    "name": "formats"
+  },
+  "pr": {
+    "url": "https://github.com/RustCrypto/formats/pull/1837",
+    "number": 1837,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "551a8aaa872c11fe2e5367ef2b78a593b7c1e7f8",
+    "post": "282fb7df5f2283c0c207fc9d4bb912a8bd99eff8",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "getrandom",
+    "previousVersion": "0.3.2",
+    "newVersion": "0.3.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.86.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.86.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.86.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 598,
+        "failed": 0,
+        "ignored": 6,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 124,
+        "total": 604
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

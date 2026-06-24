@@ -1,0 +1,72 @@
+{
+  "id": "cargo-8152b0c3",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Mattilsynet/skuffen",
+    "organisation": "Mattilsynet",
+    "name": "skuffen"
+  },
+  "pr": {
+    "url": "https://github.com/Mattilsynet/skuffen/pull/20",
+    "number": 20,
+    "author": "andrfo",
+    "authorType": "human",
+    "botType": null,
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a8e8c24446111855c8d27932b73052f91c1c9ab7",
+    "post": "8152b0c33e15a45d621be9404457b62ebfe6b029",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "async-nats",
+    "previousVersion": "0.45.0",
+    "newVersion": "0.46.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.93.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.93.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.93.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 0
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

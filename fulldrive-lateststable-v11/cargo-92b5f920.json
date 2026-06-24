@@ -1,0 +1,79 @@
+{
+  "id": "cargo-92b5f920",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/crate-ci/cargo-ghp-upload",
+    "organisation": "crate-ci",
+    "name": "cargo-ghp-upload"
+  },
+  "pr": {
+    "url": "https://github.com/crate-ci/cargo-ghp-upload/pull/45",
+    "number": 45,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "39ef90ba10700056a12551ea0e78117a0aea18bd",
+    "post": "92b5f920952a3cc384a5bee5c6bb6bb1c76c5aa8",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "quicli",
+    "previousVersion": "0.2.0",
+    "newVersion": "0.4.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.31.0-stretch-20191231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.31.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.31.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "NIGHTLY_REQUIRED",
+        "errorCodes": [
+          "E0658"
+        ],
+        "symptoms": [
+          {
+            "checkId": "nightly-ecode",
+            "category": "NIGHTLY_REQUIRED",
+            "subcategory": "E0658",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0658] \u2014 needs nightly",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

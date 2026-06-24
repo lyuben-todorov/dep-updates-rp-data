@@ -1,0 +1,72 @@
+{
+  "id": "cargo-34cc5946",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/emilk/egui",
+    "organisation": "emilk",
+    "name": "egui"
+  },
+  "pr": {
+    "url": "https://github.com/emilk/egui/pull/2627",
+    "number": 2627,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8ce0e1c5206780e76234842b94ceb0edf5bb8b75",
+    "post": "34cc59468bf0a7c557e8097cc8ef6b7c1c039c70",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "webbrowser",
+    "previousVersion": "0.8.0",
+    "newVersion": "0.8.3",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.66.0-bullseye-20231231-p1.1.1",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.66.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.65.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.65.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 200,
+        "failed": 0,
+        "ignored": 11,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 43,
+        "total": 211
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

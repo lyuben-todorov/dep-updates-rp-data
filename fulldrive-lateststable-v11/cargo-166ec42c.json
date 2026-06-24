@@ -1,0 +1,72 @@
+{
+  "id": "cargo-166ec42c",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/TheBevyFlock/bevy_cli",
+    "organisation": "TheBevyFlock",
+    "name": "bevy_cli"
+  },
+  "pr": {
+    "url": "https://github.com/TheBevyFlock/bevy_cli/pull/738",
+    "number": 738,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "86e6c01c036c615c15ecf98a959653498fe5c18d",
+    "post": "166ec42ca6824d273e6be43237867f977189b5ee",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ureq",
+    "previousVersion": "3.1.4",
+    "newVersion": "3.2.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.93.0-trixie-20260531-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.93.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2026-01-22"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 55,
+        "failed": 0,
+        "ignored": 9,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 5,
+        "total": 64
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

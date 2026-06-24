@@ -1,0 +1,72 @@
+{
+  "id": "cargo-8b676069",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/hannobraun/fornjot",
+    "organisation": "hannobraun",
+    "name": "fornjot"
+  },
+  "pr": {
+    "url": "https://github.com/hannobraun/fornjot/pull/2500",
+    "number": 2500,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "e7d7a5fae3ca90151affd421dddbbb376590a391",
+    "post": "8b6760690fd8bd7673ce50ff8888a8d36fda7662",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "openssl",
+    "previousVersion": "0.10.68",
+    "newVersion": "0.10.70",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20251231",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.83.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.83.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 55,
+        "failed": 0,
+        "ignored": 6,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 14,
+        "total": 61
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.83",
+    "rustMsrvDetected": true
+  }
+}

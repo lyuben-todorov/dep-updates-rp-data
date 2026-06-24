@@ -1,0 +1,85 @@
+{
+  "id": "cargo-9b7aa06f",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/lukaspustina/luftpost",
+    "organisation": "lukaspustina",
+    "name": "luftpost"
+  },
+  "pr": {
+    "url": "https://github.com/lukaspustina/luftpost/pull/96",
+    "number": 96,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9ba5f8145811dbb02834b81ef3a6f9cfbc8d21db",
+    "post": "9b7aa06fc3cc86447417b8f6aa614d91f4360fff",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.19",
+    "newVersion": "1.0.46",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.39.0-stretch-20191231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.39.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "stretch"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.39.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "OPENSSL_MISMATCH",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "openssl-terminal",
+            "category": "OPENSSL_MISMATCH",
+            "subcategory": null,
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "error: failed to run custom build command for `openssl v0.9.24`",
+            "terminal": true
+          },
+          {
+            "checkId": "bs-openssl",
+            "category": "OPENSSL_MISMATCH",
+            "subcategory": null,
+            "locus": "SYSTEM_DEPENDENCY",
+            "evidence": "thread 'main' panicked at 'Unable to detect OpenSSL version', /cargo-cache/registry/src/github.com-1ecc6299db9ec823/open",
+            "terminal": false
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

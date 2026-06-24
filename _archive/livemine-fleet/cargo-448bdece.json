@@ -1,0 +1,72 @@
+{
+  "id": "cargo-448bdece",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/bee-san/Ares",
+    "organisation": "bee-san",
+    "name": "Ares"
+  },
+  "pr": {
+    "url": "https://github.com/bee-san/Ares/pull/440",
+    "number": 440,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "ee63bc09ff685ae0a7300409b3accf2cc2da49cf",
+    "post": "448bdecefe4e2a05ddcae999f6a63b52d245923d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "cargo-nextest",
+    "previousVersion": "0.9.99",
+    "newVersion": "0.9.100",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 305,
+        "failed": 0,
+        "ignored": 5,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 4,
+        "total": 310
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "cargo-32b7643f",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/INHEALY/rover",
+    "organisation": "INHEALY",
+    "name": "rover"
+  },
+  "pr": {
+    "url": "https://github.com/INHEALY/rover/pull/3",
+    "number": 3,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "eaf45f97410caef83941944cdb50d51bd7168bc8",
+    "post": "32b7643fc9bccd21cf6dcd6b1d02e18a60a23b48",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "zip",
+    "previousVersion": "2.2.0",
+    "newVersion": "2.4.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.82.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.82.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 335,
+        "failed": 0,
+        "ignored": 37,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 5,
+        "total": 372
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.82",
+    "rustMsrvDetected": true
+  }
+}

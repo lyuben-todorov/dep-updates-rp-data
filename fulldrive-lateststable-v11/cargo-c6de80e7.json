@@ -1,0 +1,72 @@
+{
+  "id": "cargo-c6de80e7",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/0xmozak/mozak-vm",
+    "organisation": "0xmozak",
+    "name": "mozak-vm"
+  },
+  "pr": {
+    "url": "https://github.com/0xmozak/mozak-vm/pull/1020",
+    "number": 1020,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a9df7506c6e590e21ed21a132e03fb28688b4c98",
+    "post": "c6de80e75e5dfd5f2b3e2b4d13bb074285744628",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clio",
+    "previousVersion": "0.3.4",
+    "newVersion": "0.3.5",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.75.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2023-11-05"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 311,
+        "failed": 0,
+        "ignored": 5,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 23,
+        "total": 316
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

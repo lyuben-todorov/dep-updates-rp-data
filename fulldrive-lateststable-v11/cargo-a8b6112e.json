@@ -1,0 +1,72 @@
+{
+  "id": "cargo-a8b6112e",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/lukexor/pix-engine",
+    "organisation": "lukexor",
+    "name": "pix-engine"
+  },
+  "pr": {
+    "url": "https://github.com/lukexor/pix-engine/pull/156",
+    "number": 156,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "539eb18d93437c86ab3ec13ca052335277d00902",
+    "post": "a8b6112e06b041e5f0b7ae7fc676d7b6a99fb7ea",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "getrandom",
+    "previousVersion": "0.2.12",
+    "newVersion": "0.2.14",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.77.0-bookworm-20241231-p1.1.1",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.77.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.77.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 350,
+        "failed": 0,
+        "ignored": 10,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 360
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

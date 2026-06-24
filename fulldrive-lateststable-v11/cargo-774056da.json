@@ -1,0 +1,72 @@
+{
+  "id": "cargo-774056da",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/dragonflyoss/vortex-protocol",
+    "organisation": "dragonflyoss",
+    "name": "vortex-protocol"
+  },
+  "pr": {
+    "url": "https://github.com/dragonflyoss/vortex-protocol/pull/26",
+    "number": 26,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "b5ad79f0757c5516db5f50dde22bef682286b727",
+    "post": "774056da4f17125a368c4a0629b6b7608e9df8ae",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "criterion",
+    "previousVersion": "0.5.1",
+    "newVersion": "0.6.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.87.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.87.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.82.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.82.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 29,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 4,
+        "total": 29
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.82",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

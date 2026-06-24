@@ -1,0 +1,72 @@
+{
+  "id": "cargo-87d6980f",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/qdrant/qdrant",
+    "organisation": "qdrant",
+    "name": "qdrant"
+  },
+  "pr": {
+    "url": "https://github.com/qdrant/qdrant/pull/8489",
+    "number": 8489,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "424bc2c265f72d9aa0a626c997f055e12cde92e0",
+    "post": "87d6980f2056cfba67c9fa51f689817d176eb61b",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "config",
+    "previousVersion": "0.15.21",
+    "newVersion": "0.15.22",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.1",
+      "imageTag": "rp2026/cargo-fat:1.94.0-trixie-20260531-p1.1.1",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.94.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.94.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 110,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 110
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.94",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

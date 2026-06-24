@@ -1,0 +1,62 @@
+{
+  "id": "cargo-c8dc46f3",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/DataDog/datadog-static-analyzer",
+    "organisation": "DataDog",
+    "name": "datadog-static-analyzer"
+  },
+  "pr": {
+    "url": "https://github.com/DataDog/datadog-static-analyzer/pull/830",
+    "number": 830,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "6955d8c2339f1613a8d9f42ee8eb5aa9102031d7",
+    "post": "c8dc46f3885767fb14574917d16b1ac1c95f969c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "git2",
+    "previousVersion": "0.19.0",
+    "newVersion": "0.20.4",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.91",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.91.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.91.1"
+      },
+      "verifiedOn": []
+    }
+  ]
+}

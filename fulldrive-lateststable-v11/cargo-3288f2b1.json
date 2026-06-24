@@ -1,0 +1,79 @@
+{
+  "id": "cargo-3288f2b1",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/andrioni/materialize",
+    "organisation": "andrioni",
+    "name": "materialize"
+  },
+  "pr": {
+    "url": "https://github.com/andrioni/materialize/pull/50",
+    "number": 50,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c7997975a787f428b97d912e2e18836adb27e5cc",
+    "post": "3288f2b10611c8c324728968403698df2b69f132",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "indicatif",
+    "previousVersion": "0.15.0",
+    "newVersion": "0.17.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.62.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.62.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.49.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.49.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "NIGHTLY_REQUIRED",
+        "errorCodes": [
+          "E0658"
+        ],
+        "symptoms": [
+          {
+            "checkId": "nightly-ecode",
+            "category": "NIGHTLY_REQUIRED",
+            "subcategory": "E0658",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0658] \u2014 needs nightly",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.49",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

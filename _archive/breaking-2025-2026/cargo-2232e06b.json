@@ -1,0 +1,66 @@
+{
+  "id": "cargo-2232e06b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/DataDog/lading",
+    "organisation": "DataDog",
+    "name": "lading"
+  },
+  "pr": {
+    "url": "https://github.com/DataDog/lading/pull/1510",
+    "number": 1510,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "95c5372ae513bb660e1f9e0b9ddb4448b1869021",
+    "post": "2232e06baa30e82cc8e767a31bd033ccd5da60a4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "kube-core",
+    "previousVersion": "1.1.0",
+    "newVersion": "2.0.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.89",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.89.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.89.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [],
+        "failureCategory": "BUILD_EXECUTION"
+      }
+    }
+  ]
+}

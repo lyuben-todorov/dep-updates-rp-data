@@ -1,0 +1,79 @@
+{
+  "id": "cargo-1e144fa0",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/traffloat/traffloat",
+    "organisation": "traffloat",
+    "name": "traffloat"
+  },
+  "pr": {
+    "url": "https://github.com/traffloat/traffloat/pull/342",
+    "number": 342,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "74597939b19fc43fc48126fdcb1ca923762baf62",
+    "post": "1e144fa0710a6e3c033ee76c66539be45f82ec2c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "nalgebra",
+    "previousVersion": "0.29.0",
+    "newVersion": "0.31.4",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.65.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.65.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.59.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2022-01-01"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "NIGHTLY_REQUIRED",
+        "errorCodes": [
+          "E0658"
+        ],
+        "symptoms": [
+          {
+            "checkId": "nightly-ecode",
+            "category": "NIGHTLY_REQUIRED",
+            "subcategory": "E0658",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0658] \u2014 needs nightly",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

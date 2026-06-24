@@ -1,0 +1,69 @@
+{
+  "id": "cargo-9cb7fe4b",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/servo/servo",
+    "organisation": "servo",
+    "name": "servo"
+  },
+  "pr": {
+    "url": "https://github.com/servo/servo/pull/45020",
+    "number": 45020,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "5665d16bef381220f1ea6e87514e44e611905f50",
+    "post": "9cb7fe4b8a0097017aa582da2dee76ecfba0bc60",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "generic-array",
+    "previousVersion": "0.14.7",
+    "newVersion": "1.4.1",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.95",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.95.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0277",
+          "E0107"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

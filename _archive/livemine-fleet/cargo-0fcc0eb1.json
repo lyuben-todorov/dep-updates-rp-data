@@ -1,0 +1,72 @@
+{
+  "id": "cargo-0fcc0eb1",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Phixsura/orthic-mono",
+    "organisation": "Phixsura",
+    "name": "orthic-mono"
+  },
+  "pr": {
+    "url": "https://github.com/Phixsura/orthic-mono/pull/29",
+    "number": 29,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "55087a8a8aae792f2a16d92b9c40223a4fe4c088",
+    "post": "0fcc0eb135370bc9a4ef41aae1f73152d0b2e97c",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "toml",
+    "previousVersion": "0.8.23",
+    "newVersion": "0.9.10+spec-1.1.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 40,
+        "failed": 0,
+        "ignored": 14,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 31,
+        "total": 54
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.91",
+    "rustMsrvDetected": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "cargo-dfad2091",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/wking/cincinnati",
+    "organisation": "wking",
+    "name": "cincinnati"
+  },
+  "pr": {
+    "url": "https://github.com/wking/cincinnati/pull/8",
+    "number": 8,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a7e970ccb22153b8c250b96c95ac260f404afa7f",
+    "post": "dfad209197de4224b901766c80056e0ad3b8cfa8",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_json",
+    "previousVersion": "1.0.67",
+    "newVersion": "1.0.70",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.56.0-bullseye-20211231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.56.0",
+        "sourceDateEpoch": 1640908800,
+        "aptSnapshot": "20211231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.56.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "DEPENDENCY_RESOLUTION",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "registry-resolver",
+            "category": "DEPENDENCY_RESOLUTION",
+            "subcategory": "REGISTRY_RESOLVER",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "cargo resolver rejected",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

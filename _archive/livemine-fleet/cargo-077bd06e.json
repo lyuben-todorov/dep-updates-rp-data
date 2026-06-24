@@ -1,0 +1,72 @@
+{
+  "id": "cargo-077bd06e",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/freedit-org/freedit",
+    "organisation": "freedit-org",
+    "name": "freedit"
+  },
+  "pr": {
+    "url": "https://github.com/freedit-org/freedit/pull/363",
+    "number": 363,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f86088126c9c1d1e3f680617dd201d9487bfdf35",
+    "post": "077bd06edc2c0d749bd5f1cffe2747ad51e85c43",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "indexmap",
+    "previousVersion": "2.12.0",
+    "newVersion": "2.12.1",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 2,
+        "failed": 0,
+        "ignored": 7,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 3,
+        "total": 9
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.91",
+    "rustMsrvDetected": true
+  }
+}

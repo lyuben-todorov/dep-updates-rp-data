@@ -1,0 +1,84 @@
+{
+  "id": "cargo-d3f957ac",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/RustCrypto/PAKEs",
+    "organisation": "RustCrypto",
+    "name": "PAKEs"
+  },
+  "pr": {
+    "url": "https://github.com/RustCrypto/PAKEs/pull/206",
+    "number": 206,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "889db36a7c4911aff2c1f4011e7db7376a2e66a2",
+    "post": "d3f957ac8f9ac3ad5176a360f85241b36d476f5f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "password-hash",
+    "previousVersion": "0.6.0-rc.2",
+    "newVersion": "0.6.0-rc.3",
+    "versionUpdateType": "other",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0107",
+          "E0277",
+          "E0432",
+          "E0433",
+          "E0407",
+          "E0437"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0107",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0107] (\u00d74, of 12 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "cargo-e5cc1c1f",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/rsksmart/safe-client-gateway",
+    "organisation": "rsksmart",
+    "name": "safe-client-gateway"
+  },
+  "pr": {
+    "url": "https://github.com/rsksmart/safe-client-gateway/pull/11",
+    "number": 11,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7afde5b4a837d7d030fb4a264a9c857d29f7bf9c",
+    "post": "e5cc1c1f67b4ef259f409d715b61db9060cfbb31",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "hyper",
+    "previousVersion": "0.14.9",
+    "newVersion": "0.14.11",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.54.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-05-21"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 275,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 275
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

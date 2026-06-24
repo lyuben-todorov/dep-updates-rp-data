@@ -1,0 +1,68 @@
+{
+  "id": "cargo-71cce7a6",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/leynos/podbot",
+    "organisation": "leynos",
+    "name": "podbot"
+  },
+  "pr": {
+    "url": "https://github.com/leynos/podbot/pull/20",
+    "number": 20,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "0d7d8ee2d3274ac0925f076c0c416d5bf96245c4",
+    "post": "71cce7a60503ba69f53e7aac491e9a57b5b0caeb",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rstest-bdd-macros",
+    "previousVersion": "0.3.2",
+    "newVersion": "0.4.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.88.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.88"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0412"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

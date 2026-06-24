@@ -1,0 +1,77 @@
+{
+  "id": "cargo-6844b53f",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/junkil-park/diem",
+    "organisation": "junkil-park",
+    "name": "diem"
+  },
+  "pr": {
+    "url": "https://github.com/junkil-park/diem/pull/463",
+    "number": 463,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7373f3dad1fc2fa3862df807f180a3e24042d10e",
+    "post": "6844b53f69f03c24a1eeb398cdfe6fb1b8999d03",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "indexmap",
+    "previousVersion": "1.6.0",
+    "newVersion": "1.9.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.65.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.65.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.48.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.48.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "OTHER",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "other",
+            "category": "OTHER",
+            "subcategory": null,
+            "locus": null,
+            "evidence": "error: failed to download `hashbrown v0.12.3`",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.48",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

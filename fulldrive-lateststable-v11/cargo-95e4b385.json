@@ -1,0 +1,77 @@
+{
+  "id": "cargo-95e4b385",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/linkerd/linkerd-failover",
+    "organisation": "linkerd",
+    "name": "linkerd-failover"
+  },
+  "pr": {
+    "url": "https://github.com/linkerd/linkerd-failover/pull/231",
+    "number": 231,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "afa9f2ebd00d2ce32ca8f1a43b9723723ef682bc",
+    "post": "95e4b3857376c9224da1d8c44c252807c68b4d92",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "kubert",
+    "previousVersion": "0.7.0",
+    "newVersion": "0.8.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.61.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.61.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.59.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.59.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "MSRV_TOO_LOW",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "msrv-too-low",
+            "category": "MSRV_TOO_LOW",
+            "subcategory": "kubert v0.8.0",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "requires rustc 1.60+",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.59",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

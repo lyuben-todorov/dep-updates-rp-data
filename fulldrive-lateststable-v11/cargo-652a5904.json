@@ -1,0 +1,85 @@
+{
+  "id": "cargo-652a5904",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/forkwright/aletheia",
+    "organisation": "forkwright",
+    "name": "aletheia"
+  },
+  "pr": {
+    "url": "https://github.com/forkwright/aletheia/pull/1898",
+    "number": 1898,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3e28fcccd6cf3ac12c72c30f00660ecb6d634c15",
+    "post": "652a5904413c6dd6da356d33c54417383bb85bad",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustls-webpki",
+    "previousVersion": "0.103.9",
+    "newVersion": "0.103.10",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.94.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.94.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.94.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 4793,
+        "failed": 1,
+        "ignored": 6,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 65,
+        "total": 4800
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.94",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

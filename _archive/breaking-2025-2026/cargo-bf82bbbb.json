@@ -1,0 +1,68 @@
+{
+  "id": "cargo-bf82bbbb",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/dallay/cortex",
+    "organisation": "dallay",
+    "name": "cortex"
+  },
+  "pr": {
+    "url": "https://github.com/dallay/cortex/pull/20",
+    "number": 20,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "368da68854b09b487f1a6a890a201b37860d20cb",
+    "post": "bf82bbbbc9a8cb1ff92ef7ddedf161d6476607fe",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rusqlite",
+    "previousVersion": "0.31.0",
+    "newVersion": "0.40.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.89",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.89.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.89"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0658"
+        ],
+        "failureCategory": "NIGHTLY_REQUIRED"
+      }
+    }
+  ]
+}

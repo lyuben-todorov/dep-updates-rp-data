@@ -1,0 +1,62 @@
+{
+  "id": "cargo-f52dfb99",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/linkerd/linkerd-extension-init",
+    "organisation": "linkerd",
+    "name": "linkerd-extension-init"
+  },
+  "pr": {
+    "url": "https://github.com/linkerd/linkerd-extension-init/pull/310",
+    "number": 310,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "a08910200a91f99dc6eed155b980dcce7671723a",
+    "post": "f52dfb99f13aa18ceef5a4fdca659e7a65e0caaf",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "backtrace",
+    "previousVersion": "0.3.75",
+    "newVersion": "0.3.76",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.88.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.88.0"
+      },
+      "verifiedOn": []
+    }
+  ]
+}

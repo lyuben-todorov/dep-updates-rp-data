@@ -1,0 +1,84 @@
+{
+  "id": "cargo-a0766ddb",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/oxidecomputer/oxnet",
+    "organisation": "oxidecomputer",
+    "name": "oxnet"
+  },
+  "pr": {
+    "url": "https://github.com/oxidecomputer/oxnet/pull/52",
+    "number": 52,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "3bcf5ffb0167386e95f23b9304fa595e16149eb1",
+    "post": "a0766ddb0d41364a37f21abb5cdff2e100dccb9b",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "schemars",
+    "previousVersion": "0.8.22",
+    "newVersion": "0.9.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.87.0-bookworm-20251231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.87.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.87.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [
+          "E0603",
+          "E0422",
+          "E0433",
+          "E0053",
+          "E0412",
+          "E0432"
+        ],
+        "symptoms": [
+          {
+            "checkId": "rustc-error",
+            "category": "RUSTC_ERROR",
+            "subcategory": "E0603",
+            "locus": "TOOLCHAIN",
+            "evidence": "error[E0603] (\u00d714, of 31 rustc errors)",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.84",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

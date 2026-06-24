@@ -1,0 +1,77 @@
+{
+  "id": "cargo-f5266f60",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/reacherhq/backend",
+    "organisation": "reacherhq",
+    "name": "backend"
+  },
+  "pr": {
+    "url": "https://github.com/reacherhq/backend/pull/93",
+    "number": 93,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "d30c61c168d37a67f475ad566e05d45eab502af5",
+    "post": "f5266f601e9d13235e2b46063e289ac1f9a8ba87",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "sentry",
+    "previousVersion": "0.17.0",
+    "newVersion": "0.19.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.49.0-buster-20210209",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.49.0",
+        "sourceDateEpoch": 1612828800,
+        "aptSnapshot": "20210209T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.49.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "DEPENDENCY_SOURCE_GONE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "git-source-gone",
+            "category": "DEPENDENCY_SOURCE_GONE",
+            "subcategory": "GIT_OBJECT_GONE",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "git-sourced dependency's source permanently gone",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.31",
+    "rustMsrvDetected": true
+  }
+}

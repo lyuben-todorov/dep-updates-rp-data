@@ -1,0 +1,77 @@
+{
+  "id": "cargo-83b43c94",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/controlant-org/aws-auth-operator",
+    "organisation": "controlant-org",
+    "name": "aws-auth-operator"
+  },
+  "pr": {
+    "url": "https://github.com/controlant-org/aws-auth-operator/pull/80",
+    "number": 80,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1ad1e1d89a86daeefe36892a98566560290238a3",
+    "post": "83b43c94075b3bc0b4a659db4f338bb00a1d8509",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "kube",
+    "previousVersion": "0.74.0",
+    "newVersion": "0.82.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.68.0-bullseye-20231231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.68.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.68.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "BUILD_EXECUTION",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-panic",
+            "category": "BUILD_EXECUTION",
+            "subcategory": "BUILD_SCRIPT_PANIC",
+            "locus": "TOOLCHAIN",
+            "evidence": "thread 'main' panicked at '",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

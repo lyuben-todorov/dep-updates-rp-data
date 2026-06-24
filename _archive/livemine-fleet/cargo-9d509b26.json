@@ -1,0 +1,72 @@
+{
+  "id": "cargo-9d509b26",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/ericcornelissen/rust-rm",
+    "organisation": "ericcornelissen",
+    "name": "rust-rm"
+  },
+  "pr": {
+    "url": "https://github.com/ericcornelissen/rust-rm/pull/245",
+    "number": 245,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "bb16c2df92d34a76b9a1ba2a0d47c163691ca7ca",
+    "post": "9d509b268a2b153d5b57bb740000cf97bdd01431",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.5.3",
+    "newVersion": "4.5.7",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20250318",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1742256000,
+        "aptSnapshot": "20250318T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.78.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.78.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 249,
+        "failed": 0,
+        "ignored": 19,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 16,
+        "total": 268
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.78",
+    "rustMsrvDetected": true
+  }
+}

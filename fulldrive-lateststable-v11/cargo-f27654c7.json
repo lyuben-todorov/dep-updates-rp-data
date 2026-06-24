@@ -1,0 +1,72 @@
+{
+  "id": "cargo-f27654c7",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/hannobraun/fornjot",
+    "organisation": "hannobraun",
+    "name": "fornjot"
+  },
+  "pr": {
+    "url": "https://github.com/hannobraun/fornjot/pull/2554",
+    "number": 2554,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "caf1d7c14db140e471a83075e239d6611d2653cc",
+    "post": "f27654c70833685dad0247c2fdf72cc9442688c0",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tracing-subscriber",
+    "previousVersion": "0.3.19",
+    "newVersion": "0.3.20",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.89.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.89.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.87.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.87.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 56,
+        "failed": 0,
+        "ignored": 6,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 12,
+        "total": 62
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.87",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

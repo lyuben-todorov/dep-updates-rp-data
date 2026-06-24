@@ -1,0 +1,77 @@
+{
+  "id": "cargo-922ff8c5",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/alexohneander/cert-fixer",
+    "organisation": "alexohneander",
+    "name": "cert-fixer"
+  },
+  "pr": {
+    "url": "https://github.com/alexohneander/cert-fixer/pull/15",
+    "number": 15,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "ae94d1eb1e61c70bdb71843be9ee39f59eed001a",
+    "post": "922ff8c5b853b455ef00bb420f012d04476ced09",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "kube",
+    "previousVersion": "0.87.2",
+    "newVersion": "0.88.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20250318",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1742256000,
+        "aptSnapshot": "20250318T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "BUILD_EXECUTION",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-panic",
+            "category": "BUILD_EXECUTION",
+            "subcategory": "BUILD_SCRIPT_PANIC",
+            "locus": "TOOLCHAIN",
+            "evidence": "thread 'main' panicked at /cargo-cache/registry/src/index.crates.io-1949cf8c6b5b557f/k8s-openapi-0.21.0/build.rs:17:42:",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  }
+}

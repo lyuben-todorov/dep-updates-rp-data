@@ -1,0 +1,77 @@
+{
+  "id": "cargo-72a88eb3",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/synchrotron-cd/synchrotron",
+    "organisation": "synchrotron-cd",
+    "name": "synchrotron"
+  },
+  "pr": {
+    "url": "https://github.com/synchrotron-cd/synchrotron/pull/16",
+    "number": 16,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c380277ec1f03d04b805d25de02c3f7c6a5b645f",
+    "post": "72a88eb379466319e7b92d779e3fba041c6877d1",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "k8s-openapi",
+    "previousVersion": "0.23.0",
+    "newVersion": "0.27.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.95.0-trixie-20260531-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.95.0",
+        "sourceDateEpoch": 1780185600,
+        "aptSnapshot": "20260531T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "BUILD_EXECUTION",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "bs-panic",
+            "category": "BUILD_EXECUTION",
+            "subcategory": "BUILD_SCRIPT_PANIC",
+            "locus": "TOOLCHAIN",
+            "evidence": "thread 'main' (2233) panicked at /cargo-cache/registry/src/index.crates.io-1949cf8c6b5b557f/k8s-openapi-0.23.0/build.rs:",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": "1.95"
+  }
+}

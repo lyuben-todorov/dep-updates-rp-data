@@ -1,0 +1,72 @@
+{
+  "id": "cargo-d41aa864",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/leynos/rstest-bdd",
+    "organisation": "leynos",
+    "name": "rstest-bdd"
+  },
+  "pr": {
+    "url": "https://github.com/leynos/rstest-bdd/pull/138",
+    "number": 138,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9265dd4f7f3d6e60d00a3af2732abbdf18da916d",
+    "post": "d41aa864a5296ceeaf3c4fd4346ce394f4f3330f",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rstest",
+    "previousVersion": "0.18.2",
+    "newVersion": "0.26.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.90.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2025-07-22"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 169,
+        "failed": 0,
+        "ignored": 10,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 30,
+        "total": 179
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true
+  }
+}

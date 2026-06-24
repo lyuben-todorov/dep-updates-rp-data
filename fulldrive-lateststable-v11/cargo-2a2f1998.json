@@ -1,0 +1,72 @@
+{
+  "id": "cargo-2a2f1998",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/abihf/volta",
+    "organisation": "abihf",
+    "name": "volta"
+  },
+  "pr": {
+    "url": "https://github.com/abihf/volta/pull/15",
+    "number": 15,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "5704dac858bea67220334d33eabec182eb46e99c",
+    "post": "2a2f1998fac1f9ac00d127f107e940846d412409",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "attohttpc",
+    "previousVersion": "0.23.1",
+    "newVersion": "0.24.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.67.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.67.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.63.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.63"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 101,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 101
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.63",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

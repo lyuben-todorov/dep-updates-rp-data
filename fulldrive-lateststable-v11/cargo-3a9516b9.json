@@ -1,0 +1,72 @@
+{
+  "id": "cargo-3a9516b9",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/oxidecomputer/oxide.rs",
+    "organisation": "oxidecomputer",
+    "name": "oxide.rs"
+  },
+  "pr": {
+    "url": "https://github.com/oxidecomputer/oxide.rs/pull/445",
+    "number": 445,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c69ee3822d971b96a553efe9150f19d87e79beb3",
+    "post": "3a9516b9738fa2dcfbae52a46f933ae6f9d41aba",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "url",
+    "previousVersion": "2.4.1",
+    "newVersion": "2.5.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.74.0-bookworm-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.74.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.72.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.72"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 39,
+        "failed": 0,
+        "ignored": 148,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 15,
+        "total": 187
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.72",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

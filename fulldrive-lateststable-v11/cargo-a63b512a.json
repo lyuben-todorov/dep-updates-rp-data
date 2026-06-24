@@ -1,0 +1,72 @@
+{
+  "id": "cargo-a63b512a",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/heroku/buildpacks-python",
+    "organisation": "heroku",
+    "name": "buildpacks-python"
+  },
+  "pr": {
+    "url": "https://github.com/heroku/buildpacks-python/pull/311",
+    "number": 311,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1b93f68a04004b78920739af625390d2a5cc8f75",
+    "post": "a63b512aba447b66e5396136a74d4b463db7b765",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde",
+    "previousVersion": "1.0.215",
+    "newVersion": "1.0.217",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.84.0-bookworm-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.84.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 34,
+        "failed": 0,
+        "ignored": 36,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 70
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.84",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

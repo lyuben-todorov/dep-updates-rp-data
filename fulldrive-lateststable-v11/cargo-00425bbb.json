@@ -1,0 +1,72 @@
+{
+  "id": "cargo-00425bbb",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/Cardinal-Cryptography/AlephBFT",
+    "organisation": "Cardinal-Cryptography",
+    "name": "AlephBFT"
+  },
+  "pr": {
+    "url": "https://github.com/Cardinal-Cryptography/AlephBFT/pull/162",
+    "number": 162,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "9df57dd39d0ebbf7c4ad300953e425373e9dff51",
+    "post": "00425bbb858a86f28913b2d407cf2d4aec5094e4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "derive_more",
+    "previousVersion": "0.99.16",
+    "newVersion": "0.99.17",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.59.0-bullseye-20221231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.59.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.58.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-10-24"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 60,
+        "failed": 0,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 60
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

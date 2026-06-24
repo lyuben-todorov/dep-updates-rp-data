@@ -1,0 +1,72 @@
+{
+  "id": "cargo-26c100ef",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/0xMiden/miden-vm",
+    "organisation": "0xMiden",
+    "name": "miden-vm"
+  },
+  "pr": {
+    "url": "https://github.com/0xMiden/miden-vm/pull/1528",
+    "number": 1528,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "fbce798a53967310463ee02e0e681617781406df",
+    "post": "26c100efde00ed763483dda6b7ba8d85a3d1b9fc",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "lalrpop-util",
+    "previousVersion": "0.20.2",
+    "newVersion": "0.22.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.85.0-bookworm-20250318",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.85.0",
+        "sourceDateEpoch": 1742256000,
+        "aptSnapshot": "20250318T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.80.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.80"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 801,
+        "failed": 0,
+        "ignored": 12,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 13,
+        "total": 813
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.80",
+    "rustMsrvDetected": true
+  }
+}

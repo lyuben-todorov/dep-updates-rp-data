@@ -1,0 +1,77 @@
+{
+  "id": "cargo-f5434b8d",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/Hanssen0/axon-1",
+    "organisation": "Hanssen0",
+    "name": "axon-1"
+  },
+  "pr": {
+    "url": "https://github.com/Hanssen0/axon-1/pull/58",
+    "number": 58,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "8965c4bdeafa138b97e809ce51fb80511ab67383",
+    "post": "f5434b8d3a532c552ae80212580d4fe8585e3e78",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "anyhow",
+    "previousVersion": "1.0.55",
+    "newVersion": "1.0.68",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.66.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.66.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.60.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2022-01-21"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "RUSTC_ERROR",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "could-not-compile-fallback",
+            "category": "RUSTC_ERROR",
+            "subcategory": null,
+            "locus": "TOOLCHAIN",
+            "evidence": "could not compile log4rs",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

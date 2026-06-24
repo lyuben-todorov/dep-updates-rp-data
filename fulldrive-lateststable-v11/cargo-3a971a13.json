@@ -1,0 +1,77 @@
+{
+  "id": "cargo-3a971a13",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/nuxeh/url-bot-rs",
+    "organisation": "nuxeh",
+    "name": "url-bot-rs"
+  },
+  "pr": {
+    "url": "https://github.com/nuxeh/url-bot-rs/pull/196",
+    "number": 196,
+    "author": "dependabot-preview[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "119146ad5b75439a0770039a224fb40e916f1976",
+    "post": "3a971a134ee0b1c0af5e290f148ceb0f25e941c4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_derive",
+    "previousVersion": "1.0.88",
+    "newVersion": "1.0.98",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.36.0-buster-20191231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.36.0",
+        "sourceDateEpoch": 1577750400,
+        "aptSnapshot": "20191231T000000Z",
+        "debianRelease": "buster"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.36.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TIMEOUT",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "timeout-marker",
+            "category": "TIMEOUT",
+            "subcategory": null,
+            "locus": "HARNESS",
+            "evidence": "reproducer timeout marker",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.39",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

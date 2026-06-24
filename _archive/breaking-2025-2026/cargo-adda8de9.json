@@ -1,0 +1,69 @@
+{
+  "id": "cargo-adda8de9",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/dhth/mrj",
+    "organisation": "dhth",
+    "name": "mrj"
+  },
+  "pr": {
+    "url": "https://github.com/dhth/mrj/pull/110",
+    "number": 110,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "54e2c325cf6a956d68f7c7a32983f1a55a3a867d",
+    "post": "adda8de94ac8a64968a56a19dcab57a882b9b8b4",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "octocrab",
+    "previousVersion": "0.49.7",
+    "newVersion": "0.51.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.95",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.95.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.95"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0308",
+          "E0599"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

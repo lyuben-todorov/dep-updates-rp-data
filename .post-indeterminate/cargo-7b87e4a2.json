@@ -1,0 +1,93 @@
+{
+  "id": "cargo-7b87e4a2",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/Thijzert123/packrinth",
+    "organisation": "Thijzert123",
+    "name": "packrinth"
+  },
+  "pr": {
+    "url": "https://github.com/Thijzert123/packrinth/pull/45",
+    "number": 45,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "c92ae3a7cd254f904255fffb787586bc1c53132d",
+    "post": "7b87e4a24eecc4c6cda74b7e35ad5f47e8e54f94",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "zip",
+    "previousVersion": "5.1.1",
+    "newVersion": "6.0.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.90.0-trixie-20251231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.90.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.90.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_NET_EXTERNAL",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-net-external",
+            "category": "TEST_NET_EXTERNAL",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "Failed to get response: Middleware(error sending request for url (https://api.modrinth.com/v2/project/P7dR8mSH)",
+            "terminal": true
+          },
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": false
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 8,
+        "failed": 1,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 4,
+        "total": 9
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.88",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

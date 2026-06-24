@@ -1,0 +1,85 @@
+{
+  "id": "cargo-a1665c54",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/nushell/nushell",
+    "organisation": "nushell",
+    "name": "nushell"
+  },
+  "pr": {
+    "url": "https://github.com/nushell/nushell/pull/13559",
+    "number": 13559,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "2ced9e4d1910ba2182b85a6168429c0332ca25b3",
+    "post": "a1665c544d6cf98017139a2e4125114d0817e291",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "scraper",
+    "previousVersion": "0.19.0",
+    "newVersion": "0.20.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.80.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.80.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.78.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.78.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_FAILURE",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 1319,
+        "failed": 1,
+        "ignored": 24,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 1,
+        "total": 1344
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.78",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

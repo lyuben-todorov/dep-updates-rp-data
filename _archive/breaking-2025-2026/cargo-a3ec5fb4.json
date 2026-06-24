@@ -1,0 +1,69 @@
+{
+  "id": "cargo-a3ec5fb4",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/AgenticHighway/proov",
+    "organisation": "AgenticHighway",
+    "name": "proov"
+  },
+  "pr": {
+    "url": "https://github.com/AgenticHighway/proov/pull/20",
+    "number": 20,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "669289841b5f49fe9bc683bd05fb2c2a299d4f33",
+    "post": "a3ec5fb4621b0ad84e904e09679c717422cea6b0",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ureq",
+    "previousVersion": "2.12.1",
+    "newVersion": "3.3.0",
+    "versionUpdateType": "major",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.85",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20261231",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1798675200,
+        "aptSnapshot": "20261231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.85.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.85.1"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0599",
+          "E0433"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

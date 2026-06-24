@@ -1,0 +1,62 @@
+{
+  "id": "cargo-ec353d29",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/dabra-foundation/solana-program-library",
+    "organisation": "dabra-foundation",
+    "name": "solana-program-library"
+  },
+  "pr": {
+    "url": "https://github.com/dabra-foundation/solana-program-library/pull/110",
+    "number": 110,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f091d45fd0e315af7145fd47f214df31aec66e8c",
+    "post": "ec353d29a2a6e2e955de004f028c7ce7af389bc9",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "serde_bytes",
+    "previousVersion": "0.11.15",
+    "newVersion": "0.11.17",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.81",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.81.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.81.0"
+      },
+      "verifiedOn": []
+    }
+  ]
+}

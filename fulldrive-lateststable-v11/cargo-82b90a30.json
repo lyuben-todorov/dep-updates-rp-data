@@ -1,0 +1,64 @@
+{
+  "id": "cargo-82b90a30",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/wayfair-contribs/tremor-runtime",
+    "organisation": "wayfair-contribs",
+    "name": "tremor-runtime"
+  },
+  "pr": {
+    "url": "https://github.com/wayfair-contribs/tremor-runtime/pull/204",
+    "number": 204,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "5e04cb82a744ab3cdb39bcba7f6f286a8508d926",
+    "post": "82b90a30af7b52cdbfff365624d3810293c7fa3e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap_complete",
+    "previousVersion": "4.0.2",
+    "newVersion": "4.1.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.67.0-bullseye-20231231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.67.0",
+        "sourceDateEpoch": 1703980800,
+        "aptSnapshot": "20231231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.63.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.63.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.63",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

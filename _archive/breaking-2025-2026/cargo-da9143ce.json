@@ -1,0 +1,68 @@
+{
+  "id": "cargo-da9143ce",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/midnightntwrk/midnight-trusted-setup",
+    "organisation": "midnightntwrk",
+    "name": "midnight-trusted-setup"
+  },
+  "pr": {
+    "url": "https://github.com/midnightntwrk/midnight-trusted-setup/pull/130",
+    "number": 130,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "7e84b09abfce31a94e876480de5fff4af6d785e4",
+    "post": "da9143ce63466b8afc72114c7b3b24f986f4a9c6",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "drand-verify",
+    "previousVersion": "0.5.0",
+    "newVersion": "0.6.2",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.1",
+        "source": "project_pinned",
+        "channelDeclared": "1.84.1"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0603"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

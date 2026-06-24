@@ -1,0 +1,72 @@
+{
+  "id": "cargo-e6e335bf",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/aws/amazon-q-developer-cli-autocomplete",
+    "organisation": "aws",
+    "name": "amazon-q-developer-cli-autocomplete"
+  },
+  "pr": {
+    "url": "https://github.com/aws/amazon-q-developer-cli-autocomplete/pull/706",
+    "number": 706,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "ad0c864cba444a41b06b43e119f1d6bbc21bcf06",
+    "post": "e6e335bfb3d2374ebf26bffd5483ca70858cc698",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rand",
+    "previousVersion": "0.8.5",
+    "newVersion": "0.9.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.90.0-trixie-20251231-p1.1.0",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.90.0",
+        "sourceDateEpoch": 1767139200,
+        "aptSnapshot": "20251231T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.87.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.87.0"
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 207,
+        "failed": 0,
+        "ignored": 13,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 4,
+        "total": 220
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.87",
+    "rustMsrvDetected": true,
+    "detectedRustc": null
+  }
+}

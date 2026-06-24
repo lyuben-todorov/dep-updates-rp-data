@@ -1,0 +1,62 @@
+{
+  "id": "cargo-9ff2a5b4",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/trustyai-explainability/vllm-orchestrator-gateway",
+    "organisation": "trustyai-explainability",
+    "name": "vllm-orchestrator-gateway"
+  },
+  "pr": {
+    "url": "https://github.com/trustyai-explainability/vllm-orchestrator-gateway/pull/10",
+    "number": 10,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1c2f623001c3e9e12074293888ed9519fc805a00",
+    "post": "9ff2a5b4a4abaac8c50b1c5711134d36bab1f38e",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "openssl",
+    "previousVersion": "0.10.68",
+    "newVersion": "0.10.73",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.84",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.84.0"
+      },
+      "verifiedOn": []
+    }
+  ]
+}

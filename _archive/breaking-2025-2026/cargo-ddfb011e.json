@@ -1,0 +1,66 @@
+{
+  "id": "cargo-ddfb011e",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/vyas-n/vyas-n",
+    "organisation": "vyas-n",
+    "name": "vyas-n"
+  },
+  "pr": {
+    "url": "https://github.com/vyas-n/vyas-n/pull/710",
+    "number": 710,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "60519dbe6ff99288c8d06a57d2ea368863199ac3",
+    "post": "ddfb011e389fe7be5303708f06b9736abd69a640",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "leptos",
+    "previousVersion": "0.8.3",
+    "newVersion": "0.8.8",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.87",
+    "rustMsrvDetected": true
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.87.0",
+        "source": "project_pinned",
+        "channelDeclared": "1.87.0"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [],
+        "failureCategory": "OTHER"
+      }
+    }
+  ]
+}

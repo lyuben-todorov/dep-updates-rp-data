@@ -1,0 +1,72 @@
+{
+  "id": "cargo-11b79f2a",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "non-breaking",
+  "project": {
+    "url": "https://github.com/wgsl-analyzer/wgsl-analyzer",
+    "organisation": "wgsl-analyzer",
+    "name": "wgsl-analyzer"
+  },
+  "pr": {
+    "url": "https://github.com/wgsl-analyzer/wgsl-analyzer/pull/749",
+    "number": 749,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "1e346ebd0ba58fe4a6d61885c5dba9a1b279e463",
+    "post": "11b79f2a8111891a68a162a095d158b890c9abeb",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "tracing",
+    "previousVersion": "0.1.41",
+    "newVersion": "0.1.43",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-trixie-20260122",
+      "category": "non-breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1769040000,
+        "aptSnapshot": "20260122T000000Z",
+        "debianRelease": "trixie"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.92.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": null,
+      "testStats": {
+        "passed": 241,
+        "failed": 0,
+        "ignored": 14,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 27,
+        "total": 255
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.91",
+    "rustMsrvDetected": true
+  }
+}

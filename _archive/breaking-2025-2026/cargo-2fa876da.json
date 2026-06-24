@@ -1,0 +1,68 @@
+{
+  "id": "cargo-2fa876da",
+  "schemaVersion": "1.1.0",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/awslabs/cargo-check-external-types",
+    "organisation": "awslabs",
+    "name": "cargo-check-external-types"
+  },
+  "pr": {
+    "url": "https://github.com/awslabs/cargo-check-external-types/pull/220",
+    "number": 220,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "f12d96dd9dd546d8b4c3abe9e2a512bc86fa1c8a",
+    "post": "2fa876da6387fb0a4cb08b1723b8cfa5e3f82705",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "rustdoc-types",
+    "previousVersion": "0.32.2",
+    "newVersion": "0.41.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.0.0",
+      "imageTag": "rp2026/cargo-fat:1.92.0-bookworm-20260113",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.92.0",
+        "sourceDateEpoch": 1768262400,
+        "aptSnapshot": "20260113T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked",
+        "--offline"
+      ],
+      "toolchainUsed": {
+        "version": "1.84.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2024-10-29"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "errorCodes": [
+          "E0004"
+        ],
+        "failureCategory": "RUSTC_ERROR"
+      }
+    }
+  ]
+}

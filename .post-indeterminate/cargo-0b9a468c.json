@@ -1,0 +1,93 @@
+{
+  "id": "cargo-0b9a468c",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/paenis/mcdownload",
+    "organisation": "paenis",
+    "name": "mcdownload"
+  },
+  "pr": {
+    "url": "https://github.com/paenis/mcdownload/pull/21",
+    "number": 21,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": true,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "6f2a2acdb14a7569cb9744ff185cf5f1925c23ad",
+    "post": "0b9a468c05134b375d1efdbb5af1fb9d5901ef8b",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "clap",
+    "previousVersion": "4.5.20",
+    "newVersion": "4.5.21",
+    "versionUpdateType": "patch",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.82.0-bookworm-20241231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.82.0",
+        "sourceDateEpoch": 1735603200,
+        "aptSnapshot": "20241231T000000Z",
+        "debianRelease": "bookworm"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.82.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "TEST_NET_EXTERNAL",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "test-net-external",
+            "category": "TEST_NET_EXTERNAL",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "called `Result::unwrap()` on an `Err` value: error sending request for url (https://piston-meta.mojang.com/v1/packages/1",
+            "terminal": true
+          },
+          {
+            "checkId": "test-failure",
+            "category": "TEST_FAILURE",
+            "subcategory": null,
+            "locus": "TEST_FAILURE",
+            "evidence": "cargo test exit != 0",
+            "terminal": false
+          }
+        ]
+      },
+      "testStats": {
+        "passed": 21,
+        "failed": 1,
+        "ignored": 0,
+        "measured": 0,
+        "filtered": 0,
+        "binaries": 2,
+        "total": 22
+      }
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

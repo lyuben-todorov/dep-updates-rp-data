@@ -1,0 +1,77 @@
+{
+  "id": "cargo-18bc4828",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/joekottke/mobilecoin",
+    "organisation": "joekottke",
+    "name": "mobilecoin"
+  },
+  "pr": {
+    "url": "https://github.com/joekottke/mobilecoin/pull/146",
+    "number": 146,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "64d37345e8097afa42d03102131dfb95451ef37d",
+    "post": "18bc4828a1a5c3dd8795cfe0a38e9920bcf77bbf",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "ed25519",
+    "previousVersion": "1.3.0",
+    "newVersion": "1.5.0",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.60.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.60.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.55.0-nightly",
+        "source": "project_pinned",
+        "channelDeclared": "nightly-2021-07-21"
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "DEPENDENCY_RESOLUTION",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "registry-resolver",
+            "category": "DEPENDENCY_RESOLUTION",
+            "subcategory": "REGISTRY_RESOLVER",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "cargo resolver rejected",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}

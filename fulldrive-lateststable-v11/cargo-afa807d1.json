@@ -1,0 +1,77 @@
+{
+  "id": "cargo-afa807d1",
+  "schemaVersion": "1.2.1",
+  "ecosystem": "cargo",
+  "category": "breaking",
+  "project": {
+    "url": "https://github.com/AnubhabB/qdrant",
+    "organisation": "AnubhabB",
+    "name": "qdrant"
+  },
+  "pr": {
+    "url": "https://github.com/AnubhabB/qdrant/pull/60",
+    "number": 60,
+    "author": "dependabot[bot]",
+    "authorType": "bot",
+    "botType": "dependabot",
+    "merged": false,
+    "mergedAt": null
+  },
+  "commits": {
+    "pre": "24ac939b4a7a518cfdb209f32cff46e0c4c9f491",
+    "post": "afa807d1ca5016d687a1172fbc7d4d0b7bf4c96d",
+    "fix": null,
+    "preAuthorType": null,
+    "postAuthorType": null,
+    "fixAuthorType": null
+  },
+  "update": {
+    "dependencyName": "prost-types",
+    "previousVersion": "0.10.1",
+    "newVersion": "0.11.1",
+    "versionUpdateType": "minor",
+    "scope": "runtime"
+  },
+  "reproductions": [
+    {
+      "pipelineVersion": "1.1.0",
+      "imageTag": "rp2026/cargo-fat:1.63.0-bullseye-20221231-p1.1.0",
+      "category": "breaking",
+      "fatImage": {
+        "rustVersion": "1.63.0",
+        "sourceDateEpoch": 1672444800,
+        "aptSnapshot": "20221231T000000Z",
+        "debianRelease": "bullseye"
+      },
+      "buildFlags": [
+        "--locked"
+      ],
+      "toolchainUsed": {
+        "version": "1.63.0",
+        "source": "image_default",
+        "channelDeclared": null
+      },
+      "verifiedOn": [],
+      "failure": {
+        "failureCategory": "DEPENDENCY_RESOLUTION",
+        "errorCodes": [],
+        "symptoms": [
+          {
+            "checkId": "git-dep-gone-ambiguous",
+            "category": "DEPENDENCY_RESOLUTION",
+            "subcategory": "GIT_DEP_GONE",
+            "locus": "DEPENDENCY_UNRESOLVED",
+            "evidence": "git-sourced dep no longer reachable",
+            "terminal": true
+          }
+        ]
+      },
+      "testStats": null
+    }
+  ],
+  "ecosystemMetadata": {
+    "rustMsrv": "1.56",
+    "rustMsrvDetected": false,
+    "detectedRustc": null
+  }
+}
